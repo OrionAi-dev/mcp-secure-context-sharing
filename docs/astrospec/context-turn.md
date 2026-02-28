@@ -1,6 +1,6 @@
 # Context vs Turn
 
-AstroSpec (formerly OpenSpec) distinguishes between **Context** (long-lived environment contract) and **Turn** (ephemeral per-request contract). Together they ensure that assumptions are explicit, scoped, and auditable.
+AstroSpec distinguishes between **Context** (long-lived environment contract) and **Turn** (ephemeral per-request contract). Together they ensure that assumptions are explicit, scoped, and auditable.
 
 ---
 

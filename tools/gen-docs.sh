@@ -22,12 +22,6 @@ gen astrospec-mcp-profile mcp-profile
 gen astrospec-kit kit
 gen astrospec-retrieval-profile retrieval-profile
 
-# Compatibility (legacy OpenSpec naming)
-gen openspec-types legacy/openspec-types
-gen openspec-runtime legacy/openspec-runtime
-
 # Integrations / generators (optional)
 gen integrations/mindql-core integrations/mindql-core
 gen integrations/mindgraphql-core integrations/mindgraphql-core
-gen integrations/openspec-plugin-mindql integrations/openspec-plugin-mindql
-gen integrations/openspec-plugin-mindgraphql integrations/openspec-plugin-mindgraphql

@@ -1,4 +1,4 @@
-import type { AstroSpecContext, AstroSpecTurn, SpecField, FieldSource } from "./types";
+import type { AstroSpecContext, AstroSpecTurn, SpecField, FieldSource, JsonPatch } from "./types";
 
 const PRECEDENCE_SCORE: Record<string, number> = {
   system: 7,
@@ -139,8 +139,6 @@ function splitPointer(path: string): string[] {
   return noLeading.split("/").map(decodePointerSegment);
 }
 
-export type JsonPatch = { op: "add" | "replace" | "remove"; path: string; value?: unknown };
-
 /**
  * Apply RFC6902-like patches to a fields object.
  *
@@ -184,4 +182,3 @@ export function applyPatches(fields: Record<string, SpecField>, patches: JsonPat
 
   return out as Record<string, SpecField>;
 }
-

@@ -1,6 +1,6 @@
 # AstroSpec: Spec Language
 
-AstroSpec (formerly OpenSpec) defines a consistent contract language for AI interactions.
+AstroSpec defines a consistent contract language for AI interactions.
 The infrastructure layer provides the primitives: Contexts, Turns, Fields, and Contracts.
 
 ---

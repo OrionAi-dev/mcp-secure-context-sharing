@@ -73,13 +73,6 @@ AstroSpec makes the exchange explicit so systems can:
 
 - `@astrospec/agent-contracts`
 
-### Compatibility wrappers
-
-- `@astrospec/openspec-runtime`
-- `@astrospec/openspec-types`
-
-These wrappers exist for legacy OpenSpec compatibility. They are not the preferred integration surface for new consumers.
-
 ## Implementation Layers
 
 1. **Language layer**: human- and machine-readable contract concepts such as Context, Turn, evidence, provenance, and verification.
@@ -191,12 +184,9 @@ See:
 
 ## Legacy and History
 
-Two older names still appear in this repo:
+Older naming is kept only in migration documentation and changelog history.
 
-- `OpenSpec` for legacy compatibility wrappers and archived integration material
-- `MindScript` only in migration documentation
-
-New integrations, examples, and public references should use AstroSpec only.
+New integrations, examples, public references, and package imports should use AstroSpec only.
 
 ## Integrations
 

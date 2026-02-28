@@ -52,10 +52,10 @@ It enables teams to express acceptance criteria in human-readable scenarios whil
 }
 ```
 
-**Mapped BDD (openspec.core YAML)**
+**Mapped BDD (astrospec.core YAML)**
 
 ```yaml
-profile: https://orionai-dev.github.io/AstroSpec/profiles/bdd/openspec.core
+profile: https://orionai-dev.github.io/AstroSpec/profiles/bdd/astrospec.core
 kind: bdd-core
 meta:
   id: AUTH-101.core

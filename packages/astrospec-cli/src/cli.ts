@@ -318,7 +318,6 @@ async function cmdDoctor() {
       profiles: ['@astrospec/retrieval-profile'],
       dx: ['@astrospec/kit', '@astrospec/cli'],
       specialized: ['@astrospec/agent-contracts'],
-      compatibility: ['@astrospec/openspec-runtime', '@astrospec/openspec-types'],
     },
   };
   process.stdout.write(JSON.stringify(report, null, 2) + '\n');

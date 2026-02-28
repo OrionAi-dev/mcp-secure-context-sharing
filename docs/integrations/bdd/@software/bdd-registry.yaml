@@ -1,7 +1,7 @@
 version: 1
 supported:
-  - id: openspec.core
-    url: https://orionai-dev.github.io/AstroSpec/profiles/bdd/openspec.core
+  - id: astrospec.core
+    url: https://orionai-dev.github.io/AstroSpec/profiles/bdd/astrospec.core
   - id: behave
     url: https://orionai-dev.github.io/AstroSpec/profiles/bdd/behave
   - id: cucumber

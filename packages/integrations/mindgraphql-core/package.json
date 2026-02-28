@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "graphql": "^16.11.0",
-    "@astrospec/openspec-types": "workspace:*"
+    "@astrospec/runtime": "workspace:*"
   },
   "devDependencies": {
     "tsup": "^8.5.0",

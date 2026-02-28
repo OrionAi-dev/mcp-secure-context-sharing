@@ -1,8 +1,8 @@
-import type { DerivedSpec } from "@astrospec/openspec-types";
+import type { DerivedSpec } from "@astrospec/runtime";
 
 export const astrospecDerivedSpec: DerivedSpec = {
   // which base spec we are deriving from
-  baseId: "openspec",
+  baseId: "astrospec",
 
   // JSON-Patch operations (as before)
   patches: [

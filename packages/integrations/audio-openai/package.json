@@ -28,7 +28,7 @@
     "smoke:import": "node scripts/smoke-import.mjs"
   },
   "dependencies": {
-    "@astrospec/openspec-types": "workspace:*",
+    "@astrospec/runtime": "workspace:*",
     "openai": "^6.15.0"
   },
   "devDependencies": {

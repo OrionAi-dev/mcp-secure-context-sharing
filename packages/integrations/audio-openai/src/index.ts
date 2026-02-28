@@ -1,4 +1,4 @@
-import type { JsonValue,  } from '@astrospec/openspec-types';
+import type { JsonValue } from '@astrospec/runtime';
 
 /* ---------- Branded IDs ---------- */
 export type AudioId = string & { readonly __brand: 'AudioId' };

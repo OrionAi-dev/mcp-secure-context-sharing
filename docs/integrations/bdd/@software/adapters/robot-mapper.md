@@ -64,7 +64,7 @@ Library    SeleniumLibrary
 
 *** Test Cases ***
 Valid credentials produce a successful session
-    [Tags]    openspec:ROBOT-601.1.1
+    [Tags]    astrospec:ROBOT-601.1.1
     Open Browser    https://example.com/login    chrome
     Input Text      id=email    user@example.com
     Input Text      id=password    correcthorsebatterystaple
@@ -127,8 +127,8 @@ AstroSpec → Robot
 - Typical Robot commands:
   - `robot -d output tests/` (runs tests; outputs logs/reports under `output/`)
   - `rebot --merge output/*.xml` (merges result files)
-  - Include tags to ease filtering by AstroSpec ID: `[Tags]    openspec:ROBOT-601.1.1`
-  - Run by tag: `robot -i openspec:ROBOT-601.1.1 tests/`
+  - Include tags to ease filtering by AstroSpec ID: `[Tags]    astrospec:ROBOT-601.1.1`
+  - Run by tag: `robot -i astrospec:ROBOT-601.1.1 tests/`
 - Persist `dist/robot/index.json` as a CI artifact for traceability
 
 ## Limitations

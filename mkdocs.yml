@@ -1,26 +1,11 @@
 site_name: AstroSpec
-site_description: AstroSpec — specs, runtime, and plugins
+site_description: AstroSpec — specs, runtime, and integrations
 site_url: https://orionai-dev.github.io/AstroSpec
 
 repo_url: https://github.com/OrionAi-dev/AstroSpec
 repo_name: OrionAi-dev/AstroSpec
 edit_uri: ""
 docs_dir: docs
-exclude_docs: |
-  api/legacy/openspec-types/interfaces/OpenSpecContextRequestEnvelope.md
-  api/legacy/openspec-types/interfaces/OpenSpecRequestEnvelope.md
-  api/legacy/openspec-types/interfaces/OpenSpecTurnRequestEnvelope.md
-  api/legacy/openspec-types/type-aliases/AcceptanceCriteria.md
-  api/legacy/openspec-types/type-aliases/Context.md
-  api/legacy/openspec-types/type-aliases/Turn.md
-  api/legacy/openspec-types/variables/OPENSPEC_TYPES_RUNTIME.md
-  api/legacy/openspec-runtime/interfaces/OpenSpecContextRequestEnvelope.md
-  api/legacy/openspec-runtime/interfaces/OpenSpecRequestEnvelope.md
-  api/legacy/openspec-runtime/interfaces/OpenSpecTurnRequestEnvelope.md
-  api/legacy/openspec-runtime/type-aliases/AcceptanceCriteria.md
-  api/legacy/openspec-runtime/type-aliases/Context.md
-  api/legacy/openspec-runtime/type-aliases/Turn.md
-  api/legacy/openspec-runtime/variables/OPENSPEC_TYPES_RUNTIME.md
 
 theme:
   name: material
@@ -40,47 +25,19 @@ plugins:
   - search
   - redirects:
       redirect_maps:
-        # TypeDoc landing pages -> README.md (fixes "modules.md not found")
         "api/schema/modules.md": "api/schema/README.md"
         "api/runtime/modules.md": "api/runtime/README.md"
         "api/cli/modules.md": "api/cli/README.md"
-        "api/legacy/openspec-types/modules.md": "api/legacy/openspec-types/README.md"
-        "api/legacy/openspec-runtime/modules.md": "api/legacy/openspec-runtime/README.md"
+        "api/mcp-profile/modules.md": "api/mcp-profile/README.md"
+        "api/kit/modules.md": "api/kit/README.md"
+        "api/retrieval-profile/modules.md": "api/retrieval-profile/README.md"
         "api/integrations/mindql-core/modules.md": "api/integrations/mindql-core/README.md"
         "api/integrations/mindgraphql-core/modules.md": "api/integrations/mindgraphql-core/README.md"
-        "api/integrations/openspec-plugin-mindql/modules.md": "api/integrations/openspec-plugin-mindql/README.md"
-        "api/integrations/openspec-plugin-mindgraphql/modules.md": "api/integrations/openspec-plugin-mindgraphql/README.md"
-
-        # Old TypeDoc locations -> new locations
-        "api/openspec-types/README.md": "api/legacy/openspec-types/README.md"
-        "api/openspec-runtime/README.md": "api/legacy/openspec-runtime/README.md"
-        "api/mindql-core/README.md": "api/integrations/mindql-core/README.md"
-        "api/mindgraphql-core/README.md": "api/integrations/mindgraphql-core/README.md"
-        "api/openspec-plugin-mindql/README.md": "api/integrations/openspec-plugin-mindql/README.md"
-        "api/openspec-plugin-mindgraphql/README.md": "api/integrations/openspec-plugin-mindgraphql/README.md"
-
-        # Old "openspi" paths -> canonical "astrospec" paths
-        "openspi/spec-language.md": "astrospec/spec-language.md"
-        "openspi/context-turn.md": "astrospec/context-turn.md"
-        "openspi/typescript.md": "astrospec/typescript.md"
-        "openspi/verification.md": "astrospec/verification.md"
-        "openspi/templates.md": "astrospec/templates.md"
-        "openspi/quickstart.md": "astrospec/quickstart.md"
-        "openspi/roadmap.md": "astrospec/roadmap.md"
-
-        # Old "openspec" links referenced by spec docs
-        "openspec/overview.md": "astrospec/spec-overview.md"
-        "openspec/spec-language.md": "astrospec/spec-language.md"
-        "openspec/templates.md": "astrospec/templates.md"
-
-        # Context Turn page was renamed
         "spec-bdd-context-turn.md": "astrospec/context-turn.md"
-
-        # Old implementations docs -> integrations
         "astrospec/implementations/@software/README.md": "integrations/bdd/@software/README.md"
         "astrospec/implementations/@software/template.md": "integrations/bdd/@software/template.md"
         "astrospec/implementations/@software/examples.md": "integrations/bdd/@software/template.md"
-        "astrospec/implementations/bdd/openspec.core/README.md": "integrations/bdd/openspec.core/README.md"
+        "astrospec/implementations/bdd/astrospec.core/README.md": "integrations/bdd/astrospec.core/README.md"
   - git-revision-date-localized:
       enable_creation_date: true
       type: timeago
@@ -149,23 +106,20 @@ nav:
                   - Robot: integrations/bdd/@software/adapters/robot-mapper.md
                   - SpecFlow: integrations/bdd/@software/adapters/specflow-mapper.md
               - Template: integrations/bdd/@software/template.md
-          - openspec.core:
-              - Overview: integrations/bdd/openspec.core/README.md
+          - astrospec.core:
+              - Overview: integrations/bdd/astrospec.core/README.md
 
   - API Reference:
       - Core:
           - schema: api/schema/README.md
           - runtime: api/runtime/README.md
           - cli: api/cli/README.md
-      - Legacy:
-          - openspec-types: api/legacy/openspec-types/README.md
-          - openspec-runtime: api/legacy/openspec-runtime/README.md
+          - mcp-profile: api/mcp-profile/README.md
+          - kit: api/kit/README.md
+          - retrieval-profile: api/retrieval-profile/README.md
       - Integrations:
           - mindql-core: api/integrations/mindql-core/README.md
           - mindgraphql-core: api/integrations/mindgraphql-core/README.md
-          - openspec-plugin-mindql: api/integrations/openspec-plugin-mindql/README.md
-          - openspec-plugin-mindgraphql: api/integrations/openspec-plugin-mindgraphql/README.md
 
   - Legacy:
-      - OpenSPI Overview: openspi/overview.md
-      - (Root) Legacy BDD Core (openspec.core): spec-bdd-openspec-core.md
+      - Historical BDD Core Alias: spec-bdd-astrospec-core.md

@@ -179,9 +179,9 @@ importers:
 
   packages/integrations/audio-openai:
     dependencies:
-      '@astrospec/openspec-types':
+      '@astrospec/runtime':
         specifier: workspace:*
-        version: link:../../openspec-types
+        version: link:../../astrospec-runtime
       openai:
         specifier: ^6.15.0
         version: 6.15.0(zod@3.25.76)
@@ -195,9 +195,9 @@ importers:
 
   packages/integrations/events:
     dependencies:
-      '@astrospec/openspec-types':
+      '@astrospec/runtime':
         specifier: workspace:*
-        version: link:../../openspec-types
+        version: link:../../astrospec-runtime
     devDependencies:
       tsup:
         specifier: ^8.5.0
@@ -211,12 +211,9 @@ importers:
       '@astrospec/mindql-core':
         specifier: workspace:*
         version: link:../mindql-core
-      '@astrospec/openspec-runtime':
+      '@astrospec/runtime':
         specifier: workspace:*
-        version: link:../../openspec-runtime
-      '@astrospec/openspec-types':
-        specifier: workspace:*
-        version: link:../../openspec-types
+        version: link:../../astrospec-runtime
     devDependencies:
       tsup:
         specifier: ^8.0.0
@@ -227,9 +224,9 @@ importers:
 
   packages/integrations/mindgraphql-core:
     dependencies:
-      '@astrospec/openspec-types':
+      '@astrospec/runtime':
         specifier: workspace:*
-        version: link:../../openspec-types
+        version: link:../../astrospec-runtime
       graphql:
         specifier: ^16.11.0
         version: 16.12.0
@@ -243,79 +240,9 @@ importers:
 
   packages/integrations/mindql-core:
     dependencies:
-      '@astrospec/openspec-types':
-        specifier: workspace:*
-        version: link:../../openspec-types
-    devDependencies:
-      tsup:
-        specifier: ^8.5.0
-        version: 8.5.0(postcss@8.5.6)(tsx@4.21.0)(typescript@5.9.2)(yaml@2.8.2)
-      typescript:
-        specifier: ^5.9.2
-        version: 5.9.2
-
-  packages/integrations/openspec-cli:
-    dependencies:
-      '@astrospec/openspec-plugin-mindgraphql':
-        specifier: workspace:*
-        version: link:../openspec-plugin-mindgraphql
-      '@astrospec/openspec-plugin-mindql':
-        specifier: workspace:*
-        version: link:../openspec-plugin-mindql
-      '@astrospec/openspec-types':
-        specifier: workspace:*
-        version: link:../../openspec-types
-
-  packages/integrations/openspec-plugin-mindgraphql:
-    dependencies:
-      '@astrospec/mindgraphql-core':
-        specifier: workspace:*
-        version: link:../mindgraphql-core
-      '@astrospec/openspec-types':
-        specifier: workspace:*
-        version: link:../../openspec-types
-    devDependencies:
-      tsup:
-        specifier: ^8.5.0
-        version: 8.5.0(postcss@8.5.6)(tsx@4.21.0)(typescript@5.9.2)(yaml@2.8.2)
-      typescript:
-        specifier: ^5.9.2
-        version: 5.9.2
-
-  packages/integrations/openspec-plugin-mindql:
-    dependencies:
-      '@astrospec/mindql-core':
-        specifier: workspace:*
-        version: link:../mindql-core
-      '@astrospec/openspec-types':
-        specifier: workspace:*
-        version: link:../../openspec-types
-    devDependencies:
-      tsup:
-        specifier: ^8.5.0
-        version: 8.5.0(postcss@8.5.6)(tsx@4.21.0)(typescript@5.9.2)(yaml@2.8.2)
-      typescript:
-        specifier: ^5.9.2
-        version: 5.9.2
-
-  packages/openspec-runtime:
-    dependencies:
       '@astrospec/runtime':
         specifier: workspace:*
-        version: link:../astrospec-runtime
-    devDependencies:
-      tsup:
-        specifier: ^8.5.0
-        version: 8.5.0(postcss@8.5.6)(tsx@4.21.0)(typescript@5.9.2)(yaml@2.8.2)
-      typescript:
-        specifier: ^5.9.2
-        version: 5.9.2
-
-  packages/openspec-types:
-    dependencies:
-      '@astrospec/runtime':
-        specifier: workspace:*
-        version: link:../astrospec-runtime
+        version: link:../../astrospec-runtime
     devDependencies:
       tsup:
         specifier: ^8.5.0

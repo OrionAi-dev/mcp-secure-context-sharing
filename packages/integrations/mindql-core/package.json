@@ -22,6 +22,6 @@
     "typescript": "^5.9.2"
   },
   "dependencies": {
-    "@astrospec/openspec-types": "workspace:*"
+    "@astrospec/runtime": "workspace:*"
   }
 }

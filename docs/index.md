@@ -55,6 +55,4 @@ Use AstroSpec in layers:
 
 ## Legacy Surface
 
-Legacy OpenSpec wrapper packages and archived integration material remain in the repo for compatibility and historical context.
-
-MindScript should only appear in migration material, not in the current public story.
+Historical naming should only appear in migration material, changelog history, or archived notes.

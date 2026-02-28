@@ -1,4 +1,4 @@
-import type { JsonObject, JsonValue, ISODateTime } from "@astrospec/openspec-types";
+import type { JsonObject, JsonValue, ISODateTime } from "@astrospec/runtime";
 
 /**
  * AstroSpec Events (public, stable, boring)

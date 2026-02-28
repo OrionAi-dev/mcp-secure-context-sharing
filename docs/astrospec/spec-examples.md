@@ -1,6 +1,6 @@
 # AstroSpec Examples
 
-This document showcases practical examples of AstroSpec (formerly OpenSpec) applied across domains.
+This document showcases practical examples of AstroSpec applied across domains.
 Each example builds on the **Context / Turn / Contract** model described in [context-turn.md](./context-turn.md).
 
 ---

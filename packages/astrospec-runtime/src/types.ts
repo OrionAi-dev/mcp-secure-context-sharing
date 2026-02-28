@@ -152,3 +152,25 @@ export interface AstroSpecTurnRequestEnvelope<TTurn extends AstroSpecTurn = Astr
   requestId?: string;
   meta?: Record<string, JsonValue>;
 }
+
+// Convenience types used by integrations and examples. These are additive
+// runtime helpers, not separate canonical protocol families.
+export type JsonPatchOp = 'add' | 'replace' | 'remove';
+
+export interface JsonPatch {
+  op: JsonPatchOp;
+  path: string;
+  value?: JsonValue;
+}
+
+export interface DerivedSpec {
+  baseId: string;
+  patches: ReadonlyArray<JsonPatch>;
+  provenance: ReadonlyArray<ProvenanceEntry>;
+}
+
+export interface ToolBinding<P extends Record<string, SpecField> = Record<string, SpecField>> {
+  intent: string;
+  tool: string;
+  paramMap: { [K in keyof P]?: string } & Record<string, string>;
+}

@@ -18,7 +18,7 @@
     "typecheck": "pnpm exec tsc -p tsconfig.json --noEmit"
   },
   "dependencies": {
-    "@astrospec/openspec-types": "workspace:*"
+    "@astrospec/runtime": "workspace:*"
   },
   "devDependencies": {
     "tsup": "^8.5.0",

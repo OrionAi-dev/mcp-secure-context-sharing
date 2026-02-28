@@ -1,6 +1,6 @@
 # AstroSpec White Paper
 
-AstroSpec (formerly OpenSpec) is a universal specification layer for human–AI interaction. It ensures clarity, auditability, and determinism by replacing assumptions with explicit contracts.
+AstroSpec is a universal specification layer for human–AI interaction. It ensures clarity, auditability, and determinism by replacing assumptions with explicit contracts.
 
 ---
 
