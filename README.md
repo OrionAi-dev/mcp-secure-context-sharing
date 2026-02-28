@@ -1,4 +1,4 @@
-# MindScript (formerly OpenSpec)
+# MindScript
 
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](./LICENSE)
 [![Release](https://img.shields.io/github/v/release/OrionAi-dev/MindScript)](https://github.com/OrionAi-dev/MindScript/releases/latest)
