@@ -171,6 +171,7 @@ Start here:
 - [Compatibility Policy](./docs/governance/compatibility-policy.md)
 - [Profile Registry Policy](./docs/governance/profile-registry-policy.md)
 - [Change Control](./docs/governance/change-control.md)
+- [Release Guide](./docs/astrospec/release.md)
 
 ## Conformance
 

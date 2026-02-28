@@ -28,7 +28,8 @@ If you are new to AstroSpec, read in this order:
 - **Core API**: [api](astrospec/api.md), [typescript](astrospec/typescript.md), [verification](astrospec/verification.md)
 - **Retrieval profile**: [retrieval-profile](astrospec/retrieval-profile.md), [retrieval examples](astrospec/retrieval-examples.md)
 - **Interop**: [mcp-profile](astrospec/mcp-profile.md)
-- **Governance**: [charter](governance/charter.md), [compatibility-policy](governance/compatibility-policy.md), [profile-registry-policy](governance/profile-registry-policy.md), [change-control](governance/change-control.md)
+- **Governance**: [charter](governance/charter.md), [compatibility-policy](governance/compatibility-policy.md), [profile-registry-policy](governance/profile-registry-policy.md), [change-control](governance/change-control.md), [release-policy](governance/release-policy.md)
+- **Release**: [release guide](astrospec/release.md)
 - **Migrations**: [OpenSpec to AstroSpec](migrations/openspec-to-astrospec.md), [MindScript to AstroSpec](migrations/mindscript-to-astrospec.md), [OrionAI scope to AstroSpec](astrospec/migration-orionai-to-astrospec-scope.md)
 - **Integrations**: [BDD adapters](integrations/bdd/@software/README.md)
 - **API reference**: generated under `docs/api/`
