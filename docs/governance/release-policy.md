@@ -19,7 +19,8 @@
 
 1. At least one reviewed changeset for user-visible package changes
 2. A passing `pnpm release:verify` result
-3. Repository secrets required for publishing:
+3. A passing `pnpm release:preflight` result for any publish attempt
+4. Repository secrets required for publishing:
    - `NPM_TOKEN`
 
 ## Downstream Consumption Guidance
