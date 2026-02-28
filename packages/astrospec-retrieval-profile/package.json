@@ -23,7 +23,7 @@
   "scripts": {
     "build": "tsup src/index.ts --dts --format esm,cjs --shims",
     "typecheck": "pnpm exec tsc -p tsconfig.json --noEmit",
-    "test": "node --test --import tsx tests/**/*.test.ts"
+    "test": "node --test --import tsx tests/*.test.ts"
   },
   "dependencies": {
     "@astrospec/runtime": "workspace:*",
