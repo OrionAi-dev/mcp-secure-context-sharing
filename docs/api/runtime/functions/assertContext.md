@@ -8,7 +8,7 @@
 
 > **assertContext**(`context`): [`AstroSpecContext`](../interfaces/AstroSpecContext.md)
 
-Defined in: packages/astrospec-runtime/dist/index.d.ts:200
+Defined in: packages/astrospec-runtime/dist/index.d.ts:218
 
 ## Parameters
 

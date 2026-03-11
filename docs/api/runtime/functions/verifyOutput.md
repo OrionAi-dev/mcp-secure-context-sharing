@@ -8,7 +8,7 @@
 
 > **verifyOutput**(`input`): `Promise`\<[`VerificationReport`](../interfaces/VerificationReport.md)\>
 
-Defined in: packages/astrospec-runtime/dist/index.d.ts:288
+Defined in: packages/astrospec-runtime/dist/index.d.ts:301
 
 ## Parameters
 

@@ -6,6 +6,6 @@
 
 # Type Alias: JsonValue
 
-> **JsonValue** = [`JsonPrimitive`](JsonPrimitive.md) \| [`JsonObject`](../interfaces/JsonObject.md) \| [`JsonArray`](../interfaces/JsonArray.md)
+> **JsonValue** = [`JsonPrimitive`](./JsonPrimitive.md) | [`JsonObject`](../interfaces/JsonObject.md) | [`JsonArray`](../interfaces/JsonArray.md)
 
-Defined in: packages/astrospec-runtime/dist/index.d.ts:2
+Defined in: packages/astrospec-runtime/src/types.ts

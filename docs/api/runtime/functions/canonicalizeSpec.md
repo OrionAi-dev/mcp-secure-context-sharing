@@ -8,7 +8,7 @@
 
 > **canonicalizeSpec**\<`T`\>(`spec`): `T`
 
-Defined in: packages/astrospec-runtime/dist/index.d.ts:211
+Defined in: packages/astrospec-runtime/dist/index.d.ts:229
 
 Canonicalize a AstroSpec spec for deterministic hashing:
 - sort object keys recursively

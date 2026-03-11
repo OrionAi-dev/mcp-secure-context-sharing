@@ -8,15 +8,13 @@
 
 > **SpecDiff** = `object`
 
-Defined in: packages/astrospec-runtime/dist/index.d.ts:236
+Defined in: packages/astrospec-runtime/dist/index.d.ts:249
 
 ## Properties
 
 ### acceptanceCriteria
 
 > **acceptanceCriteria**: `object`
-
-Defined in: packages/astrospec-runtime/dist/index.d.ts:246
 
 #### added
 
@@ -36,8 +34,6 @@ Defined in: packages/astrospec-runtime/dist/index.d.ts:246
 
 > **fields**: `object`
 
-Defined in: packages/astrospec-runtime/dist/index.d.ts:237
-
 #### added
 
 > **added**: `string`[]
@@ -56,12 +52,8 @@ Defined in: packages/astrospec-runtime/dist/index.d.ts:237
 
 > **metaChanged**: `boolean`
 
-Defined in: packages/astrospec-runtime/dist/index.d.ts:255
-
 ***
 
 ### provenanceChanged
 
 > **provenanceChanged**: `boolean`
-
-Defined in: packages/astrospec-runtime/dist/index.d.ts:256

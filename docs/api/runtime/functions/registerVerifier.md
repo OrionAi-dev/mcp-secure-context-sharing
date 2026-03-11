@@ -8,7 +8,7 @@
 
 > **registerVerifier**(`id`, `fn`): `void`
 
-Defined in: packages/astrospec-runtime/dist/index.d.ts:287
+Defined in: packages/astrospec-runtime/dist/index.d.ts:300
 
 ## Parameters
 

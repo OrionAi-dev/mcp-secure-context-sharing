@@ -8,7 +8,7 @@
 
 > `const` **SCHEMA\_IDS**: `object`
 
-Defined in: packages/astrospec-runtime/dist/index.d.ts:170
+Defined in: packages/astrospec-runtime/dist/index.d.ts:188
 
 ## Type Declaration
 

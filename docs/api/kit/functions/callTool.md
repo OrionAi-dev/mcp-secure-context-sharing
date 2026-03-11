@@ -8,7 +8,7 @@
 
 > **callTool**(`name`, `args?`): `Promise`\<`AstroSpecMcpResult`\<`unknown`\>\>
 
-Defined in: [index.ts:99](https://github.com/OrionAi-dev/AstroSpec/blob/ee0ae2df8cec435bfa871f8c12dd5755a2b7efb3/packages/astrospec-kit/src/index.ts#L99)
+Defined in: [index.ts:99](https://github.com/OrionAi-dev/AstroSpec/blob/2f5aa7cd50afa970b2003398852c244f8050f71c/packages/astrospec-kit/src/index.ts#L99)
 
 ## Parameters
 

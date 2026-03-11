@@ -8,7 +8,7 @@
 
 > **applyPatches**(`fields`, `patches`): `Record`\<`string`, [`SpecField`](../type-aliases/SpecField.md)\>
 
-Defined in: packages/astrospec-runtime/dist/index.d.ts:234
+Defined in: packages/astrospec-runtime/dist/index.d.ts:247
 
 Apply RFC6902-like patches to a fields object.
 
@@ -26,7 +26,7 @@ Examples:
 
 ### patches
 
-[`JsonPatch`](../type-aliases/JsonPatch.md)[]
+[`JsonPatch`](../interfaces/JsonPatch.md)[]
 
 ## Returns
 

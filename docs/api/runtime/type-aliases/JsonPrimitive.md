@@ -6,6 +6,6 @@
 
 # Type Alias: JsonPrimitive
 
-> **JsonPrimitive** = `string` \| `number` \| `boolean` \| `null`
+> **JsonPrimitive** = `string` | `number` | `boolean` | `null`
 
-Defined in: packages/astrospec-runtime/dist/index.d.ts:1
+Defined in: packages/astrospec-runtime/src/types.ts

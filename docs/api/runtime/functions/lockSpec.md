@@ -8,7 +8,7 @@
 
 > **lockSpec**\<`T`\>(`spec`, `opts?`): `T`
 
-Defined in: packages/astrospec-runtime/dist/index.d.ts:215
+Defined in: packages/astrospec-runtime/dist/index.d.ts:233
 
 ## Type Parameters
 

@@ -6,7 +6,7 @@
 
 # Interface: RetrievalFallback
 
-Defined in: src/index.ts:126
+Defined in: [src/index.ts:126](https://github.com/OrionAi-dev/AstroSpec/blob/2f5aa7cd50afa970b2003398852c244f8050f71c/packages/astrospec-retrieval-profile/src/index.ts#L126)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: src/index.ts:126
 
 > **applied**: `boolean`
 
-Defined in: src/index.ts:127
+Defined in: [src/index.ts:127](https://github.com/OrionAi-dev/AstroSpec/blob/2f5aa7cd50afa970b2003398852c244f8050f71c/packages/astrospec-retrieval-profile/src/index.ts#L127)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: src/index.ts:127
 
 > `optional` **from**: `string`
 
-Defined in: src/index.ts:128
+Defined in: [src/index.ts:128](https://github.com/OrionAi-dev/AstroSpec/blob/2f5aa7cd50afa970b2003398852c244f8050f71c/packages/astrospec-retrieval-profile/src/index.ts#L128)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: src/index.ts:128
 
 > `optional` **reason**: `string`
 
-Defined in: src/index.ts:130
+Defined in: [src/index.ts:130](https://github.com/OrionAi-dev/AstroSpec/blob/2f5aa7cd50afa970b2003398852c244f8050f71c/packages/astrospec-retrieval-profile/src/index.ts#L130)
 
 ***
 
@@ -38,4 +38,4 @@ Defined in: src/index.ts:130
 
 > `optional` **to**: `string`
 
-Defined in: src/index.ts:129
+Defined in: [src/index.ts:129](https://github.com/OrionAi-dev/AstroSpec/blob/2f5aa7cd50afa970b2003398852c244f8050f71c/packages/astrospec-retrieval-profile/src/index.ts#L129)

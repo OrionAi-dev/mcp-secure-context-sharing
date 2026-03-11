@@ -8,7 +8,7 @@
 
 > **diffSpecs**(`a`, `b`): [`SpecDiff`](../type-aliases/SpecDiff.md)
 
-Defined in: packages/astrospec-runtime/dist/index.d.ts:258
+Defined in: packages/astrospec-runtime/dist/index.d.ts:271
 
 ## Parameters
 

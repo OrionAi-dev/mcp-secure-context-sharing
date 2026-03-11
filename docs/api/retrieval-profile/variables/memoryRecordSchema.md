@@ -8,7 +8,7 @@
 
 > **memoryRecordSchema**: `object`
 
-Defined in: schemas/memory-record-0.1.json:1
+Defined in: [schemas/memory-record-0.1.json:1](https://github.com/OrionAi-dev/AstroSpec/blob/2f5aa7cd50afa970b2003398852c244f8050f71c/packages/astrospec-retrieval-profile/schemas/memory-record-0.1.json#L1)
 
 ## Type Declaration
 

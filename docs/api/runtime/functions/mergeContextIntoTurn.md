@@ -8,7 +8,7 @@
 
 > **mergeContextIntoTurn**(`ctx`, `turn`): [`AstroSpecTurn`](../interfaces/AstroSpecTurn.md)
 
-Defined in: packages/astrospec-runtime/dist/index.d.ts:219
+Defined in: packages/astrospec-runtime/dist/index.d.ts:237
 
 ## Parameters
 

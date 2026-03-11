@@ -8,7 +8,7 @@
 
 > **canonicalizeValue**(`v`): `unknown`
 
-Defined in: packages/astrospec-runtime/dist/index.d.ts:203
+Defined in: packages/astrospec-runtime/dist/index.d.ts:221
 
 ## Parameters
 

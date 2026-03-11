@@ -6,9 +6,9 @@
 
 # Type Alias: VerifierFn()
 
-> **VerifierFn** = (`input`) => `Promise`\<`Omit`\<[`VerifierResult`](../interfaces/VerifierResult.md), `"criterionId"` \| `"verifier"`\>\>
+> **VerifierFn** = (`input`) => `Promise`\<`Omit`\<[`VerifierResult`](../interfaces/VerifierResult.md), `"criterionId"` | `"verifier"`\>\>
 
-Defined in: packages/astrospec-runtime/dist/index.d.ts:280
+Defined in: packages/astrospec-runtime/dist/index.d.ts:293
 
 ## Parameters
 
@@ -36,4 +36,4 @@ Defined in: packages/astrospec-runtime/dist/index.d.ts:280
 
 ## Returns
 
-`Promise`\<`Omit`\<[`VerifierResult`](../interfaces/VerifierResult.md), `"criterionId"` \| `"verifier"`\>\>
+`Promise`\<`Omit`\<[`VerifierResult`](../interfaces/VerifierResult.md), `"criterionId"` | `"verifier"`\>\>

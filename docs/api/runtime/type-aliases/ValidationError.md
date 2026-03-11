@@ -8,7 +8,7 @@
 
 > **ValidationError** = `object`
 
-Defined in: packages/astrospec-runtime/dist/index.d.ts:163
+Defined in: packages/astrospec-runtime/dist/index.d.ts:181
 
 ## Properties
 
@@ -16,7 +16,7 @@ Defined in: packages/astrospec-runtime/dist/index.d.ts:163
 
 > `optional` **keyword**: `string`
 
-Defined in: packages/astrospec-runtime/dist/index.d.ts:166
+Defined in: packages/astrospec-runtime/dist/index.d.ts:184
 
 ***
 
@@ -24,7 +24,7 @@ Defined in: packages/astrospec-runtime/dist/index.d.ts:166
 
 > **message**: `string`
 
-Defined in: packages/astrospec-runtime/dist/index.d.ts:165
+Defined in: packages/astrospec-runtime/dist/index.d.ts:183
 
 ***
 
@@ -32,7 +32,7 @@ Defined in: packages/astrospec-runtime/dist/index.d.ts:165
 
 > `optional` **params**: `unknown`
 
-Defined in: packages/astrospec-runtime/dist/index.d.ts:168
+Defined in: packages/astrospec-runtime/dist/index.d.ts:186
 
 ***
 
@@ -40,7 +40,7 @@ Defined in: packages/astrospec-runtime/dist/index.d.ts:168
 
 > **path**: `string`
 
-Defined in: packages/astrospec-runtime/dist/index.d.ts:164
+Defined in: packages/astrospec-runtime/dist/index.d.ts:182
 
 ***
 
@@ -48,4 +48,4 @@ Defined in: packages/astrospec-runtime/dist/index.d.ts:164
 
 > `optional` **schemaPath**: `string`
 
-Defined in: packages/astrospec-runtime/dist/index.d.ts:167
+Defined in: packages/astrospec-runtime/dist/index.d.ts:185

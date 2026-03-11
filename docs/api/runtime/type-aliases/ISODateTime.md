@@ -6,12 +6,8 @@
 
 # Type Alias: ISODateTime
 
-> **ISODateTime** = `string` & `object`
+> **ISODateTime** = `string`
 
-Defined in: packages/astrospec-runtime/dist/index.d.ts:8
+Branded ISO-8601 date-time string used across AstroSpec runtime contracts.
 
-## Type Declaration
-
-### \_\_brand
-
-> `readonly` **\_\_brand**: `"ISODateTime"`
+Defined in: packages/astrospec-runtime/src/types.ts

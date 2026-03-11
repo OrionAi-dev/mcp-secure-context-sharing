@@ -8,7 +8,7 @@
 
 > **validateContext**(`context`): \{ `ok`: `true`; `value`: [`AstroSpecContext`](../interfaces/AstroSpecContext.md); \} \| \{ `errors`: [`ValidationError`](../type-aliases/ValidationError.md)[]; `ok`: `false`; \}
 
-Defined in: packages/astrospec-runtime/dist/index.d.ts:186
+Defined in: packages/astrospec-runtime/dist/index.d.ts:204
 
 ## Parameters
 

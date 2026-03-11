@@ -8,7 +8,7 @@
 
 > **signSpec**(`spec`): `string`
 
-Defined in: packages/astrospec-runtime/dist/index.d.ts:214
+Defined in: packages/astrospec-runtime/dist/index.d.ts:232
 
 ## Parameters
 

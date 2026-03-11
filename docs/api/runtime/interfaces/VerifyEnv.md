@@ -6,7 +6,7 @@
 
 # Interface: VerifyEnv
 
-Defined in: packages/astrospec-runtime/dist/index.d.ts:276
+Defined in: packages/astrospec-runtime/dist/index.d.ts:289
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: packages/astrospec-runtime/dist/index.d.ts:276
 
 > `optional` **cwd**: `string`
 
-Defined in: packages/astrospec-runtime/dist/index.d.ts:277
+Defined in: packages/astrospec-runtime/dist/index.d.ts:290
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: packages/astrospec-runtime/dist/index.d.ts:277
 
 > `optional` **now**: () => `Date`
 
-Defined in: packages/astrospec-runtime/dist/index.d.ts:278
+Defined in: packages/astrospec-runtime/dist/index.d.ts:291
 
 #### Returns
 

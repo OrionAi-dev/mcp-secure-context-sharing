@@ -6,7 +6,7 @@
 
 # Interface: MemoryRecord
 
-Defined in: src/index.ts:166
+Defined in: [src/index.ts:166](https://github.com/OrionAi-dev/AstroSpec/blob/2f5aa7cd50afa970b2003398852c244f8050f71c/packages/astrospec-retrieval-profile/src/index.ts#L166)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: src/index.ts:166
 
 > `optional` **confidence**: `number`
 
-Defined in: src/index.ts:172
+Defined in: [src/index.ts:172](https://github.com/OrionAi-dev/AstroSpec/blob/2f5aa7cd50afa970b2003398852c244f8050f71c/packages/astrospec-retrieval-profile/src/index.ts#L172)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: src/index.ts:172
 
 > **content**: `JsonValue`
 
-Defined in: src/index.ts:170
+Defined in: [src/index.ts:170](https://github.com/OrionAi-dev/AstroSpec/blob/2f5aa7cd50afa970b2003398852c244f8050f71c/packages/astrospec-retrieval-profile/src/index.ts#L170)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: src/index.ts:170
 
 > **key**: `string`
 
-Defined in: src/index.ts:168
+Defined in: [src/index.ts:168](https://github.com/OrionAi-dev/AstroSpec/blob/2f5aa7cd50afa970b2003398852c244f8050f71c/packages/astrospec-retrieval-profile/src/index.ts#L168)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: src/index.ts:168
 
 > **kind**: [`MemoryKind`](../type-aliases/MemoryKind.md)
 
-Defined in: src/index.ts:169
+Defined in: [src/index.ts:169](https://github.com/OrionAi-dev/AstroSpec/blob/2f5aa7cd50afa970b2003398852c244f8050f71c/packages/astrospec-retrieval-profile/src/index.ts#L169)
 
 ***
 
@@ -46,7 +46,7 @@ Defined in: src/index.ts:169
 
 > **namespace**: `string`
 
-Defined in: src/index.ts:167
+Defined in: [src/index.ts:167](https://github.com/OrionAi-dev/AstroSpec/blob/2f5aa7cd50afa970b2003398852c244f8050f71c/packages/astrospec-retrieval-profile/src/index.ts#L167)
 
 ***
 
@@ -54,7 +54,7 @@ Defined in: src/index.ts:167
 
 > `optional` **sourceIds**: `string`[]
 
-Defined in: src/index.ts:173
+Defined in: [src/index.ts:173](https://github.com/OrionAi-dev/AstroSpec/blob/2f5aa7cd50afa970b2003398852c244f8050f71c/packages/astrospec-retrieval-profile/src/index.ts#L173)
 
 ***
 
@@ -62,4 +62,4 @@ Defined in: src/index.ts:173
 
 > **updatedAt**: `string`
 
-Defined in: src/index.ts:171
+Defined in: [src/index.ts:171](https://github.com/OrionAi-dev/AstroSpec/blob/2f5aa7cd50afa970b2003398852c244f8050f71c/packages/astrospec-retrieval-profile/src/index.ts#L171)

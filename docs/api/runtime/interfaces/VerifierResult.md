@@ -6,7 +6,7 @@
 
 # Interface: VerifierResult
 
-Defined in: packages/astrospec-runtime/dist/index.d.ts:260
+Defined in: packages/astrospec-runtime/dist/index.d.ts:273
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: packages/astrospec-runtime/dist/index.d.ts:260
 
 > **criterionId**: `string`
 
-Defined in: packages/astrospec-runtime/dist/index.d.ts:261
+Defined in: packages/astrospec-runtime/dist/index.d.ts:274
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: packages/astrospec-runtime/dist/index.d.ts:261
 
 > `optional` **details**: `string`
 
-Defined in: packages/astrospec-runtime/dist/index.d.ts:264
+Defined in: packages/astrospec-runtime/dist/index.d.ts:277
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: packages/astrospec-runtime/dist/index.d.ts:264
 
 > `optional` **durationMs**: `number`
 
-Defined in: packages/astrospec-runtime/dist/index.d.ts:265
+Defined in: packages/astrospec-runtime/dist/index.d.ts:278
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: packages/astrospec-runtime/dist/index.d.ts:265
 
 > `optional` **evidenceUsed**: [`EvidenceRef`](EvidenceRef.md)[]
 
-Defined in: packages/astrospec-runtime/dist/index.d.ts:266
+Defined in: packages/astrospec-runtime/dist/index.d.ts:279
 
 ***
 
@@ -46,7 +46,7 @@ Defined in: packages/astrospec-runtime/dist/index.d.ts:266
 
 > **pass**: `boolean`
 
-Defined in: packages/astrospec-runtime/dist/index.d.ts:263
+Defined in: packages/astrospec-runtime/dist/index.d.ts:276
 
 ***
 
@@ -54,4 +54,4 @@ Defined in: packages/astrospec-runtime/dist/index.d.ts:263
 
 > **verifier**: `string`
 
-Defined in: packages/astrospec-runtime/dist/index.d.ts:262
+Defined in: packages/astrospec-runtime/dist/index.d.ts:275

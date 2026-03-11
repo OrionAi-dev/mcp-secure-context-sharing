@@ -8,7 +8,7 @@
 
 > **validateTurn**(`turn`): \{ `ok`: `true`; `value`: [`AstroSpecTurn`](../interfaces/AstroSpecTurn.md); \} \| \{ `errors`: [`ValidationError`](../type-aliases/ValidationError.md)[]; `ok`: `false`; \}
 
-Defined in: packages/astrospec-runtime/dist/index.d.ts:193
+Defined in: packages/astrospec-runtime/dist/index.d.ts:211
 
 ## Parameters
 

@@ -21,8 +21,8 @@
 
 ## Type Aliases
 
-- [MemoryKind](type-aliases/MemoryKind.md)
 - [AstroSpecRetrievalContractKind](type-aliases/AstroSpecRetrievalContractKind.md)
+- [MemoryKind](type-aliases/MemoryKind.md)
 - [RetrievalCandidateKind](type-aliases/RetrievalCandidateKind.md)
 - [RetrievalCandidateStage](type-aliases/RetrievalCandidateStage.md)
 - [RetrievalReasonCode](type-aliases/RetrievalReasonCode.md)
@@ -34,10 +34,10 @@
 
 ## Variables
 
-- [knowledgeAssertionSchema](variables/knowledgeAssertionSchema.md)
-- [memoryRecordSchema](variables/memoryRecordSchema.md)
 - [ASTROSPEC\_RETRIEVAL\_CONTRACT\_KINDS](variables/ASTROSPEC_RETRIEVAL_CONTRACT_KINDS.md)
 - [ASTROSPEC\_RETRIEVAL\_ERROR\_CODES](variables/ASTROSPEC_RETRIEVAL_ERROR_CODES.md)
+- [knowledgeAssertionSchema](variables/knowledgeAssertionSchema.md)
+- [memoryRecordSchema](variables/memoryRecordSchema.md)
 - [retrievalDefsSchema](variables/retrievalDefsSchema.md)
 - [retrievalPlanSchema](variables/retrievalPlanSchema.md)
 - [retrievalRequestSchema](variables/retrievalRequestSchema.md)

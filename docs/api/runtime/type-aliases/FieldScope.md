@@ -6,6 +6,6 @@
 
 # Type Alias: FieldScope
 
-> **FieldScope** = \{ `kind`: `"filetype"`; `value`: `string`; \} \| \{ `id`: `string`; `kind`: `"project"`; \} \| \{ `kind`: `"intent"`; `value`: `string`; \} \| \{ `kind`: `"global"`; \}
+> **FieldScope** = `"input"` | `"derived"` | `"system"`
 
-Defined in: packages/astrospec-runtime/dist/index.d.ts:11
+Defined in: packages/astrospec-runtime/src/types.ts

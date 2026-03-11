@@ -65,4 +65,4 @@ The contract rule is:
 1. MCP-native integration guide: [consumer-quickstart-mcp.md](./consumer-quickstart-mcp.md)
 2. Fallback/no-MCP guide: [consumer-quickstart-schema.md](./consumer-quickstart-schema.md)
 3. Full Context/Turn/verification lifecycle: [context-turn.md](./context-turn.md) and [verification.md](./verification.md)
-4. Minimal external E2E sample: [`examples/external/mcp-default-fallback`](../../examples/external/mcp-default-fallback/README.md)
+4. Minimal external E2E sample: `examples/external/mcp-default-fallback/README.md`

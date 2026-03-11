@@ -6,6 +6,6 @@
 
 # Type Alias: FieldSource
 
-> **FieldSource** = `"user"` \| `"context"` \| `"default"` \| `"memory"` \| `"model"` \| `"system"`
+> **FieldSource** = `"user"` | `"context"` | `"default"` | `"memory"` | `"model"` | `"system"`
 
-Defined in: packages/astrospec-runtime/dist/index.d.ts:24
+Defined in: packages/astrospec-runtime/src/types.ts

@@ -4,14 +4,8 @@
 
 [@astrospec/runtime](../README.md) / Context
 
-# Type Alias: Context\<F\>
+# Type Alias: Context
 
-> **Context**\<`F`\> = [`AstroSpecContext`](../interfaces/AstroSpecContext.md)\<`F`\>
+> **Context** = [`AstroSpecContext`](../interfaces/AstroSpecContext.md)
 
-Defined in: packages/astrospec-runtime/dist/index.d.ts:143
-
-## Type Parameters
-
-### F
-
-`F` *extends* `Record`\<`string`, [`SpecField`](SpecField.md)\> = `Record`\<`string`, [`SpecField`](SpecField.md)\>
+Defined in: packages/astrospec-runtime/src/types.ts

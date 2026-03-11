@@ -8,7 +8,7 @@
 
 > **stableStringify**(`v`): `string`
 
-Defined in: packages/astrospec-runtime/dist/index.d.ts:212
+Defined in: packages/astrospec-runtime/dist/index.d.ts:230
 
 ## Parameters
 

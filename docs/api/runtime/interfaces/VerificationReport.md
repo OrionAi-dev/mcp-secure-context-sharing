@@ -6,7 +6,7 @@
 
 # Interface: VerificationReport
 
-Defined in: packages/astrospec-runtime/dist/index.d.ts:268
+Defined in: packages/astrospec-runtime/dist/index.d.ts:281
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: packages/astrospec-runtime/dist/index.d.ts:268
 
 > **at**: `string`
 
-Defined in: packages/astrospec-runtime/dist/index.d.ts:273
+Defined in: packages/astrospec-runtime/dist/index.d.ts:286
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: packages/astrospec-runtime/dist/index.d.ts:273
 
 > `optional` **contextId**: `string`
 
-Defined in: packages/astrospec-runtime/dist/index.d.ts:269
+Defined in: packages/astrospec-runtime/dist/index.d.ts:282
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: packages/astrospec-runtime/dist/index.d.ts:269
 
 > `optional` **meta**: [`JsonObject`](JsonObject.md)
 
-Defined in: packages/astrospec-runtime/dist/index.d.ts:274
+Defined in: packages/astrospec-runtime/dist/index.d.ts:287
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: packages/astrospec-runtime/dist/index.d.ts:274
 
 > **overall**: `boolean`
 
-Defined in: packages/astrospec-runtime/dist/index.d.ts:271
+Defined in: packages/astrospec-runtime/dist/index.d.ts:284
 
 ***
 
@@ -46,7 +46,7 @@ Defined in: packages/astrospec-runtime/dist/index.d.ts:271
 
 > **results**: [`VerifierResult`](VerifierResult.md)[]
 
-Defined in: packages/astrospec-runtime/dist/index.d.ts:272
+Defined in: packages/astrospec-runtime/dist/index.d.ts:285
 
 ***
 
@@ -54,4 +54,4 @@ Defined in: packages/astrospec-runtime/dist/index.d.ts:272
 
 > `optional` **turnId**: `string`
 
-Defined in: packages/astrospec-runtime/dist/index.d.ts:270
+Defined in: packages/astrospec-runtime/dist/index.d.ts:283

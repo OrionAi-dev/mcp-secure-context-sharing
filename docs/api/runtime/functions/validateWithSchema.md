@@ -8,7 +8,7 @@
 
 > **validateWithSchema**\<`T`\>(`schemaId`, `value`): \{ `ok`: `true`; `value`: `T`; \} \| \{ `errors`: [`ValidationError`](../type-aliases/ValidationError.md)[]; `ok`: `false`; \}
 
-Defined in: packages/astrospec-runtime/dist/index.d.ts:178
+Defined in: packages/astrospec-runtime/dist/index.d.ts:196
 
 ## Type Parameters
 

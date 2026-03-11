@@ -6,6 +6,6 @@
 
 # Type Alias: AcceptanceCriteria
 
-> **AcceptanceCriteria** = `ReadonlyArray`\<[`AcceptanceCriterion`](../interfaces/AcceptanceCriterion.md)\>
+> **AcceptanceCriteria** = readonly [`AcceptanceCriterion`](../interfaces/AcceptanceCriterion.md)[]
 
-Defined in: packages/astrospec-runtime/dist/index.d.ts:99
+Defined in: packages/astrospec-runtime/src/types.ts
