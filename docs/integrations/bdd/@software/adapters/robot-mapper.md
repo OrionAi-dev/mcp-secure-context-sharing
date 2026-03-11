@@ -11,7 +11,7 @@ This adapter connects AstroSpec `@software` criteria to **Robot Framework** by *
 ## What it does
 
 - Reads an AstroSpec YAML that declares:
-  - `profile: https://orionai-dev.github.io/AstroSpec/profiles/@software`
+  - `profile: https://orionai-dev.github.io/mcp-secure-context-sharing/profiles/@software`
   - One or more criteria with `bdd_ref` pointing to Robot artifacts
 - For each criterion with `bdd_ref`:
   - Validates `bdd_ref.source` matches the Robot profile URL from your registry
@@ -23,7 +23,7 @@ This adapter connects AstroSpec `@software` criteria to **Robot Framework** by *
 ## Inputs (required fields)
 
 - `criteria[].bdd_ref.source` → Robot profile URL
-  Example: `https://orionai-dev.github.io/AstroSpec/profiles/bdd/robot`
+  Example: `https://orionai-dev.github.io/mcp-secure-context-sharing/profiles/bdd/robot`
 - `criteria[].bdd_ref.path` → path/URL to the `.robot` file
 - `criteria[].bdd_ref.scenario` → **Test Case** name inside that file
 
@@ -34,7 +34,7 @@ This adapter connects AstroSpec `@software` criteria to **Robot Framework** by *
 AstroSpec input:
 
 ```yaml
-profile: https://orionai-dev.github.io/AstroSpec/profiles/@software
+profile: https://orionai-dev.github.io/mcp-secure-context-sharing/profiles/@software
 kind: software
 meta:
   id: ROBOT-601
@@ -51,7 +51,7 @@ requirements:
         type: functional
         text: Robot test executes and passes
         bdd_ref:
-          source: https://orionai-dev.github.io/AstroSpec/profiles/bdd/robot
+          source: https://orionai-dev.github.io/mcp-secure-context-sharing/profiles/bdd/robot
           path: ./ROBOT-LOGIN.robot
           scenario: Valid credentials produce a successful session
 ```
@@ -76,7 +76,7 @@ Mapper output (traceability index):
 
 ```json
 {
-  "profile": "https://orionai-dev.github.io/AstroSpec/profiles/@software",
+  "profile": "https://orionai-dev.github.io/mcp-secure-context-sharing/profiles/@software",
   "tool": "robot",
   "mappings": [
     {

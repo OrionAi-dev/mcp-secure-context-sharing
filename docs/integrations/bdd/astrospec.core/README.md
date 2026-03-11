@@ -34,7 +34,7 @@ docs/
 ## Minimal scenario file
 
 ```yaml
-profile: https://orionai-dev.github.io/AstroSpec/profiles/bdd/astrospec.core
+profile: https://orionai-dev.github.io/mcp-secure-context-sharing/profiles/bdd/astrospec.core
 kind: bdd-core
 meta:
   id: AUTH-101.core
@@ -53,7 +53,7 @@ scenarios:
 ```
 
 Key fields:
-- `profile` must be `https://orionai-dev.github.io/AstroSpec/profiles/bdd/astrospec.core`
+- `profile` must be `https://orionai-dev.github.io/mcp-secure-context-sharing/profiles/bdd/astrospec.core`
 - `kind` is `bdd-core`
 - Steps use `keyword` in `Given`, `When`, `Then`, `And`, `But`
 
@@ -65,7 +65,7 @@ Point a criterion to an `astrospec.core` scenario the same way you would point t
 
 ```yaml
 # docs/integrations/bdd/@software/examples/AUTH-101.context-turn.yaml
-profile: https://orionai-dev.github.io/AstroSpec/profiles/@software
+profile: https://orionai-dev.github.io/mcp-secure-context-sharing/profiles/@software
 kind: software
 meta: { id: AUTH-101, title: User can log in, owner: app-auth, priority: P0 }
 
@@ -77,7 +77,7 @@ requirements:
         type: functional
         text: Valid credentials produce a successful session
         bdd_ref:
-          source: https://orionai-dev.github.io/AstroSpec/profiles/bdd/astrospec.core
+          source: https://orionai-dev.github.io/mcp-secure-context-sharing/profiles/bdd/astrospec.core
           path: ../../bdd/astrospec.core/examples/AUTH-101.core.yaml
           scenario: auth-login-success
 ```
@@ -89,21 +89,21 @@ Add `astrospec.core` to the `@software` BDD registry:
 version: 1
 supported:
   - id: cucumber
-    url: https://orionai-dev.github.io/AstroSpec/profiles/bdd/cucumber
+    url: https://orionai-dev.github.io/mcp-secure-context-sharing/profiles/bdd/cucumber
   - id: behave
-    url: https://orionai-dev.github.io/AstroSpec/profiles/bdd/behave
+    url: https://orionai-dev.github.io/mcp-secure-context-sharing/profiles/bdd/behave
   - id: behat
-    url: https://orionai-dev.github.io/AstroSpec/profiles/bdd/behat
+    url: https://orionai-dev.github.io/mcp-secure-context-sharing/profiles/bdd/behat
   - id: jbehave
-    url: https://orionai-dev.github.io/AstroSpec/profiles/bdd/jbehave
+    url: https://orionai-dev.github.io/mcp-secure-context-sharing/profiles/bdd/jbehave
   - id: karate
-    url: https://orionai-dev.github.io/AstroSpec/profiles/bdd/karate
+    url: https://orionai-dev.github.io/mcp-secure-context-sharing/profiles/bdd/karate
   - id: robot
-    url: https://orionai-dev.github.io/AstroSpec/profiles/bdd/robot
+    url: https://orionai-dev.github.io/mcp-secure-context-sharing/profiles/bdd/robot
   - id: specflow
-    url: https://orionai-dev.github.io/AstroSpec/profiles/bdd/specflow
+    url: https://orionai-dev.github.io/mcp-secure-context-sharing/profiles/bdd/specflow
   - id: astrospec.core
-    url: https://orionai-dev.github.io/AstroSpec/profiles/bdd/astrospec.core
+    url: https://orionai-dev.github.io/mcp-secure-context-sharing/profiles/bdd/astrospec.core
 ```
 
 ---
@@ -128,8 +128,8 @@ ajv validate
 
 ## Versioning
 
-- Profile URL: `https://orionai-dev.github.io/AstroSpec/profiles/bdd/astrospec.core`
-- Schema URL: `https://orionai-dev.github.io/AstroSpec/schemas/bdd/astrospec.core-1.0.json`
+- Profile URL: `https://orionai-dev.github.io/mcp-secure-context-sharing/profiles/bdd/astrospec.core`
+- Schema URL: `https://orionai-dev.github.io/mcp-secure-context-sharing/schemas/bdd/astrospec.core-1.0.json`
 - Use SemVer for schema changes.
 
 ---

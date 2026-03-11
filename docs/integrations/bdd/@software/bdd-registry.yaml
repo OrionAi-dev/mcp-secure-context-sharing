@@ -1,18 +1,18 @@
 version: 1
 supported:
   - id: astrospec.core
-    url: https://orionai-dev.github.io/AstroSpec/profiles/bdd/astrospec.core
+    url: https://orionai-dev.github.io/mcp-secure-context-sharing/profiles/bdd/astrospec.core
   - id: behave
-    url: https://orionai-dev.github.io/AstroSpec/profiles/bdd/behave
+    url: https://orionai-dev.github.io/mcp-secure-context-sharing/profiles/bdd/behave
   - id: cucumber
-    url: https://orionai-dev.github.io/AstroSpec/profiles/bdd/cucumber
+    url: https://orionai-dev.github.io/mcp-secure-context-sharing/profiles/bdd/cucumber
   - id: jbehave
-    url: https://orionai-dev.github.io/AstroSpec/profiles/bdd/jbehave
+    url: https://orionai-dev.github.io/mcp-secure-context-sharing/profiles/bdd/jbehave
   - id: robot
-    url: https://orionai-dev.github.io/AstroSpec/profiles/bdd/robot
+    url: https://orionai-dev.github.io/mcp-secure-context-sharing/profiles/bdd/robot
   - id: karate
-    url: https://orionai-dev.github.io/AstroSpec/profiles/bdd/karate
+    url: https://orionai-dev.github.io/mcp-secure-context-sharing/profiles/bdd/karate
   - id: specflow
-    url: https://orionai-dev.github.io/AstroSpec/profiles/bdd/specflow
+    url: https://orionai-dev.github.io/mcp-secure-context-sharing/profiles/bdd/specflow
   - id: behat
-    url: https://orionai-dev.github.io/AstroSpec/profiles/bdd/behat
+    url: https://orionai-dev.github.io/mcp-secure-context-sharing/profiles/bdd/behat

@@ -1,9 +1,9 @@
 id: "@software"
 namespace: "astrospec"
-url: "https://orionai-dev.github.io/AstroSpec/profiles/@software"
+url: "https://orionai-dev.github.io/mcp-secure-context-sharing/profiles/@software"
 version: "1.0"
 description: "AstroSpec profile for software delivery"
-schema: "https://orionai-dev.github.io/AstroSpec/schemas/@software-1.0.json"
+schema: "https://orionai-dev.github.io/mcp-secure-context-sharing/schemas/@software-1.0.json"
 registry: "../profiles-registry.yaml"
 maintainers:
   - name: "OrionAI / Telescope"

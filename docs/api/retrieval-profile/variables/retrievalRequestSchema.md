@@ -8,13 +8,13 @@
 
 > **retrievalRequestSchema**: `object`
 
-Defined in: [schemas/retrieval-request-0.1.json:1](https://github.com/OrionAi-dev/AstroSpec/blob/ed21618cbae8839346b83b671baf8f9ccef60e77/packages/astrospec-retrieval-profile/schemas/retrieval-request-0.1.json#L1)
+Defined in: [schemas/retrieval-request-0.1.json:1](https://github.com/OrionAi-dev/mcp-secure-context-sharing/blob/92f51cff7db63cef48b487941969de0da4a8cde4/packages/astrospec-retrieval-profile/schemas/retrieval-request-0.1.json#L1)
 
 ## Type Declaration
 
 ### $id
 
-> **$id**: `string` = `"https://orionai-dev.github.io/AstroSpec/schemas/astrospec/retrieval/retrieval-request-0.1.json"`
+> **$id**: `string` = `"https://orionai-dev.github.io/mcp-secure-context-sharing/schemas/astrospec/retrieval/retrieval-request-0.1.json"`
 
 ### $schema
 

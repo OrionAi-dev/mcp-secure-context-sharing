@@ -24,7 +24,7 @@ AstroSpec replaces MindScript as the canonical public name of the standard.
 ## Schema and Protocol Mapping
 
 - `https://mindscript.dev/schemas/mindscript/...`
-  -> `https://orionai-dev.github.io/AstroSpec/schemas/astrospec/...`
+  -> `https://orionai-dev.github.io/mcp-secure-context-sharing/schemas/astrospec/...`
 - `mindscript://...`
   -> `astrospec://...`
 - `mindscript.contract.validate`

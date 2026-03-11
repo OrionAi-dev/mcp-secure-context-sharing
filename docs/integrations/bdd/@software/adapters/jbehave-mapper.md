@@ -11,7 +11,7 @@ This adapter connects AstroSpec `@software` criteria to **JBehave** by **referen
 ## What it does
 
 - Reads an AstroSpec YAML that declares:
-  - `profile: https://orionai-dev.github.io/AstroSpec/profiles/@software`
+  - `profile: https://orionai-dev.github.io/mcp-secure-context-sharing/profiles/@software`
   - One or more criteria with `bdd_ref` pointing to JBehave artifacts
 - For each criterion with `bdd_ref`:
   - Validates `bdd_ref.source` matches the JBehave profile URL from your registry
@@ -23,7 +23,7 @@ This adapter connects AstroSpec `@software` criteria to **JBehave** by **referen
 ## Inputs (required fields)
 
 - `criteria[].bdd_ref.source` → JBehave profile URL
-  Example: `https://orionai-dev.github.io/AstroSpec/profiles/bdd/jbehave`
+  Example: `https://orionai-dev.github.io/mcp-secure-context-sharing/profiles/bdd/jbehave`
 - `criteria[].bdd_ref.path` → path/URL to the `.story`
 - `criteria[].bdd_ref.scenario` → scenario name inside that story
 
@@ -34,7 +34,7 @@ This adapter connects AstroSpec `@software` criteria to **JBehave** by **referen
 AstroSpec input:
 
 ```yaml
-profile: https://orionai-dev.github.io/AstroSpec/profiles/@software
+profile: https://orionai-dev.github.io/mcp-secure-context-sharing/profiles/@software
 kind: software
 meta:
   id: JBEHAVE-401
@@ -51,7 +51,7 @@ requirements:
         type: functional
         text: JBehave story executes the login flow
         bdd_ref:
-          source: https://orionai-dev.github.io/AstroSpec/profiles/bdd/jbehave
+          source: https://orionai-dev.github.io/mcp-secure-context-sharing/profiles/bdd/jbehave
           path: ./JBEHAVE-LOGIN.story
           scenario: Valid credentials produce a successful session
 ```
@@ -69,7 +69,7 @@ Mapper output (traceability index):
 
 ```json
 {
-  "profile": "https://orionai-dev.github.io/AstroSpec/profiles/@software",
+  "profile": "https://orionai-dev.github.io/mcp-secure-context-sharing/profiles/@software",
   "tool": "jbehave",
   "mappings": [
     {

@@ -1,9 +1,9 @@
 site_name: MCP Secure Context Sharing
 site_description: Portable context containers, OpenSpec verification, and MCP-compatible adapters
-site_url: https://orionai-dev.github.io/AstroSpec
+site_url: https://orionai-dev.github.io/mcp-secure-context-sharing
 
-repo_url: https://github.com/OrionAi-dev/AstroSpec
-repo_name: OrionAi-dev/AstroSpec
+repo_url: https://github.com/OrionAi-dev/mcp-secure-context-sharing
+repo_name: OrionAi-dev/mcp-secure-context-sharing
 edit_uri: ""
 docs_dir: docs
 

@@ -11,7 +11,7 @@ This adapter connects AstroSpec `@software` criteria to **Jest** by **referencin
 ## What it does
 
 - Reads one or more AstroSpec YAML files that declare:
-  - `profile: https://orionai-dev.github.io/AstroSpec/profiles/@software`
+  - `profile: https://orionai-dev.github.io/mcp-secure-context-sharing/profiles/@software`
   - `requirements[].criteria[].id`
 - Scans your Jest tests for **AstroSpec annotations** and builds:
   - `dist/jest/index.json` → map of `criteria.id` → `{ file, describe, it }`
@@ -37,7 +37,7 @@ This adapter connects AstroSpec `@software` criteria to **Jest** by **referencin
 AstroSpec input:
 
 ```yaml
-profile: https://orionai-dev.github.io/AstroSpec/profiles/@software
+profile: https://orionai-dev.github.io/mcp-secure-context-sharing/profiles/@software
 kind: software
 meta:
   id: FEATURE-101
@@ -68,7 +68,7 @@ Mapper output (traceability index):
 
 ```json
 {
-  "profile": "https://orionai-dev.github.io/AstroSpec/profiles/@software",
+  "profile": "https://orionai-dev.github.io/mcp-secure-context-sharing/profiles/@software",
   "tool": "jest",
   "mappings": [
     {

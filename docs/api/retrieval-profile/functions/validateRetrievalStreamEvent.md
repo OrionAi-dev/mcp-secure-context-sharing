@@ -8,7 +8,7 @@
 
 > **validateRetrievalStreamEvent**(`value`): [`ValidationResult`](../type-aliases/ValidationResult.md)\<[`RetrievalStreamEvent`](../type-aliases/RetrievalStreamEvent.md)\>
 
-Defined in: [src/index.ts:360](https://github.com/OrionAi-dev/AstroSpec/blob/ed21618cbae8839346b83b671baf8f9ccef60e77/packages/astrospec-retrieval-profile/src/index.ts#L360)
+Defined in: [src/index.ts:360](https://github.com/OrionAi-dev/mcp-secure-context-sharing/blob/92f51cff7db63cef48b487941969de0da4a8cde4/packages/astrospec-retrieval-profile/src/index.ts#L360)
 
 ## Parameters
 

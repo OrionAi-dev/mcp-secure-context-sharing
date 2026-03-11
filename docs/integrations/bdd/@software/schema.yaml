@@ -1,5 +1,5 @@
 $schema: "https://json-schema.org/draft/2020-12/schema"
-$id: "https://orionai-dev.github.io/AstroSpec/schemas/@software-1.0.json"
+$id: "https://orionai-dev.github.io/mcp-secure-context-sharing/schemas/@software-1.0.json"
 title: "AstroSpec Profile: @software"
 type: object
 required: [profile, kind, meta, requirements]
@@ -7,7 +7,7 @@ properties:
   profile:
     type: string
     format: uri
-    const: "https://orionai-dev.github.io/AstroSpec/profiles/@software"
+    const: "https://orionai-dev.github.io/mcp-secure-context-sharing/profiles/@software"
 
   imports:
     type: array
@@ -98,7 +98,7 @@ properties:
                   source:
                     type: string
                     format: uri
-                    description: "URL of a BDD profile (e.g. https://orionai-dev.github.io/AstroSpec/profiles/bdd/behave)"
+                    description: "URL of a BDD profile (e.g. https://orionai-dev.github.io/mcp-secure-context-sharing/profiles/bdd/behave)"
                   path:
                     type: string
                     description: "Path/URL to external BDD file"

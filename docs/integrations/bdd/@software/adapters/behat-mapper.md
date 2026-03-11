@@ -11,7 +11,7 @@ This adapter connects AstroSpec `@software` criteria to **Behat** by **referenci
 ## What it does
 
 - Reads an AstroSpec YAML that declares:
-  - `profile: https://orionai-dev.github.io/AstroSpec/profiles/@software`
+  - `profile: https://orionai-dev.github.io/mcp-secure-context-sharing/profiles/@software`
   - One or more criteria with `bdd_ref` pointing to Behat artifacts
 - For each criterion with `bdd_ref`:
   - Validates `bdd_ref.source` is the Behat profile URL from your registry
@@ -23,7 +23,7 @@ This adapter connects AstroSpec `@software` criteria to **Behat** by **referenci
 ## Inputs (required fields)
 
 - `criteria[].bdd_ref.source` → Behat profile URL
-  Example: `https://orionai-dev.github.io/AstroSpec/profiles/bdd/behat`
+  Example: `https://orionai-dev.github.io/mcp-secure-context-sharing/profiles/bdd/behat`
 - `criteria[].bdd_ref.path` → path/URL to the `.feature`
 - `criteria[].bdd_ref.scenario` → scenario name inside that feature
 
@@ -34,7 +34,7 @@ This adapter connects AstroSpec `@software` criteria to **Behat** by **referenci
 AstroSpec input:
 
 ```yaml
-profile: https://orionai-dev.github.io/AstroSpec/profiles/@software
+profile: https://orionai-dev.github.io/mcp-secure-context-sharing/profiles/@software
 kind: software
 meta:
   id: BEHAT-501
@@ -51,7 +51,7 @@ requirements:
         type: functional
         text: Valid credentials produce a successful session
         bdd_ref:
-          source: https://orionai-dev.github.io/AstroSpec/profiles/bdd/behat
+          source: https://orionai-dev.github.io/mcp-secure-context-sharing/profiles/bdd/behat
           path: ./BEHAT-LOGIN.feature
           scenario: Valid credentials produce a successful session
 ```
@@ -70,7 +70,7 @@ Mapper output (traceability index):
 
 ```json
 {
-  "profile": "https://orionai-dev.github.io/AstroSpec/profiles/@software",
+  "profile": "https://orionai-dev.github.io/mcp-secure-context-sharing/profiles/@software",
   "tool": "behat",
   "mappings": [
     {

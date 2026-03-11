@@ -11,7 +11,7 @@ This adapter connects AstroSpec `@software` criteria to **Cucumber** by **refere
 ## What it does
 
 - Reads an AstroSpec YAML that declares:
-  - `profile: https://orionai-dev.github.io/AstroSpec/profiles/@software`
+  - `profile: https://orionai-dev.github.io/mcp-secure-context-sharing/profiles/@software`
   - One or more criteria with `bdd_ref` pointing to Cucumber artifacts
 - For each criterion with `bdd_ref`:
   - Validates `bdd_ref.source` matches the Cucumber profile URL from your registry
@@ -23,7 +23,7 @@ This adapter connects AstroSpec `@software` criteria to **Cucumber** by **refere
 ## Inputs (required fields)
 
 - `criteria[].bdd_ref.source` → Cucumber profile URL
-  Example: `https://orionai-dev.github.io/AstroSpec/profiles/bdd/cucumber`
+  Example: `https://orionai-dev.github.io/mcp-secure-context-sharing/profiles/bdd/cucumber`
 - `criteria[].bdd_ref.path` → path/URL to the `.feature`
 - `criteria[].bdd_ref.scenario` → scenario name inside that feature
 
@@ -34,7 +34,7 @@ This adapter connects AstroSpec `@software` criteria to **Cucumber** by **refere
 AstroSpec input:
 
 ```yaml
-profile: https://orionai-dev.github.io/AstroSpec/profiles/@software
+profile: https://orionai-dev.github.io/mcp-secure-context-sharing/profiles/@software
 kind: software
 meta:
   id: FEATURE-101
@@ -51,7 +51,7 @@ requirements:
         type: functional
         text: Valid credentials produce a successful session
         bdd_ref:
-          source: https://orionai-dev.github.io/AstroSpec/profiles/bdd/cucumber
+          source: https://orionai-dev.github.io/mcp-secure-context-sharing/profiles/bdd/cucumber
           path: ./FEATURE-LOGIN.feature
           scenario: Valid credentials produce a successful session
 ```
@@ -70,7 +70,7 @@ Mapper output (traceability index):
 
 ```json
 {
-  "profile": "https://orionai-dev.github.io/AstroSpec/profiles/@software",
+  "profile": "https://orionai-dev.github.io/mcp-secure-context-sharing/profiles/@software",
   "tool": "cucumber",
   "mappings": [
     {

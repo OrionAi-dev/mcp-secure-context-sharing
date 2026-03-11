@@ -11,7 +11,7 @@ This adapter connects AstroSpec `@software` criteria to **Karate** by referencin
 ## What it does
 
 - Reads an AstroSpec YAML that declares:
-  - `profile: https://orionai-dev.github.io/AstroSpec/profiles/@software`
+  - `profile: https://orionai-dev.github.io/mcp-secure-context-sharing/profiles/@software`
   - One or more criteria with `bdd_ref` pointing to Karate artifacts
 - For each criterion with `bdd_ref`:
   - Validates `bdd_ref.source` matches the Karate profile URL from your registry
@@ -23,7 +23,7 @@ This adapter connects AstroSpec `@software` criteria to **Karate** by referencin
 ## Inputs (required fields)
 
 - `criteria[].bdd_ref.source` → Karate profile URL
-  Example: `https://orionai-dev.github.io/AstroSpec/profiles/bdd/karate`
+  Example: `https://orionai-dev.github.io/mcp-secure-context-sharing/profiles/bdd/karate`
 - `criteria[].bdd_ref.path` → path or URL to the `.feature`
 - `criteria[].bdd_ref.scenario` → scenario name inside that feature
 
@@ -34,7 +34,7 @@ Note: Inline step fields like `given`, `when`, `then` are not used. The mapper i
 AstroSpec input:
 
 ```yaml
-profile: https://orionai-dev.github.io/AstroSpec/profiles/@software
+profile: https://orionai-dev.github.io/mcp-secure-context-sharing/profiles/@software
 kind: software
 meta:
   id: KARATE-701
@@ -51,7 +51,7 @@ requirements:
         type: functional
         text: Karate test executes and passes
         bdd_ref:
-          source: https://orionai-dev.github.io/AstroSpec/profiles/bdd/karate
+          source: https://orionai-dev.github.io/mcp-secure-context-sharing/profiles/bdd/karate
           path: ./KARATE-LOGIN.feature
           scenario: Valid credentials produce a successful session
 ```
@@ -72,7 +72,7 @@ Mapper output (traceability index):
 
 ```json
 {
-  "profile": "https://orionai-dev.github.io/AstroSpec/profiles/@software",
+  "profile": "https://orionai-dev.github.io/mcp-secure-context-sharing/profiles/@software",
   "tool": "karate",
   "mappings": [
     {

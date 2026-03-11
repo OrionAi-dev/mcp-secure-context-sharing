@@ -1,5 +1,5 @@
 $schema: "https://json-schema.org/draft/2020-12/schema"
-$id: "https://orionai-dev.github.io/AstroSpec/schemas/bdd/astrospec.core-1.0.json"
+$id: "https://orionai-dev.github.io/mcp-secure-context-sharing/schemas/bdd/astrospec.core-1.0.json"
 title: "AstroSpec Core BDD"
 type: object
 required: [profile, kind, meta, scenarios]
@@ -8,7 +8,7 @@ additionalProperties: false
 properties:
   profile:
     type: string
-    const: "https://orionai-dev.github.io/AstroSpec/profiles/bdd/astrospec.core"
+    const: "https://orionai-dev.github.io/mcp-secure-context-sharing/profiles/bdd/astrospec.core"
 
   kind:
     type: string

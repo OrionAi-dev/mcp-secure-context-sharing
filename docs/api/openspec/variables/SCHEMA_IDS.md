@@ -14,32 +14,32 @@ Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:190
 
 ### acceptanceCriteria
 
-> `readonly` **acceptanceCriteria**: `"https://orionai-dev.github.io/AstroSpec/schemas/astrospec/acceptance-criteria-0.1.json"`
+> `readonly` **acceptanceCriteria**: `"https://orionai-dev.github.io/mcp-secure-context-sharing/schemas/astrospec/acceptance-criteria-0.1.json"`
 
 ### containerDefs
 
-> `readonly` **containerDefs**: `"https://orionai-dev.github.io/AstroSpec/schemas/mcp-secure-context/container-defs-0.1.json"`
+> `readonly` **containerDefs**: `"https://orionai-dev.github.io/mcp-secure-context-sharing/schemas/mcp-secure-context/container-defs-0.1.json"`
 
 ### context
 
-> `readonly` **context**: `"https://orionai-dev.github.io/AstroSpec/schemas/astrospec/context-0.1.json"`
+> `readonly` **context**: `"https://orionai-dev.github.io/mcp-secure-context-sharing/schemas/astrospec/context-0.1.json"`
 
 ### contextContainer
 
-> `readonly` **contextContainer**: `"https://orionai-dev.github.io/AstroSpec/schemas/mcp-secure-context/context-container-0.1.json"`
+> `readonly` **contextContainer**: `"https://orionai-dev.github.io/mcp-secure-context-sharing/schemas/mcp-secure-context/context-container-0.1.json"`
 
 ### defs
 
-> `readonly` **defs**: `"https://orionai-dev.github.io/AstroSpec/schemas/astrospec/defs-0.1.json"`
+> `readonly` **defs**: `"https://orionai-dev.github.io/mcp-secure-context-sharing/schemas/astrospec/defs-0.1.json"`
 
 ### provenance
 
-> `readonly` **provenance**: `"https://orionai-dev.github.io/AstroSpec/schemas/astrospec/provenance-0.1.json"`
+> `readonly` **provenance**: `"https://orionai-dev.github.io/mcp-secure-context-sharing/schemas/astrospec/provenance-0.1.json"`
 
 ### turn
 
-> `readonly` **turn**: `"https://orionai-dev.github.io/AstroSpec/schemas/astrospec/turn-0.1.json"`
+> `readonly` **turn**: `"https://orionai-dev.github.io/mcp-secure-context-sharing/schemas/astrospec/turn-0.1.json"`
 
 ### verificationReport
 
-> `readonly` **verificationReport**: `"https://orionai-dev.github.io/AstroSpec/schemas/astrospec/verification-report-0.1.json"`
+> `readonly` **verificationReport**: `"https://orionai-dev.github.io/mcp-secure-context-sharing/schemas/astrospec/verification-report-0.1.json"`

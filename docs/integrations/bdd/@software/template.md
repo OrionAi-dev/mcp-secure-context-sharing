@@ -8,7 +8,7 @@ It keeps AstroSpec agnostic and **references** external BDD artifacts instead of
 ## Minimal spec (copy/paste)
 
 ```yaml
-profile: https://orionai-dev.github.io/AstroSpec/profiles/@software
+profile: https://orionai-dev.github.io/mcp-secure-context-sharing/profiles/@software
 kind: software
 
 meta:
@@ -35,10 +35,10 @@ requirements:
 Import only what your project needs (e.g., TypeScript language and OpenAPI for REST):
 
 ```yaml
-profile: https://orionai-dev.github.io/AstroSpec/profiles/@software
+profile: https://orionai-dev.github.io/mcp-secure-context-sharing/profiles/@software
 imports:
-  - https://orionai-dev.github.io/AstroSpec/profiles/@software.language.typescript
-  - https://orionai-dev.github.io/AstroSpec/profiles/@software.api.openapi   # versionless; set version below
+  - https://orionai-dev.github.io/mcp-secure-context-sharing/profiles/@software.language.typescript
+  - https://orionai-dev.github.io/mcp-secure-context-sharing/profiles/@software.api.openapi   # versionless; set version below
 
 kind: software
 
@@ -72,7 +72,7 @@ requirements:
 ```
 
 > If you need a strictly pinned OpenAPI profile, import  
-> `https://orionai-dev.github.io/AstroSpec/profiles/@software.api.openapi.v3_1` instead.
+> `https://orionai-dev.github.io/mcp-secure-context-sharing/profiles/@software.api.openapi.v3_1` instead.
 
 ---
 
@@ -82,7 +82,7 @@ Bind a criterion to an existing Behave/Behat/Cucumber/etc. file.
 You can also set a **spec-level default** under `meta.bdd` and omit per-criterion `bdd_ref`.
 
 ```yaml
-profile: https://orionai-dev.github.io/AstroSpec/profiles/@software
+profile: https://orionai-dev.github.io/mcp-secure-context-sharing/profiles/@software
 kind: software
 
 meta:
@@ -99,7 +99,7 @@ requirements:
         type: functional
         text: Valid credentials produce a successful session
         bdd_ref:
-          source: https://orionai-dev.github.io/AstroSpec/profiles/bdd/behave  # URL from your bdd-registry.yaml
+          source: https://orionai-dev.github.io/mcp-secure-context-sharing/profiles/bdd/behave  # URL from your bdd-registry.yaml
           path: ./BEHAVE-LOGIN.feature                      # local path or absolute URL
           scenario: Valid credentials produce a successful session
 ```
@@ -117,7 +117,7 @@ requirements:
 
 ## Authoring checklist
 
-- [ ] `profile` is `https://orionai-dev.github.io/AstroSpec/profiles/@software`
+- [ ] `profile` is `https://orionai-dev.github.io/mcp-secure-context-sharing/profiles/@software`
 - [ ] `kind: software`
 - [ ] `meta` includes `id`, `title`, `owner`, `priority`
 - [ ] `requirements[*].criteria[*]` each have an `id`, `type`, and `text`

@@ -1,5 +1,5 @@
 {
-  "$id": "https://orionai-dev.github.io/AstroSpec/schemas/mcp-secure-context/container-defs-0.1.json",
+  "$id": "https://orionai-dev.github.io/mcp-secure-context-sharing/schemas/mcp-secure-context/container-defs-0.1.json",
   "title": "MCP Secure Context Sharing Container Definitions",
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "type": "object",

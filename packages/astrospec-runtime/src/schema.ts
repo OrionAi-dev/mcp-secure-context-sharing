@@ -51,12 +51,12 @@ function getValidator(schemaId: string): ValidateFunction {
 }
 
 export const SCHEMA_IDS = {
-  defs: "https://orionai-dev.github.io/AstroSpec/schemas/astrospec/defs-0.1.json",
-  acceptanceCriteria: "https://orionai-dev.github.io/AstroSpec/schemas/astrospec/acceptance-criteria-0.1.json",
-  provenance: "https://orionai-dev.github.io/AstroSpec/schemas/astrospec/provenance-0.1.json",
-  context: "https://orionai-dev.github.io/AstroSpec/schemas/astrospec/context-0.1.json",
-  turn: "https://orionai-dev.github.io/AstroSpec/schemas/astrospec/turn-0.1.json",
-  verificationReport: "https://orionai-dev.github.io/AstroSpec/schemas/astrospec/verification-report-0.1.json"
+  defs: "https://orionai-dev.github.io/mcp-secure-context-sharing/schemas/astrospec/defs-0.1.json",
+  acceptanceCriteria: "https://orionai-dev.github.io/mcp-secure-context-sharing/schemas/astrospec/acceptance-criteria-0.1.json",
+  provenance: "https://orionai-dev.github.io/mcp-secure-context-sharing/schemas/astrospec/provenance-0.1.json",
+  context: "https://orionai-dev.github.io/mcp-secure-context-sharing/schemas/astrospec/context-0.1.json",
+  turn: "https://orionai-dev.github.io/mcp-secure-context-sharing/schemas/astrospec/turn-0.1.json",
+  verificationReport: "https://orionai-dev.github.io/mcp-secure-context-sharing/schemas/astrospec/verification-report-0.1.json"
 } as const;
 
 export function validateWithSchema<T>(
