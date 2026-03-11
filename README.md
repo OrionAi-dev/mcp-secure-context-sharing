@@ -36,6 +36,14 @@ Its first serious adoption wedge is **RAG interoperability**:
 - graph knowledge assertions
 - grounding and verification
 
+AstroSpec also supports a portable discovery stack for structured reasoning:
+
+- reasoning workflow contracts
+- graph-memory contracts
+- discovery and analogical-mapping outputs
+- neutral runtime interoperability interfaces
+- high-level discovery bundle re-exports
+
 ## Why It Matters
 
 Without a contract layer, systems fall back to prompt text, hidden assumptions, brittle JSON, and adapter sprawl.
@@ -63,11 +71,19 @@ AstroSpec makes the exchange explicit so systems can:
 ### Profiles
 
 - `@astrospec/retrieval-profile`
+- `@astrospec/reasoning`
+- `@astrospec/graph-memory`
+- `@astrospec/starburst-profile`
+
+### Runtime interoperability
+
+- `@astrospec/runtime-interfaces`
 
 ### DX
 
 - `@astrospec/kit`
 - `@astrospec/cli`
+- `@astrospec/discovery-bundle`
 
 ### Specialized downstream bundles
 
@@ -80,7 +96,9 @@ AstroSpec makes the exchange explicit so systems can:
 3. **Runtime validation and verification layer**: deterministic validation, locking, merging, diffing, and verifier execution in `@astrospec/runtime`.
 4. **MCP interoperability layer**: canonical MCP tool names, resource URIs, and deterministic error semantics in `@astrospec/mcp-profile`.
 5. **Retrieval profile layer**: portable RAG contracts in `@astrospec/retrieval-profile`.
-6. **Integrations and downstream bundles**: BDD mappings, generators, vendor adapters, and specialized orchestration bundles.
+6. **Reasoning and discovery profile layer**: portable reasoning, graph-memory, and discovery contracts in `@astrospec/reasoning`, `@astrospec/graph-memory`, and `@astrospec/starburst-profile`.
+7. **Runtime interoperability layer**: neutral runtime interfaces in `@astrospec/runtime-interfaces`.
+8. **Integrations and downstream bundles**: BDD mappings, generators, vendor adapters, and specialized orchestration bundles.
 
 ## Core vs Profiles vs Integrations
 
@@ -100,6 +118,14 @@ Core covers:
 Profiles standardize domain-specific contract families without bloating core.
 
 The first normative profile is the retrieval profile.
+
+The reasoning/discovery family adds:
+
+- `@astrospec/reasoning`
+- `@astrospec/graph-memory`
+- `@astrospec/starburst-profile`
+
+These remain portable contracts and do not embed a single orchestrator runtime.
 
 ### Integrations
 
@@ -142,8 +168,12 @@ The MCP profile standardizes:
 2. Read the overview: [docs/astrospec/spec-overview.md](./docs/astrospec/spec-overview.md)
 3. Read the protocol: [docs/astrospec/protocol.md](./docs/astrospec/protocol.md)
 4. Read the retrieval profile: [docs/astrospec/retrieval-profile.md](./docs/astrospec/retrieval-profile.md)
-5. Start with MCP: [docs/astrospec/consumer-quickstart-mcp.md](./docs/astrospec/consumer-quickstart-mcp.md)
-6. Use schema-first fallback when needed: [docs/astrospec/consumer-quickstart-schema.md](./docs/astrospec/consumer-quickstart-schema.md)
+5. Read the reasoning profile: [docs/astrospec/reasoning-profile.md](./docs/astrospec/reasoning-profile.md)
+6. Read the graph-memory profile: [docs/astrospec/graph-memory-profile.md](./docs/astrospec/graph-memory-profile.md)
+7. Read the Starburst profile: [docs/astrospec/starburst-profile.md](./docs/astrospec/starburst-profile.md)
+8. Read the runtime interfaces: [docs/astrospec/runtime-interfaces.md](./docs/astrospec/runtime-interfaces.md)
+9. Start with MCP: [docs/astrospec/consumer-quickstart-mcp.md](./docs/astrospec/consumer-quickstart-mcp.md)
+10. Use schema-first fallback when needed: [docs/astrospec/consumer-quickstart-schema.md](./docs/astrospec/consumer-quickstart-schema.md)
 
 ## Adoption Path
 
@@ -151,8 +181,9 @@ A typical adopter should integrate in this order:
 
 1. validate core payloads with `@astrospec/runtime`
 2. adopt the retrieval profile if the system exchanges retrieval evidence or grounding data
-3. expose MCP mappings only if tool/runtime interoperability is needed
-4. add product-specific behavior in downstream packages or vendor-namespaced extensions, not in AstroSpec core
+3. adopt the reasoning/discovery profiles if the system exchanges reasoning tasks, graph-memory artifacts, or discovery outputs
+4. expose runtime interfaces or MCP mappings only if tool/runtime interoperability is needed
+5. add product-specific behavior in downstream packages or vendor-namespaced extensions, not in AstroSpec core
 
 ## Governance and Compatibility
 
@@ -180,6 +211,10 @@ See:
 
 - [conformance/core](./conformance/core)
 - [conformance/retrieval-profile](./conformance/retrieval-profile)
+- [conformance/reasoning](./conformance/reasoning)
+- [conformance/graph-memory](./conformance/graph-memory)
+- [conformance/starburst-profile](./conformance/starburst-profile)
+- [conformance/runtime-interfaces](./conformance/runtime-interfaces)
 - [conformance/mcp-profile](./conformance/mcp-profile)
 
 ## Legacy and History

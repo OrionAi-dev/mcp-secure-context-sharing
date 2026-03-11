@@ -1,0 +1,8 @@
+{
+  "descriptorId": "descriptor_graph_provider",
+  "name": "Graph Memory Provider",
+  "interfaceKind": "graph-memory-provider",
+  "version": "0.1.0",
+  "contractKinds": ["structural-graph-query", "memory-promotion-envelope"],
+  "capabilities": ["structural-retrieval", "validated-promotion"]
+}

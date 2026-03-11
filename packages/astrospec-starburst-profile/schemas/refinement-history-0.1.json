@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://orionai-dev.github.io/AstroSpec/schemas/astrospec/starburst/refinement-history-0.1.json",
+  "title": "RefinementHistory",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["historyId", "rounds"],
+  "properties": {
+    "historyId": { "type": "string", "minLength": 1 },
+    "rounds": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "./evaluation-round-0.1.json" }
+    },
+    "preservedMotifs": { "type": "array", "items": { "type": "string" } },
+    "discardedPatterns": { "type": "array", "items": { "type": "string" } },
+    "ext": { "type": "object", "additionalProperties": true }
+  }
+}

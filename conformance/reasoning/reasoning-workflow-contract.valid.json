@@ -1,0 +1,26 @@
+{
+  "workflowId": "workflow_legal_discovery",
+  "task": {
+    "taskId": "task_legal_evidence",
+    "prompt": "How should a legal evidence system organize call logs, transcripts, filings, and witness statements?",
+    "graph": {
+      "graphId": "graph_legal",
+      "roles": [
+        { "roleId": "abstraction_star", "title": "Abstraction Star" },
+        { "roleId": "legal_star", "title": "Legal Star" },
+        { "roleId": "evidence_star", "title": "Evidence Star" }
+      ],
+      "edges": [
+        { "from": "abstraction_star", "to": "legal_star", "relation": "informs" },
+        { "from": "legal_star", "to": "evidence_star", "relation": "supports" }
+      ]
+    }
+  },
+  "roles": [
+    { "roleId": "abstraction_star", "title": "Abstraction Star" },
+    { "roleId": "legal_star", "title": "Legal Star" },
+    { "roleId": "evidence_star", "title": "Evidence Star" }
+  ],
+  "phases": ["abstraction", "analysis", "review", "synthesis"],
+  "expectedOutputs": ["evidence-graph", "timeline"]
+}

@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://orionai-dev.github.io/AstroSpec/schemas/astrospec/reasoning/reasoning-workflow-contract-0.1.json",
+  "title": "ReasoningWorkflowContract",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["workflowId", "task", "roles", "phases"],
+  "properties": {
+    "workflowId": { "type": "string", "minLength": 1 },
+    "task": { "$ref": "./reasoning-task-0.1.json" },
+    "roles": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "./reasoning-defs-0.1.json#/$defs/reasoningRole" }
+    },
+    "phases": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "expectedOutputs": { "type": "array", "items": { "type": "string" } },
+    "ext": { "type": "object", "additionalProperties": true }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://orionai-dev.github.io/AstroSpec/schemas/astrospec/starburst/hypothesis-candidate-0.1.json",
+  "title": "HypothesisCandidate",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["candidateId", "title", "description"],
+  "properties": {
+    "candidateId": { "type": "string", "minLength": 1 },
+    "title": { "type": "string", "minLength": 1 },
+    "description": { "type": "string", "minLength": 1 },
+    "mappingIds": { "type": "array", "items": { "type": "string" } },
+    "constraints": { "type": "array", "items": { "type": "string" } },
+    "discriminatingTests": { "type": "array", "items": { "type": "string" } },
+    "ext": { "type": "object", "additionalProperties": true }
+  }
+}

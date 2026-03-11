@@ -9,6 +9,13 @@ It has two layers of value:
 
 The first normative profile is the retrieval profile for RAG interoperability.
 
+AstroSpec also publishes a portable reasoning and discovery family:
+
+- `@astrospec/reasoning`
+- `@astrospec/graph-memory`
+- `@astrospec/starburst-profile`
+- `@astrospec/runtime-interfaces`
+
 ## Core Concepts
 
 ### 1. Context and Turn
@@ -48,6 +55,14 @@ The first normative profile covers:
 - graph knowledge assertions
 - retrieval stream events
 
+The discovery profile family covers:
+
+- reasoning tasks and workflow contracts
+- graph-memory artifact nodes
+- structural retrieval requests and matches
+- abstraction, mapping, hypothesis, evaluation, and synthesis outputs
+- neutral runtime interoperability interfaces
+
 ## Adoption Wedge
 
 AstroSpec is intended to become infrastructure.
@@ -69,6 +84,8 @@ AstroSpec is not:
 - a prompt wrapper format
 - a BDD framework
 - a vendor-specific runtime disguised as a standard
+- a discovery engine implementation
+- scheduler heuristics or memory-promotion policy
 
 ## Why This Matters
 
@@ -79,3 +96,4 @@ A small core plus explicit profiles makes AstroSpec more adoptable as infrastruc
 - integrations remain replaceable
 - consumers know what is normative versus product-specific
 - adoption can happen incrementally instead of requiring a whole-platform rewrite
+- flagship runtimes can publish interfaces while keeping execution internals private

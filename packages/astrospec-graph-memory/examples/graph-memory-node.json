@@ -1,0 +1,11 @@
+{
+  "nodeId": "pattern_immune_control_plane",
+  "nodeType": "Pattern",
+  "namespace": "starburst",
+  "title": "Immune Control Plane Pattern",
+  "summary": "Adaptive defense pattern for staged cryptographic migration.",
+  "structuralSignature": "pattern:adaptive-feedback-loop:v1",
+  "mechanismTags": ["adaptation", "feedback", "containment"],
+  "relationMotifs": ["SUPPORTED_BY", "TESTED_AGAINST"],
+  "validationStatus": "validated"
+}

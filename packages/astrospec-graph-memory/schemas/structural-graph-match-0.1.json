@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://orionai-dev.github.io/AstroSpec/schemas/astrospec/graph-memory/structural-graph-match-0.1.json",
+  "title": "StructuralGraphMatch",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["nodeId", "nodeType", "structuralSimilarity"],
+  "properties": {
+    "nodeId": { "type": "string", "minLength": 1 },
+    "nodeType": { "$ref": "./graph-memory-defs-0.1.json#/$defs/nodeType" },
+    "structuralSimilarity": { "type": "number", "minimum": 0, "maximum": 1 },
+    "motifOverlap": { "type": "number", "minimum": 0, "maximum": 1 },
+    "reusableConstraints": { "type": "array", "items": { "type": "string" } },
+    "matchedRelationships": {
+      "type": "array",
+      "items": { "$ref": "./graph-memory-defs-0.1.json#/$defs/relationshipType" }
+    },
+    "provenanceRefs": { "type": "array", "items": { "type": "string" } },
+    "ext": { "type": "object", "additionalProperties": true }
+  }
+}

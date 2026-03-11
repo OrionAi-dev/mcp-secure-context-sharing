@@ -1,0 +1,9 @@
+{
+  "promotionId": "promotion_legal_evidence_graph",
+  "nodeId": "candidate_evidence_graph",
+  "decision": "promote",
+  "validationStatus": "validated",
+  "rationale": "Survived skeptical review and matched prior structural evidence graphs.",
+  "supportingMatchIds": ["match_1", "match_2"],
+  "promotedAt": "2026-03-11T12:00:00.000Z"
+}

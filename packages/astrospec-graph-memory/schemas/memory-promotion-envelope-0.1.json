@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://orionai-dev.github.io/AstroSpec/schemas/astrospec/graph-memory/memory-promotion-envelope-0.1.json",
+  "title": "MemoryPromotionEnvelope",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["promotionId", "nodeId", "decision", "validationStatus"],
+  "properties": {
+    "promotionId": { "type": "string", "minLength": 1 },
+    "nodeId": { "type": "string", "minLength": 1 },
+    "decision": { "type": "string", "enum": ["promote", "hold", "reject"] },
+    "validationStatus": { "$ref": "./graph-memory-defs-0.1.json#/$defs/validationStatus" },
+    "rationale": { "type": "string" },
+    "supportingMatchIds": { "type": "array", "items": { "type": "string" } },
+    "promotedAt": { "type": "string", "format": "date-time" },
+    "ext": { "type": "object", "additionalProperties": true }
+  }
+}

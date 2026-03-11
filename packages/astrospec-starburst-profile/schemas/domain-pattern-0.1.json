@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://orionai-dev.github.io/AstroSpec/schemas/astrospec/starburst/domain-pattern-0.1.json",
+  "title": "DomainPattern",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["patternId", "domain", "summary"],
+  "properties": {
+    "patternId": { "type": "string", "minLength": 1 },
+    "domain": { "type": "string", "minLength": 1 },
+    "summary": { "type": "string", "minLength": 1 },
+    "structuralElements": { "type": "array", "items": { "type": "string" } },
+    "observations": { "type": "array", "items": { "type": "string" } },
+    "supportingEvidence": {
+      "type": "array",
+      "items": {
+        "$ref": "https://orionai-dev.github.io/AstroSpec/schemas/astrospec/reasoning/reasoning-evidence-0.1.json"
+      }
+    },
+    "ext": { "type": "object", "additionalProperties": true }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "taskId": "task_legal_evidence",
+  "status": "completed",
+  "summary": "The strongest candidate organizes materials around events, claims, and procedural dependencies.",
+  "outputs": [
+    {
+      "artifactId": "artifact_evidence_graph",
+      "kind": "evidence-graph",
+      "title": "Evidence Graph with Claim Linkage"
+    }
+  ],
+  "scores": {
+    "confidence": 0.81,
+    "completeness": 0.77
+  }
+}

@@ -51,6 +51,16 @@ The profile makes a few semantic rules explicit:
 3. stream `final` events must carry a full terminal response envelope
 4. unsupported techniques should fail with deterministic AstroSpec reason codes
 
+## Relationship to Discovery Profiles
+
+The retrieval profile remains the shared source for:
+
+- `MemoryRecord`
+- `KnowledgeAssertion`
+- evidence spans and references
+
+New discovery packages such as `@astrospec/graph-memory` reuse those primitives instead of redefining them. Retrieval remains the canonical memory/assertion envelope layer, while reasoning and discovery profiles add higher-level workflow and graph semantics.
+
 ## Reason Codes
 
 - `AS_RETRIEVAL_INVALID_INPUT`

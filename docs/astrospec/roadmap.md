@@ -22,6 +22,16 @@
 - alternate language/runtime consumers
 - retrieval profile hardening from external feedback
 
+## v0.4.x
+
+- reasoning profile package
+- graph-memory profile package
+- Starburst discovery profile package
+- neutral runtime-interfaces package
+- discovery bundle quickstart and examples
+- conformance fixtures for discovery profiles
+- explicit public/private guidance for discovery runtimes
+
 ## v1.0.0 criteria
 
 AstroSpec should not be presented as standard-ready until it has:

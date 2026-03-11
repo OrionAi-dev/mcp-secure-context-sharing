@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://orionai-dev.github.io/AstroSpec/schemas/astrospec/starburst/synthesis-output-0.1.json",
+  "title": "SynthesisOutput",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["synthesisId", "summary", "selectedCandidateIds"],
+  "properties": {
+    "synthesisId": { "type": "string", "minLength": 1 },
+    "summary": { "type": "string", "minLength": 1 },
+    "selectedCandidateIds": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "recommendedArchitecture": { "type": "string" },
+    "unresolvedRisks": { "type": "array", "items": { "type": "string" } },
+    "supportingEvidence": {
+      "type": "array",
+      "items": {
+        "$ref": "https://orionai-dev.github.io/AstroSpec/schemas/astrospec/reasoning/reasoning-evidence-0.1.json"
+      }
+    },
+    "ext": { "type": "object", "additionalProperties": true }
+  }
+}

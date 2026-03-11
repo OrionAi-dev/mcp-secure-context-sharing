@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://orionai-dev.github.io/AstroSpec/schemas/astrospec/reasoning/reasoning-graph-0.1.json",
+  "title": "ReasoningGraph",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["graphId", "roles"],
+  "properties": {
+    "graphId": { "type": "string", "minLength": 1 },
+    "roles": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "./reasoning-defs-0.1.json#/$defs/reasoningRole" }
+    },
+    "edges": {
+      "type": "array",
+      "items": { "$ref": "./reasoning-defs-0.1.json#/$defs/reasoningEdge" }
+    },
+    "phases": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+    "ext": { "type": "object", "additionalProperties": true }
+  }
+}

@@ -80,6 +80,59 @@ importers:
         specifier: ^5.9.2
         version: 5.9.2
 
+  packages/astrospec-discovery-bundle:
+    dependencies:
+      '@astrospec/graph-memory':
+        specifier: workspace:*
+        version: link:../astrospec-graph-memory
+      '@astrospec/reasoning':
+        specifier: workspace:*
+        version: link:../astrospec-reasoning
+      '@astrospec/runtime-interfaces':
+        specifier: workspace:*
+        version: link:../astrospec-runtime-interfaces
+      '@astrospec/starburst-profile':
+        specifier: workspace:*
+        version: link:../astrospec-starburst-profile
+    devDependencies:
+      tsup:
+        specifier: ^8.5.0
+        version: 8.5.0(postcss@8.5.6)(tsx@4.21.0)(typescript@5.9.2)(yaml@2.8.2)
+      tsx:
+        specifier: ^4.20.4
+        version: 4.21.0
+      typescript:
+        specifier: ^5.9.2
+        version: 5.9.2
+
+  packages/astrospec-graph-memory:
+    dependencies:
+      '@astrospec/retrieval-profile':
+        specifier: workspace:*
+        version: link:../astrospec-retrieval-profile
+      '@astrospec/runtime':
+        specifier: workspace:*
+        version: link:../astrospec-runtime
+      '@astrospec/schema':
+        specifier: workspace:*
+        version: link:../astrospec-schema
+      ajv:
+        specifier: ^8.17.1
+        version: 8.17.1
+      ajv-formats:
+        specifier: ^3.0.1
+        version: 3.0.1(ajv@8.17.1)
+    devDependencies:
+      tsup:
+        specifier: ^8.5.0
+        version: 8.5.0(postcss@8.5.6)(tsx@4.21.0)(typescript@5.9.2)(yaml@2.8.2)
+      tsx:
+        specifier: ^4.20.4
+        version: 4.21.0
+      typescript:
+        specifier: ^5.9.2
+        version: 5.9.2
+
   packages/astrospec-kit:
     dependencies:
       '@astrospec/agent-contracts':
@@ -113,6 +166,31 @@ importers:
       '@astrospec/runtime':
         specifier: workspace:*
         version: link:../astrospec-runtime
+    devDependencies:
+      tsup:
+        specifier: ^8.5.0
+        version: 8.5.0(postcss@8.5.6)(tsx@4.21.0)(typescript@5.9.2)(yaml@2.8.2)
+      tsx:
+        specifier: ^4.20.4
+        version: 4.21.0
+      typescript:
+        specifier: ^5.9.2
+        version: 5.9.2
+
+  packages/astrospec-reasoning:
+    dependencies:
+      '@astrospec/runtime':
+        specifier: workspace:*
+        version: link:../astrospec-runtime
+      '@astrospec/schema':
+        specifier: workspace:*
+        version: link:../astrospec-schema
+      ajv:
+        specifier: ^8.17.1
+        version: 8.17.1
+      ajv-formats:
+        specifier: ^3.0.1
+        version: 3.0.1(ajv@8.17.1)
     devDependencies:
       tsup:
         specifier: ^8.5.0
@@ -168,11 +246,73 @@ importers:
         specifier: ^5.9.2
         version: 5.9.2
 
+  packages/astrospec-runtime-interfaces:
+    dependencies:
+      '@astrospec/graph-memory':
+        specifier: workspace:*
+        version: link:../astrospec-graph-memory
+      '@astrospec/reasoning':
+        specifier: workspace:*
+        version: link:../astrospec-reasoning
+      '@astrospec/runtime':
+        specifier: workspace:*
+        version: link:../astrospec-runtime
+      '@astrospec/schema':
+        specifier: workspace:*
+        version: link:../astrospec-schema
+      '@astrospec/starburst-profile':
+        specifier: workspace:*
+        version: link:../astrospec-starburst-profile
+      ajv:
+        specifier: ^8.17.1
+        version: 8.17.1
+      ajv-formats:
+        specifier: ^3.0.1
+        version: 3.0.1(ajv@8.17.1)
+    devDependencies:
+      tsup:
+        specifier: ^8.5.0
+        version: 8.5.0(postcss@8.5.6)(tsx@4.21.0)(typescript@5.9.2)(yaml@2.8.2)
+      tsx:
+        specifier: ^4.20.4
+        version: 4.21.0
+      typescript:
+        specifier: ^5.9.2
+        version: 5.9.2
+
   packages/astrospec-schema:
     devDependencies:
       tsup:
         specifier: ^8.5.0
         version: 8.5.0(postcss@8.5.6)(tsx@4.21.0)(typescript@5.9.2)(yaml@2.8.2)
+      typescript:
+        specifier: ^5.9.2
+        version: 5.9.2
+
+  packages/astrospec-starburst-profile:
+    dependencies:
+      '@astrospec/reasoning':
+        specifier: workspace:*
+        version: link:../astrospec-reasoning
+      '@astrospec/runtime':
+        specifier: workspace:*
+        version: link:../astrospec-runtime
+      '@astrospec/schema':
+        specifier: workspace:*
+        version: link:../astrospec-schema
+      ajv:
+        specifier: ^8.17.1
+        version: 8.17.1
+      ajv-formats:
+        specifier: ^3.0.1
+        version: 3.0.1(ajv@8.17.1)
+    devDependencies:
+      tsup:
+        specifier: ^8.5.0
+        version: 8.5.0(postcss@8.5.6)(tsx@4.21.0)(typescript@5.9.2)(yaml@2.8.2)
+      tsx:
+        specifier: ^4.20.4
+        version: 4.21.0
       typescript:
         specifier: ^5.9.2
         version: 5.9.2

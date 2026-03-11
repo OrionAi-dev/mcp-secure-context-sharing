@@ -1,0 +1,11 @@
+{
+  "queryId": "query_1",
+  "abstractionFingerprint": "secure-state-transition-with-adaptive-rollback",
+  "mechanismTags": ["migration", "resilience", "adaptation"],
+  "topologySignature": "fanout-review-collapse",
+  "constraintVector": ["portable", "incremental-rollout"],
+  "relationMotifs": ["ABSTRACTED_TO", "TESTED_AGAINST", "SUPPORTED_BY"],
+  "domainHints": ["security", "systems"],
+  "maxDepth": 3,
+  "topK": 5
+}

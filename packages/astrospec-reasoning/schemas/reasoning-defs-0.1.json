@@ -1,0 +1,93 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://orionai-dev.github.io/AstroSpec/schemas/astrospec/reasoning/reasoning-defs-0.1.json",
+  "title": "AstroSpec Reasoning Definitions v0.1",
+  "type": "object",
+  "$defs": {
+    "interactionPattern": {
+      "type": "string",
+      "enum": ["sequential", "parallel", "fanout", "review", "collapse", "optional"]
+    },
+    "reasoningStatus": {
+      "type": "string",
+      "enum": ["proposed", "running", "completed", "partial", "failed"]
+    },
+    "reasoningMode": {
+      "type": "string",
+      "enum": ["default", "supernova", "redshift", "event-horizon"]
+    },
+    "reasoningEvidenceKind": {
+      "type": "string",
+      "enum": ["citation", "memory", "observation", "assertion", "artifact"]
+    },
+    "reasoningRole": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["roleId", "title"],
+      "properties": {
+        "roleId": { "type": "string", "minLength": 1 },
+        "title": { "type": "string", "minLength": 1 },
+        "kind": { "type": "string" },
+        "responsibilities": { "type": "array", "items": { "type": "string" } },
+        "inputs": { "type": "array", "items": { "type": "string" } },
+        "outputs": { "type": "array", "items": { "type": "string" } },
+        "interactionPattern": { "$ref": "#/$defs/interactionPattern" },
+        "ext": { "type": "object", "additionalProperties": true }
+      }
+    },
+    "reasoningEdge": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["from", "to", "relation"],
+      "properties": {
+        "from": { "type": "string", "minLength": 1 },
+        "to": { "type": "string", "minLength": 1 },
+        "relation": {
+          "type": "string",
+          "enum": ["depends_on", "informs", "critiques", "refines", "supports"]
+        },
+        "note": { "type": "string" }
+      }
+    },
+    "reasoningEvidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["evidenceId", "kind", "ref"],
+      "properties": {
+        "evidenceId": { "type": "string", "minLength": 1 },
+        "kind": { "$ref": "#/$defs/reasoningEvidenceKind" },
+        "ref": { "type": "string", "minLength": 1 },
+        "sourceId": { "type": "string" },
+        "span": {
+          "$ref": "https://orionai-dev.github.io/AstroSpec/schemas/astrospec/defs-0.1.json#/$defs/evidenceSpan"
+        },
+        "relevance": { "type": "number", "minimum": 0, "maximum": 1 },
+        "note": { "type": "string" },
+        "ext": { "type": "object", "additionalProperties": true }
+      }
+    },
+    "reasoningOutputArtifact": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["artifactId", "kind"],
+      "properties": {
+        "artifactId": { "type": "string", "minLength": 1 },
+        "kind": { "type": "string", "minLength": 1 },
+        "title": { "type": "string" },
+        "summary": { "type": "string" },
+        "content": {},
+        "refs": { "type": "array", "items": { "type": "string" } },
+        "ext": { "type": "object", "additionalProperties": true }
+      }
+    },
+    "reasoningScorecard": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "confidence": { "type": "number", "minimum": 0, "maximum": 1 },
+        "completeness": { "type": "number", "minimum": 0, "maximum": 1 },
+        "ext": { "type": "object", "additionalProperties": true }
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://orionai-dev.github.io/AstroSpec/schemas/astrospec/runtime-interfaces/runtime-interface-descriptor-0.1.json",
+  "title": "RuntimeInterfaceDescriptor",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["descriptorId", "name", "interfaceKind", "version"],
+  "properties": {
+    "descriptorId": { "type": "string", "minLength": 1 },
+    "name": { "type": "string", "minLength": 1 },
+    "interfaceKind": {
+      "type": "string",
+      "enum": [
+        "reasoning-runtime-adapter",
+        "discovery-workflow-adapter",
+        "graph-memory-provider",
+        "constellation-executor",
+        "contract-execution-hook"
+      ]
+    },
+    "version": { "type": "string", "minLength": 1 },
+    "contractKinds": { "type": "array", "items": { "type": "string" } },
+    "capabilities": { "type": "array", "items": { "type": "string" } },
+    "transport": { "type": "string" },
+    "ext": { "type": "object", "additionalProperties": true }
+  }
+}

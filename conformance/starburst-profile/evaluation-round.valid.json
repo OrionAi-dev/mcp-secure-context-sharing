@@ -1,0 +1,14 @@
+{
+  "roundId": "round_1",
+  "candidateIds": ["candidate_chart_memory_graph", "candidate_theme_tracker"],
+  "scores": [
+    {
+      "candidateId": "candidate_chart_memory_graph",
+      "structuralValidity": 0.88,
+      "novelty": 0.62,
+      "feasibility": 0.79,
+      "reusability": 0.91,
+      "confidence": 0.84
+    }
+  ]
+}

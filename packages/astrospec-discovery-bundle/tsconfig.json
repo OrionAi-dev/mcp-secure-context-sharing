@@ -1,0 +1,14 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "composite": false,
+    "baseUrl": ".",
+    "paths": {
+      "@astrospec/graph-memory": ["../astrospec-graph-memory/src/index.ts"],
+      "@astrospec/reasoning": ["../astrospec-reasoning/src/index.ts"],
+      "@astrospec/runtime-interfaces": ["../astrospec-runtime-interfaces/src/index.ts"],
+      "@astrospec/starburst-profile": ["../astrospec-starburst-profile/src/index.ts"]
+    }
+  },
+  "include": ["src/**/*.ts", "tests/**/*.ts"]
+}

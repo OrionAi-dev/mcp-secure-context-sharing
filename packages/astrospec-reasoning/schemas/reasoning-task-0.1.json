@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://orionai-dev.github.io/AstroSpec/schemas/astrospec/reasoning/reasoning-task-0.1.json",
+  "title": "ReasoningTask",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["prompt"],
+  "properties": {
+    "taskId": { "type": "string" },
+    "prompt": { "type": "string", "minLength": 1 },
+    "objective": { "type": "string" },
+    "domainHints": { "type": "array", "items": { "type": "string" } },
+    "constraints": { "type": "array", "items": { "type": "string" } },
+    "evaluationTargets": { "type": "array", "items": { "type": "string" } },
+    "evidence": {
+      "type": "array",
+      "items": { "$ref": "./reasoning-defs-0.1.json#/$defs/reasoningEvidence" }
+    },
+    "graph": { "$ref": "./reasoning-graph-0.1.json" },
+    "mode": { "$ref": "./reasoning-defs-0.1.json#/$defs/reasoningMode" },
+    "ext": { "type": "object", "additionalProperties": true }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "roundId": "round_invalid",
+  "candidateIds": ["candidate_a"],
+  "scores": [
+    {
+      "candidateId": "candidate_b",
+      "structuralValidity": 0.7,
+      "novelty": 0.5,
+      "feasibility": 0.5,
+      "reusability": 0.6,
+      "confidence": 0.5
+    }
+  ]
+}

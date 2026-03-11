@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://orionai-dev.github.io/AstroSpec/schemas/astrospec/starburst/starburst-defs-0.1.json",
+  "title": "AstroSpec Starburst Definitions v0.1",
+  "type": "object",
+  "$defs": {
+    "mappingCorrespondence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["sourceElement", "targetElement", "relation"],
+      "properties": {
+        "sourceElement": { "type": "string", "minLength": 1 },
+        "targetElement": { "type": "string", "minLength": 1 },
+        "relation": { "type": "string", "minLength": 1 }
+      }
+    },
+    "scoreDimension": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    }
+  }
+}

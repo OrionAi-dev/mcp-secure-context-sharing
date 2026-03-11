@@ -1,0 +1,72 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://orionai-dev.github.io/AstroSpec/schemas/astrospec/graph-memory/graph-memory-defs-0.1.json",
+  "title": "AstroSpec Graph Memory Definitions v0.1",
+  "type": "object",
+  "$defs": {
+    "nodeType": {
+      "type": "string",
+      "enum": [
+        "Prompt",
+        "Abstraction",
+        "Domain",
+        "Pattern",
+        "Mapping",
+        "CandidateArchitecture",
+        "Evaluation",
+        "Constraint",
+        "Outcome"
+      ]
+    },
+    "relationshipType": {
+      "type": "string",
+      "enum": [
+        "ABSTRACTED_TO",
+        "EXPLORED_BY",
+        "CONTRIBUTES_PATTERN",
+        "MAPPED_TO",
+        "COMBINED_INTO",
+        "TESTED_AGAINST",
+        "REFINED_INTO",
+        "REJECTED_FOR",
+        "SUPPORTED_BY"
+      ]
+    },
+    "validationStatus": {
+      "type": "string",
+      "enum": ["experimental", "validated", "rejected"]
+    },
+    "graphMemoryNode": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["nodeId", "nodeType", "namespace"],
+      "properties": {
+        "nodeId": { "type": "string", "minLength": 1 },
+        "nodeType": { "$ref": "#/$defs/nodeType" },
+        "namespace": { "type": "string", "minLength": 1 },
+        "title": { "type": "string" },
+        "summary": { "type": "string" },
+        "structuralSignature": { "type": "string" },
+        "mechanismTags": { "type": "array", "items": { "type": "string" } },
+        "relationMotifs": { "type": "array", "items": { "type": "string" } },
+        "validationStatus": { "$ref": "#/$defs/validationStatus" },
+        "supportingAssertions": {
+          "type": "array",
+          "items": {
+            "$ref": "https://orionai-dev.github.io/AstroSpec/schemas/astrospec/retrieval/knowledge-assertion-0.1.json"
+          }
+        },
+        "memoryRecord": {
+          "$ref": "https://orionai-dev.github.io/AstroSpec/schemas/astrospec/retrieval/memory-record-0.1.json"
+        },
+        "refs": {
+          "type": "array",
+          "items": {
+            "$ref": "https://orionai-dev.github.io/AstroSpec/schemas/astrospec/defs-0.1.json#/$defs/evidenceRef"
+          }
+        },
+        "ext": { "type": "object", "additionalProperties": true }
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://orionai-dev.github.io/AstroSpec/schemas/astrospec/starburst/abstraction-output-0.1.json",
+  "title": "AbstractionOutput",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["abstractionId", "problemFrame"],
+  "properties": {
+    "abstractionId": { "type": "string", "minLength": 1 },
+    "problemFrame": { "type": "string", "minLength": 1 },
+    "invariants": { "type": "array", "items": { "type": "string" } },
+    "mechanisms": { "type": "array", "items": { "type": "string" } },
+    "constraints": { "type": "array", "items": { "type": "string" } },
+    "evaluationTargets": { "type": "array", "items": { "type": "string" } },
+    "ext": { "type": "object", "additionalProperties": true }
+  }
+}

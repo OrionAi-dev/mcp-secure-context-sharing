@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://orionai-dev.github.io/AstroSpec/schemas/astrospec/starburst/evaluation-score-0.1.json",
+  "title": "EvaluationScore",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "candidateId",
+    "structuralValidity",
+    "novelty",
+    "feasibility",
+    "reusability",
+    "confidence"
+  ],
+  "properties": {
+    "candidateId": { "type": "string", "minLength": 1 },
+    "structuralValidity": { "$ref": "./starburst-defs-0.1.json#/$defs/scoreDimension" },
+    "novelty": { "$ref": "./starburst-defs-0.1.json#/$defs/scoreDimension" },
+    "feasibility": { "$ref": "./starburst-defs-0.1.json#/$defs/scoreDimension" },
+    "reusability": { "$ref": "./starburst-defs-0.1.json#/$defs/scoreDimension" },
+    "confidence": { "$ref": "./starburst-defs-0.1.json#/$defs/scoreDimension" },
+    "notes": { "type": "array", "items": { "type": "string" } },
+    "ext": { "type": "object", "additionalProperties": true }
+  }
+}

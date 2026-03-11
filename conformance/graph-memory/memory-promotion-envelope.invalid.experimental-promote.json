@@ -1,0 +1,6 @@
+{
+  "promotionId": "promotion_invalid",
+  "nodeId": "node_invalid",
+  "decision": "promote",
+  "validationStatus": "experimental"
+}

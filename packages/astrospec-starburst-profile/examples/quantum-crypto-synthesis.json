@@ -1,0 +1,7 @@
+{
+  "synthesisId": "synthesis_quantum_crypto",
+  "summary": "Adaptive cryptographic migration outperformed static post-quantum switchover plans under skeptical review.",
+  "selectedCandidateIds": ["candidate_adaptive_crypto_migration"],
+  "recommendedArchitecture": "Use phased crypto rotation, compatibility envelopes, and topology-aware migration controls.",
+  "unresolvedRisks": ["governance overhead", "cross-vendor migration coordination"]
+}
