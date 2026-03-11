@@ -22,8 +22,8 @@ import {
   validateRetrievalResponse,
   validateRetrievalStreamEvent,
 } from '@astrospec/retrieval-profile';
-import { validate as validateContract } from '@mcp-secure-context/sdk-typescript';
-import type { AstroSpecKitKind } from '@mcp-secure-context/sdk-typescript';
+import { validate as validateContract } from '@mcp-secure-context/extensions-astrospec';
+import type { AstroSpecKitKind } from '@mcp-secure-context/extensions-astrospec';
 
 type Format = 'json' | 'yaml' | 'text';
 
@@ -334,6 +334,7 @@ async function cmdDoctor() {
       interop: ['@mcp-secure-context/mcp-adapter'],
       profiles: ['@astrospec/retrieval-profile'],
       dx: ['@mcp-secure-context/sdk-typescript', '@mcp-secure-context/cli'],
+      extensions: ['@mcp-secure-context/extensions-astrospec'],
       specialized: ['@astrospec/agent-contracts'],
     },
   };

@@ -8,7 +8,7 @@
 
 > **ValidationResult**\<`T`\> = `object`
 
-Defined in: [src/index.ts:228](https://github.com/OrionAi-dev/mcp-secure-context-sharing/blob/92f51cff7db63cef48b487941969de0da4a8cde4/packages/astrospec-retrieval-profile/src/index.ts#L228)
+Defined in: [src/index.ts:228](https://github.com/OrionAi-dev/mcp-secure-context-sharing/blob/fca30d5cc683c6e09a069138d7cf847978a32ff5/packages/astrospec-retrieval-profile/src/index.ts#L228)
 
 ## Type Parameters
 
@@ -22,7 +22,7 @@ Defined in: [src/index.ts:228](https://github.com/OrionAi-dev/mcp-secure-context
 
 > **errors**: `string`[]
 
-Defined in: [src/index.ts:230](https://github.com/OrionAi-dev/mcp-secure-context-sharing/blob/92f51cff7db63cef48b487941969de0da4a8cde4/packages/astrospec-retrieval-profile/src/index.ts#L230)
+Defined in: [src/index.ts:230](https://github.com/OrionAi-dev/mcp-secure-context-sharing/blob/fca30d5cc683c6e09a069138d7cf847978a32ff5/packages/astrospec-retrieval-profile/src/index.ts#L230)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [src/index.ts:230](https://github.com/OrionAi-dev/mcp-secure-context
 
 > **issues**: [`ValidationIssue`](ValidationIssue.md)[]
 
-Defined in: [src/index.ts:231](https://github.com/OrionAi-dev/mcp-secure-context-sharing/blob/92f51cff7db63cef48b487941969de0da4a8cde4/packages/astrospec-retrieval-profile/src/index.ts#L231)
+Defined in: [src/index.ts:231](https://github.com/OrionAi-dev/mcp-secure-context-sharing/blob/fca30d5cc683c6e09a069138d7cf847978a32ff5/packages/astrospec-retrieval-profile/src/index.ts#L231)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: [src/index.ts:231](https://github.com/OrionAi-dev/mcp-secure-context
 
 > **ok**: `boolean`
 
-Defined in: [src/index.ts:229](https://github.com/OrionAi-dev/mcp-secure-context-sharing/blob/92f51cff7db63cef48b487941969de0da4a8cde4/packages/astrospec-retrieval-profile/src/index.ts#L229)
+Defined in: [src/index.ts:229](https://github.com/OrionAi-dev/mcp-secure-context-sharing/blob/fca30d5cc683c6e09a069138d7cf847978a32ff5/packages/astrospec-retrieval-profile/src/index.ts#L229)
 
 ***
 
@@ -46,4 +46,4 @@ Defined in: [src/index.ts:229](https://github.com/OrionAi-dev/mcp-secure-context
 
 > `optional` **value**: `T`
 
-Defined in: [src/index.ts:232](https://github.com/OrionAi-dev/mcp-secure-context-sharing/blob/92f51cff7db63cef48b487941969de0da4a8cde4/packages/astrospec-retrieval-profile/src/index.ts#L232)
+Defined in: [src/index.ts:232](https://github.com/OrionAi-dev/mcp-secure-context-sharing/blob/fca30d5cc683c6e09a069138d7cf847978a32ff5/packages/astrospec-retrieval-profile/src/index.ts#L232)

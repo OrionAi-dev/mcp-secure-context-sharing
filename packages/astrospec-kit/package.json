@@ -24,6 +24,7 @@
     "test": "node --test --import tsx tests/*.test.ts"
   },
   "dependencies": {
+    "@mcp-secure-context/extensions-astrospec": "workspace:*",
     "@mcp-secure-context/sdk-typescript": "workspace:*"
   },
   "devDependencies": {

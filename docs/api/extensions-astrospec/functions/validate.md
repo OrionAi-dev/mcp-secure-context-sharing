@@ -1,14 +1,14 @@
-[**@mcp-secure-context/sdk-typescript**](../README.md)
+[**@mcp-secure-context/extensions-astrospec**](../README.md)
 
 ***
 
-[@mcp-secure-context/sdk-typescript](../README.md) / validate
+[@mcp-secure-context/extensions-astrospec](../README.md) / validate
 
 # Function: validate()
 
 > **validate**(`kind`, `payload`): [`AstroSpecKitValidationResult`](../type-aliases/AstroSpecKitValidationResult.md)
 
-Defined in: index.d.ts:12
+Defined in: index.d.ts:9
 
 ## Parameters
 

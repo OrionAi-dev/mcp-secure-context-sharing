@@ -19,7 +19,7 @@ The following packages remain as compatibility wrappers for one transition cycle
 - `@astrospec/schema` -> `@mcp-secure-context/core`
 - `@astrospec/runtime` -> `@mcp-secure-context/openspec`
 - `@astrospec/mcp-profile` -> `@mcp-secure-context/mcp-adapter`
-- `@astrospec/kit` -> `@mcp-secure-context/sdk-typescript`
+- `@astrospec/kit` -> `@mcp-secure-context/sdk-typescript` plus `@mcp-secure-context/extensions-astrospec` where historical AstroSpec validation helpers are still needed
 - `@astrospec/cli` -> `@mcp-secure-context/cli`
 
 ## Legacy docs

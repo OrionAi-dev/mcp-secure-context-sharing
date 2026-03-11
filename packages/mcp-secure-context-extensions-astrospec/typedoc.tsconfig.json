@@ -1,0 +1,20 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "paths": {
+      "@astrospec/agent-contracts": [
+        "../astrospec-agent-contracts/dist/index.d.ts"
+      ],
+      "@astrospec/retrieval-profile": [
+        "../astrospec-retrieval-profile/dist/index.d.ts"
+      ]
+    }
+  },
+  "include": [
+    "dist/index.d.ts",
+    "dist/**/*.d.ts"
+  ],
+  "exclude": [
+    "../../node_modules"
+  ]
+}

@@ -8,6 +8,7 @@ const publicPackageDirs = [
   'packages/mcp-secure-context-openspec',
   'packages/mcp-secure-context-mcp-adapter',
   'packages/mcp-secure-context-sdk-typescript',
+  'packages/mcp-secure-context-extensions-astrospec',
   'packages/mcp-secure-context-cli',
   'packages/astrospec-schema',
   'packages/astrospec-runtime',

@@ -6,7 +6,7 @@
 
 # Interface: RetrievalResponse
 
-Defined in: [src/index.ts:153](https://github.com/OrionAi-dev/mcp-secure-context-sharing/blob/92f51cff7db63cef48b487941969de0da4a8cde4/packages/astrospec-retrieval-profile/src/index.ts#L153)
+Defined in: [src/index.ts:153](https://github.com/OrionAi-dev/mcp-secure-context-sharing/blob/fca30d5cc683c6e09a069138d7cf847978a32ff5/packages/astrospec-retrieval-profile/src/index.ts#L153)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [src/index.ts:153](https://github.com/OrionAi-dev/mcp-secure-context
 
 > **citations**: [`RetrievalCitation`](RetrievalCitation.md)[]
 
-Defined in: [src/index.ts:160](https://github.com/OrionAi-dev/mcp-secure-context-sharing/blob/92f51cff7db63cef48b487941969de0da4a8cde4/packages/astrospec-retrieval-profile/src/index.ts#L160)
+Defined in: [src/index.ts:160](https://github.com/OrionAi-dev/mcp-secure-context-sharing/blob/fca30d5cc683c6e09a069138d7cf847978a32ff5/packages/astrospec-retrieval-profile/src/index.ts#L160)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [src/index.ts:160](https://github.com/OrionAi-dev/mcp-secure-context
 
 > `optional` **diagnostics**: [`RetrievalStageTrace`](RetrievalStageTrace.md)[]
 
-Defined in: [src/index.ts:162](https://github.com/OrionAi-dev/mcp-secure-context-sharing/blob/92f51cff7db63cef48b487941969de0da4a8cde4/packages/astrospec-retrieval-profile/src/index.ts#L162)
+Defined in: [src/index.ts:162](https://github.com/OrionAi-dev/mcp-secure-context-sharing/blob/fca30d5cc683c6e09a069138d7cf847978a32ff5/packages/astrospec-retrieval-profile/src/index.ts#L162)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [src/index.ts:162](https://github.com/OrionAi-dev/mcp-secure-context
 
 > `optional` **error**: [`RetrievalError`](RetrievalError.md)
 
-Defined in: [src/index.ts:163](https://github.com/OrionAi-dev/mcp-secure-context-sharing/blob/92f51cff7db63cef48b487941969de0da4a8cde4/packages/astrospec-retrieval-profile/src/index.ts#L163)
+Defined in: [src/index.ts:163](https://github.com/OrionAi-dev/mcp-secure-context-sharing/blob/fca30d5cc683c6e09a069138d7cf847978a32ff5/packages/astrospec-retrieval-profile/src/index.ts#L163)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: [src/index.ts:163](https://github.com/OrionAi-dev/mcp-secure-context
 
 > `optional` **fallback**: [`RetrievalFallback`](RetrievalFallback.md)
 
-Defined in: [src/index.ts:158](https://github.com/OrionAi-dev/mcp-secure-context-sharing/blob/92f51cff7db63cef48b487941969de0da4a8cde4/packages/astrospec-retrieval-profile/src/index.ts#L158)
+Defined in: [src/index.ts:158](https://github.com/OrionAi-dev/mcp-secure-context-sharing/blob/fca30d5cc683c6e09a069138d7cf847978a32ff5/packages/astrospec-retrieval-profile/src/index.ts#L158)
 
 ***
 
@@ -46,7 +46,7 @@ Defined in: [src/index.ts:158](https://github.com/OrionAi-dev/mcp-secure-context
 
 > `optional` **grounding**: [`GroundingAssessment`](GroundingAssessment.md)
 
-Defined in: [src/index.ts:161](https://github.com/OrionAi-dev/mcp-secure-context-sharing/blob/92f51cff7db63cef48b487941969de0da4a8cde4/packages/astrospec-retrieval-profile/src/index.ts#L161)
+Defined in: [src/index.ts:161](https://github.com/OrionAi-dev/mcp-secure-context-sharing/blob/fca30d5cc683c6e09a069138d7cf847978a32ff5/packages/astrospec-retrieval-profile/src/index.ts#L161)
 
 ***
 
@@ -54,7 +54,7 @@ Defined in: [src/index.ts:161](https://github.com/OrionAi-dev/mcp-secure-context
 
 > **ok**: `boolean`
 
-Defined in: [src/index.ts:154](https://github.com/OrionAi-dev/mcp-secure-context-sharing/blob/92f51cff7db63cef48b487941969de0da4a8cde4/packages/astrospec-retrieval-profile/src/index.ts#L154)
+Defined in: [src/index.ts:154](https://github.com/OrionAi-dev/mcp-secure-context-sharing/blob/fca30d5cc683c6e09a069138d7cf847978a32ff5/packages/astrospec-retrieval-profile/src/index.ts#L154)
 
 ***
 
@@ -62,7 +62,7 @@ Defined in: [src/index.ts:154](https://github.com/OrionAi-dev/mcp-secure-context
 
 > **requestId**: `string`
 
-Defined in: [src/index.ts:155](https://github.com/OrionAi-dev/mcp-secure-context-sharing/blob/92f51cff7db63cef48b487941969de0da4a8cde4/packages/astrospec-retrieval-profile/src/index.ts#L155)
+Defined in: [src/index.ts:155](https://github.com/OrionAi-dev/mcp-secure-context-sharing/blob/fca30d5cc683c6e09a069138d7cf847978a32ff5/packages/astrospec-retrieval-profile/src/index.ts#L155)
 
 ***
 
@@ -70,7 +70,7 @@ Defined in: [src/index.ts:155](https://github.com/OrionAi-dev/mcp-secure-context
 
 > **results**: [`RetrievalCandidate`](RetrievalCandidate.md)[]
 
-Defined in: [src/index.ts:159](https://github.com/OrionAi-dev/mcp-secure-context-sharing/blob/92f51cff7db63cef48b487941969de0da4a8cde4/packages/astrospec-retrieval-profile/src/index.ts#L159)
+Defined in: [src/index.ts:159](https://github.com/OrionAi-dev/mcp-secure-context-sharing/blob/fca30d5cc683c6e09a069138d7cf847978a32ff5/packages/astrospec-retrieval-profile/src/index.ts#L159)
 
 ***
 
@@ -78,7 +78,7 @@ Defined in: [src/index.ts:159](https://github.com/OrionAi-dev/mcp-secure-context
 
 > `optional` **techniqueRequested**: [`RetrievalTechniqueId`](../type-aliases/RetrievalTechniqueId.md)[]
 
-Defined in: [src/index.ts:156](https://github.com/OrionAi-dev/mcp-secure-context-sharing/blob/92f51cff7db63cef48b487941969de0da4a8cde4/packages/astrospec-retrieval-profile/src/index.ts#L156)
+Defined in: [src/index.ts:156](https://github.com/OrionAi-dev/mcp-secure-context-sharing/blob/fca30d5cc683c6e09a069138d7cf847978a32ff5/packages/astrospec-retrieval-profile/src/index.ts#L156)
 
 ***
 
@@ -86,4 +86,4 @@ Defined in: [src/index.ts:156](https://github.com/OrionAi-dev/mcp-secure-context
 
 > **techniqueUsed**: [`RetrievalTechniqueId`](../type-aliases/RetrievalTechniqueId.md)[]
 
-Defined in: [src/index.ts:157](https://github.com/OrionAi-dev/mcp-secure-context-sharing/blob/92f51cff7db63cef48b487941969de0da4a8cde4/packages/astrospec-retrieval-profile/src/index.ts#L157)
+Defined in: [src/index.ts:157](https://github.com/OrionAi-dev/mcp-secure-context-sharing/blob/fca30d5cc683c6e09a069138d7cf847978a32ff5/packages/astrospec-retrieval-profile/src/index.ts#L157)

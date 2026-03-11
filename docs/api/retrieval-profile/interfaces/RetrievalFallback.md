@@ -6,7 +6,7 @@
 
 # Interface: RetrievalFallback
 
-Defined in: [src/index.ts:126](https://github.com/OrionAi-dev/mcp-secure-context-sharing/blob/92f51cff7db63cef48b487941969de0da4a8cde4/packages/astrospec-retrieval-profile/src/index.ts#L126)
+Defined in: [src/index.ts:126](https://github.com/OrionAi-dev/mcp-secure-context-sharing/blob/fca30d5cc683c6e09a069138d7cf847978a32ff5/packages/astrospec-retrieval-profile/src/index.ts#L126)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [src/index.ts:126](https://github.com/OrionAi-dev/mcp-secure-context
 
 > **applied**: `boolean`
 
-Defined in: [src/index.ts:127](https://github.com/OrionAi-dev/mcp-secure-context-sharing/blob/92f51cff7db63cef48b487941969de0da4a8cde4/packages/astrospec-retrieval-profile/src/index.ts#L127)
+Defined in: [src/index.ts:127](https://github.com/OrionAi-dev/mcp-secure-context-sharing/blob/fca30d5cc683c6e09a069138d7cf847978a32ff5/packages/astrospec-retrieval-profile/src/index.ts#L127)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [src/index.ts:127](https://github.com/OrionAi-dev/mcp-secure-context
 
 > `optional` **from**: `string`
 
-Defined in: [src/index.ts:128](https://github.com/OrionAi-dev/mcp-secure-context-sharing/blob/92f51cff7db63cef48b487941969de0da4a8cde4/packages/astrospec-retrieval-profile/src/index.ts#L128)
+Defined in: [src/index.ts:128](https://github.com/OrionAi-dev/mcp-secure-context-sharing/blob/fca30d5cc683c6e09a069138d7cf847978a32ff5/packages/astrospec-retrieval-profile/src/index.ts#L128)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [src/index.ts:128](https://github.com/OrionAi-dev/mcp-secure-context
 
 > `optional` **reason**: `string`
 
-Defined in: [src/index.ts:130](https://github.com/OrionAi-dev/mcp-secure-context-sharing/blob/92f51cff7db63cef48b487941969de0da4a8cde4/packages/astrospec-retrieval-profile/src/index.ts#L130)
+Defined in: [src/index.ts:130](https://github.com/OrionAi-dev/mcp-secure-context-sharing/blob/fca30d5cc683c6e09a069138d7cf847978a32ff5/packages/astrospec-retrieval-profile/src/index.ts#L130)
 
 ***
 
@@ -38,4 +38,4 @@ Defined in: [src/index.ts:130](https://github.com/OrionAi-dev/mcp-secure-context
 
 > `optional` **to**: `string`
 
-Defined in: [src/index.ts:129](https://github.com/OrionAi-dev/mcp-secure-context-sharing/blob/92f51cff7db63cef48b487941969de0da4a8cde4/packages/astrospec-retrieval-profile/src/index.ts#L129)
+Defined in: [src/index.ts:129](https://github.com/OrionAi-dev/mcp-secure-context-sharing/blob/fca30d5cc683c6e09a069138d7cf847978a32ff5/packages/astrospec-retrieval-profile/src/index.ts#L129)

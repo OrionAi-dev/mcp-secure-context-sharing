@@ -24,8 +24,6 @@
     "test": "node --test --import tsx tests/*.test.ts"
   },
   "dependencies": {
-    "@astrospec/agent-contracts": "workspace:*",
-    "@astrospec/retrieval-profile": "workspace:*",
     "@mcp-secure-context/core": "workspace:*",
     "@mcp-secure-context/mcp-adapter": "workspace:*",
     "@mcp-secure-context/openspec": "workspace:*"

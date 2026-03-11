@@ -6,9 +6,9 @@
 
 # Function: validateContainer()
 
-> **validateContainer**(`payload`): \{ `ok`: `true`; `value`: `ContextContainer`; \} \| \{ `errors`: `ValidationError`[]; `ok`: `false`; \}
+> **validateContainer**(`payload`): \{ `ok`: `true`; `value`: [`ContextContainer`](../interfaces/ContextContainer.md); \} \| \{ `errors`: `ValidationError`[]; `ok`: `false`; \}
 
-Defined in: index.d.ts:24
+Defined in: mcp-secure-context-sdk-typescript/dist/index.d.ts:17
 
 ## Parameters
 
@@ -18,4 +18,4 @@ Defined in: index.d.ts:24
 
 ## Returns
 
-\{ `ok`: `true`; `value`: `ContextContainer`; \} \| \{ `errors`: `ValidationError`[]; `ok`: `false`; \}
+\{ `ok`: `true`; `value`: [`ContextContainer`](../interfaces/ContextContainer.md); \} \| \{ `errors`: `ValidationError`[]; `ok`: `false`; \}

@@ -7,4 +7,6 @@ Use this package to:
 - create context containers
 - validate containers
 - call secure-context MCP tools
-- access compatibility validation helpers during migration
+- build against the minimal secure-context surface only
+
+AstroSpec-compatible validation helpers now live in `@mcp-secure-context/extensions-astrospec`.

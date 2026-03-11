@@ -6,15 +6,15 @@
 
 # Function: callSecureContext()
 
-> **callSecureContext**(`name`, `args?`): `Promise`\<`SecureContextMcpResult`\<`unknown`\>\>
+> **callSecureContext**(`name`, `args?`): `Promise`\<[`SecureContextMcpResult`](../type-aliases/SecureContextMcpResult.md)\<`unknown`\>\>
 
-Defined in: index.d.ts:31
+Defined in: mcp-secure-context-sdk-typescript/dist/index.d.ts:24
 
 ## Parameters
 
 ### name
 
-`SecureContextMcpToolName`
+`"mcp_secure_context.container.validate"` | `"mcp_secure_context.container.verify"` | `"mcp_secure_context.container.share"`
 
 ### args?
 
@@ -22,4 +22,4 @@ Defined in: index.d.ts:31
 
 ## Returns
 
-`Promise`\<`SecureContextMcpResult`\<`unknown`\>\>
+`Promise`\<[`SecureContextMcpResult`](../type-aliases/SecureContextMcpResult.md)\<`unknown`\>\>

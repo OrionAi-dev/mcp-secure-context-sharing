@@ -5,8 +5,8 @@
       "@mcp-secure-context/openspec": [
         "../mcp-secure-context-openspec/dist/index.d.ts"
       ],
-      "@mcp-secure-context/sdk-typescript": [
-        "../mcp-secure-context-sdk-typescript/dist/index.d.ts"
+      "@mcp-secure-context/extensions-astrospec": [
+        "../mcp-secure-context-extensions-astrospec/dist/index.d.ts"
       ],
       "@astrospec/retrieval-profile": [
         "../astrospec-retrieval-profile/dist/index.d.ts"

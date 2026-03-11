@@ -20,6 +20,7 @@ gen mcp-secure-context-cli cli
 # Public interop and profiles
 gen mcp-secure-context-mcp-adapter mcp-adapter
 gen mcp-secure-context-sdk-typescript sdk-typescript
+gen mcp-secure-context-extensions-astrospec extensions-astrospec
 gen astrospec-retrieval-profile retrieval-profile
 
 # Integrations / generators (optional)

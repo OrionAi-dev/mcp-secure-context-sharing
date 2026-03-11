@@ -25,14 +25,6 @@ plugins:
   - search
   - redirects:
       redirect_maps:
-        "api/schema/modules.md": "api/core/README.md"
-        "api/runtime/modules.md": "api/openspec/README.md"
-        "api/cli/modules.md": "api/cli/README.md"
-        "api/mcp-profile/modules.md": "api/mcp-adapter/README.md"
-        "api/kit/modules.md": "api/sdk-typescript/README.md"
-        "api/retrieval-profile/modules.md": "api/retrieval-profile/README.md"
-        "api/integrations/mindql-core/modules.md": "api/integrations/mindql-core/README.md"
-        "api/integrations/mindgraphql-core/modules.md": "api/integrations/mindgraphql-core/README.md"
         "spec-bdd-context-turn.md": "astrospec/context-turn.md"
         "astrospec/implementations/@software/README.md": "integrations/bdd/@software/README.md"
         "astrospec/implementations/@software/template.md": "integrations/bdd/@software/template.md"
@@ -113,6 +105,7 @@ nav:
           - cli: api/cli/README.md
           - mcp-adapter: api/mcp-adapter/README.md
           - sdk-typescript: api/sdk-typescript/README.md
+          - extensions-astrospec: api/extensions-astrospec/README.md
           - retrieval-profile: api/retrieval-profile/README.md
       - Integrations:
           - mindql-core: api/integrations/mindql-core/README.md

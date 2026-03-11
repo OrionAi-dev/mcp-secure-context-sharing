@@ -10,3 +10,7 @@ Use the canonical MCP Secure Context Sharing surface first:
 - `@mcp-secure-context/openspec`
 - `@mcp-secure-context/mcp-adapter`
 - `@mcp-secure-context/sdk-typescript`
+
+If you need the historical AstroSpec validation helpers on top of the base SDK, use:
+
+- `@mcp-secure-context/extensions-astrospec`

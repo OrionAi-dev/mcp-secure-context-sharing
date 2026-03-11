@@ -8,6 +8,7 @@ const publicPackages = [
   { name: '@mcp-secure-context/openspec', dir: 'packages/mcp-secure-context-openspec' },
   { name: '@mcp-secure-context/mcp-adapter', dir: 'packages/mcp-secure-context-mcp-adapter' },
   { name: '@mcp-secure-context/sdk-typescript', dir: 'packages/mcp-secure-context-sdk-typescript' },
+  { name: '@mcp-secure-context/extensions-astrospec', dir: 'packages/mcp-secure-context-extensions-astrospec' },
   { name: '@mcp-secure-context/cli', dir: 'packages/mcp-secure-context-cli' },
   { name: '@astrospec/schema', dir: 'packages/astrospec-schema' },
   { name: '@astrospec/runtime', dir: 'packages/astrospec-runtime' },

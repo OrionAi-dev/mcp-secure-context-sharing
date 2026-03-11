@@ -6,15 +6,15 @@
 
 # Function: createContextContainer()
 
-> **createContextContainer**\<`TType`\>(`input`): `ContextContainer`\<`ContextPayloadMap`\>
+> **createContextContainer**\<`TType`\>(`input`): [`ContextContainer`](../interfaces/ContextContainer.md)\<[`ContextPayloadMap`](../type-aliases/ContextPayloadMap.md)\[`TType`\]\>
 
-Defined in: index.d.ts:14
+Defined in: mcp-secure-context-sdk-typescript/dist/index.d.ts:7
 
 ## Type Parameters
 
 ### TType
 
-`TType` *extends* `ContainerType`
+`TType` *extends* [`ContainerType`](../type-aliases/ContainerType.md)
 
 ## Parameters
 
@@ -26,7 +26,7 @@ Defined in: index.d.ts:14
 
 #### ext?
 
-`any`
+`Record`\<`string`, `JsonValue`\>
 
 #### id
 
@@ -34,19 +34,19 @@ Defined in: index.d.ts:14
 
 #### payload
 
-`ContextPayloadMap`
+[`ContextPayloadMap`](../type-aliases/ContextPayloadMap.md)\[`TType`\]
 
 #### policy
 
-`PolicyMetadata`
+[`PolicyMetadata`](../interfaces/PolicyMetadata.md)
 
 #### provenance
 
-`ProvenanceEnvelope`
+[`ProvenanceEnvelope`](../interfaces/ProvenanceEnvelope.md)
 
 #### verification?
 
-`any`
+[`VerificationEnvelope`](../interfaces/VerificationEnvelope.md)
 
 #### version?
 
@@ -54,4 +54,4 @@ Defined in: index.d.ts:14
 
 ## Returns
 
-`ContextContainer`\<`ContextPayloadMap`\>
+[`ContextContainer`](../interfaces/ContextContainer.md)\<[`ContextPayloadMap`](../type-aliases/ContextPayloadMap.md)\[`TType`\]\>

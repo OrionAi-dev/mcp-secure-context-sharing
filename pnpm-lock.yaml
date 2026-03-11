@@ -129,6 +129,9 @@ importers:
 
   packages/astrospec-kit:
     dependencies:
+      '@mcp-secure-context/extensions-astrospec':
+        specifier: workspace:*
+        version: link:../mcp-secure-context-extensions-astrospec
       '@mcp-secure-context/sdk-typescript':
         specifier: workspace:*
         version: link:../mcp-secure-context-sdk-typescript
@@ -360,12 +363,12 @@ importers:
       '@astrospec/retrieval-profile':
         specifier: workspace:*
         version: link:../astrospec-retrieval-profile
+      '@mcp-secure-context/extensions-astrospec':
+        specifier: workspace:*
+        version: link:../mcp-secure-context-extensions-astrospec
       '@mcp-secure-context/openspec':
         specifier: workspace:*
         version: link:../mcp-secure-context-openspec
-      '@mcp-secure-context/sdk-typescript':
-        specifier: workspace:*
-        version: link:../mcp-secure-context-sdk-typescript
       yaml:
         specifier: ^2.8.1
         version: 2.8.2
@@ -382,6 +385,25 @@ importers:
       tsup:
         specifier: ^8.5.0
         version: 8.5.0(postcss@8.5.6)(tsx@4.21.0)(typescript@5.9.2)(yaml@2.8.2)
+      typescript:
+        specifier: ^5.9.2
+        version: 5.9.2
+
+  packages/mcp-secure-context-extensions-astrospec:
+    dependencies:
+      '@astrospec/agent-contracts':
+        specifier: workspace:*
+        version: link:../astrospec-agent-contracts
+      '@astrospec/retrieval-profile':
+        specifier: workspace:*
+        version: link:../astrospec-retrieval-profile
+    devDependencies:
+      tsup:
+        specifier: ^8.5.0
+        version: 8.5.0(postcss@8.5.6)(tsx@4.21.0)(typescript@5.9.2)(yaml@2.8.2)
+      tsx:
+        specifier: ^4.20.4
+        version: 4.21.0
       typescript:
         specifier: ^5.9.2
         version: 5.9.2
@@ -426,12 +448,6 @@ importers:
 
   packages/mcp-secure-context-sdk-typescript:
     dependencies:
-      '@astrospec/agent-contracts':
-        specifier: workspace:*
-        version: link:../astrospec-agent-contracts
-      '@astrospec/retrieval-profile':
-        specifier: workspace:*
-        version: link:../astrospec-retrieval-profile
       '@mcp-secure-context/core':
         specifier: workspace:*
         version: link:../mcp-secure-context-core
