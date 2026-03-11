@@ -6,7 +6,7 @@
 
 # Interface: JsonObject
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:3
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:5
 
 ## Indexable
 

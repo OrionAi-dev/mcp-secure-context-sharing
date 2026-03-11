@@ -8,4 +8,4 @@
 
 > **SecureContextMcpErrorCode** = *typeof* [`SECURE_CONTEXT_MCP_ERROR_CODES`](../variables/SECURE_CONTEXT_MCP_ERROR_CODES.md)\[`number`\]
 
-Defined in: index.ts:145
+Defined in: index.d.ts:113

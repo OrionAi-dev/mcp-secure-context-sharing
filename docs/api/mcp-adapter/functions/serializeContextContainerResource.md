@@ -6,9 +6,9 @@
 
 # Function: serializeContextContainerResource()
 
-> **serializeContextContainerResource**(`container`): [`AstroSpecMcpResource`](../type-aliases/AstroSpecMcpResource.md)
+> **serializeContextContainerResource**(`container`): [`SecureContextMcpResource`](../type-aliases/SecureContextMcpResource.md)
 
-Defined in: index.ts:220
+Defined in: index.d.ts:150
 
 ## Parameters
 
@@ -18,4 +18,4 @@ Defined in: index.ts:220
 
 ## Returns
 
-[`AstroSpecMcpResource`](../type-aliases/AstroSpecMcpResource.md)
+[`SecureContextMcpResource`](../type-aliases/SecureContextMcpResource.md)

@@ -8,7 +8,7 @@
 
 > **validateTurn**(`turn`): \{ `ok`: `true`; `value`: [`AstroSpecTurn`](../interfaces/AstroSpecTurn.md); \} \| \{ `errors`: [`ValidationError`](../type-aliases/ValidationError.md)[]; `ok`: `false`; \}
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:211
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:215
 
 ## Parameters
 

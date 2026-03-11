@@ -11,7 +11,6 @@ const publicPackageDirs = [
   'packages/mcp-secure-context-cli',
   'packages/astrospec-schema',
   'packages/astrospec-runtime',
-  'packages/astrospec-mcp-profile',
   'packages/astrospec-retrieval-profile',
   'packages/astrospec-kit',
   'packages/astrospec-cli',

@@ -8,7 +8,7 @@
 
 > **Turn**\<`F`\> = [`AstroSpecTurn`](../interfaces/AstroSpecTurn.md)\<`F`\>
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:144
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:146
 
 ## Type Parameters
 

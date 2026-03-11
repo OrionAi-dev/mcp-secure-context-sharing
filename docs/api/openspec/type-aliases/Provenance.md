@@ -8,4 +8,4 @@
 
 > **Provenance** = `ReadonlyArray`\<[`ProvenanceEntry`](../interfaces/ProvenanceEntry.md)\>
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:114
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:116

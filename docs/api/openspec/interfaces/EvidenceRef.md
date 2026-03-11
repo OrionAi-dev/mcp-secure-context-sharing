@@ -6,7 +6,7 @@
 
 # Interface: EvidenceRef
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:82
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:84
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:82
 
 > `optional` **checksum**: `string`
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:86
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:88
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:86
 
 > `optional` **ext**: `Record`\<`string`, [`JsonValue`](../type-aliases/JsonValue.md)\>
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:90
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:92
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:90
 
 > `optional` **kind**: `string`
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:84
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:86
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:84
 
 > **ref**: `string`
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:83
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:85
 
 ***
 
@@ -46,7 +46,7 @@ Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:83
 
 > `optional` **retrieval**: [`EvidenceRetrievalMetadata`](EvidenceRetrievalMetadata.md)
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:89
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:91
 
 ***
 
@@ -54,7 +54,7 @@ Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:89
 
 > `optional` **selector**: `string`
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:85
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:87
 
 ***
 
@@ -62,7 +62,7 @@ Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:85
 
 > `optional` **sourceId**: `string`
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:87
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:89
 
 ***
 
@@ -70,4 +70,4 @@ Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:87
 
 > `optional` **span**: [`EvidenceSpan`](EvidenceSpan.md)
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:88
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:90

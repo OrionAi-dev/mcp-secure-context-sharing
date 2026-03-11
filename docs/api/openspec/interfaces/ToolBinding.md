@@ -6,7 +6,7 @@
 
 # Interface: ToolBinding\<P\>
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:173
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:175
 
 ## Type Parameters
 
@@ -20,7 +20,7 @@ Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:173
 
 > **intent**: `string`
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:174
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:176
 
 ***
 
@@ -28,7 +28,7 @@ Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:174
 
 > **paramMap**: \{ \[K in string \| number \| symbol\]?: string \} & `Record`\<`string`, `string`\>
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:176
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:178
 
 ***
 
@@ -36,4 +36,4 @@ Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:176
 
 > **tool**: `string`
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:175
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:177

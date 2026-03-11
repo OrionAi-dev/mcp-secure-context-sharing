@@ -15,11 +15,7 @@ import {
   type ValidationResult as RetrievalValidationResult,
 } from '@astrospec/retrieval-profile';
 import {
-  callAstroSpecMcpTool,
   callSecureContextTool,
-  type AstroSpecContractKind,
-  type AstroSpecMcpResult,
-  type AstroSpecMcpToolName,
   type SecureContextMcpResult,
   type SecureContextMcpToolName,
 } from '@mcp-secure-context/mcp-adapter';
@@ -32,7 +28,17 @@ import {
 } from '@mcp-secure-context/core';
 import { validateContextContainer } from '@mcp-secure-context/openspec';
 
-export type AstroSpecKitKind = AstroSpecContractKind;
+export type AstroSpecAgentContractKind =
+  | 'plan-turn'
+  | 'exec-turn'
+  | 'tool-policy-spec'
+  | 'tool-call-record'
+  | 'repopack'
+  | 'run-log-entry'
+  | 'chat-orchestration-audit'
+  | 'git-history-summary';
+
+export type AstroSpecKitKind = AstroSpecAgentContractKind | AstroSpecRetrievalContractKind;
 
 export type AstroSpecKitValidationResult = (ValidationResult | RetrievalValidationResult) & {
   nextHint?: string;
@@ -105,10 +111,6 @@ export function validateRetrieval(kind: AstroSpecRetrievalContractKind, payload:
     ...result,
     nextHint: nextHintFor(kind, result),
   };
-}
-
-export async function callTool(name: AstroSpecMcpToolName, args?: unknown): Promise<AstroSpecMcpResult<unknown>> {
-  return callAstroSpecMcpTool({ name, arguments: args });
 }
 
 export function createContextContainer<TType extends ContainerType>(input: {

@@ -8,13 +8,13 @@
 
 > **callSecureContext**(`name`, `args?`): `Promise`\<`SecureContextMcpResult`\<`unknown`\>\>
 
-Defined in: mcp-secure-context-sdk-typescript/src/index.ts:141
+Defined in: index.d.ts:31
 
 ## Parameters
 
 ### name
 
-`"mcp_secure_context.container.validate"` | `"mcp_secure_context.container.verify"` | `"mcp_secure_context.container.share"`
+`SecureContextMcpToolName`
 
 ### args?
 

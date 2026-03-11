@@ -8,7 +8,7 @@
 
 > **registerVerifier**(`id`, `fn`): `void`
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:300
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:313
 
 ## Parameters
 

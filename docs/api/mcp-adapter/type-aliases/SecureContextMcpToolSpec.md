@@ -8,7 +8,7 @@
 
 > **SecureContextMcpToolSpec** = `object`
 
-Defined in: index.ts:162
+Defined in: index.d.ts:140
 
 ## Properties
 
@@ -16,7 +16,7 @@ Defined in: index.ts:162
 
 > **description**: `string`
 
-Defined in: index.ts:164
+Defined in: index.d.ts:142
 
 ***
 
@@ -24,4 +24,4 @@ Defined in: index.ts:164
 
 > **name**: [`SecureContextMcpToolName`](SecureContextMcpToolName.md)
 
-Defined in: index.ts:163
+Defined in: index.d.ts:141

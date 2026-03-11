@@ -8,7 +8,7 @@
 
 > **SecureContextMcpToolCall** = `object`
 
-Defined in: index.ts:157
+Defined in: index.d.ts:136
 
 ## Properties
 
@@ -16,7 +16,7 @@ Defined in: index.ts:157
 
 > `optional` **arguments**: `unknown`
 
-Defined in: index.ts:159
+Defined in: index.d.ts:138
 
 ***
 
@@ -24,4 +24,4 @@ Defined in: index.ts:159
 
 > **name**: [`SecureContextMcpToolName`](SecureContextMcpToolName.md)
 
-Defined in: index.ts:158
+Defined in: index.d.ts:137

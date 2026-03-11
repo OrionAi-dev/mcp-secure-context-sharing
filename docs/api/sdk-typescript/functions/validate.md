@@ -8,13 +8,13 @@
 
 > **validate**(`kind`, `payload`): [`AstroSpecKitValidationResult`](../type-aliases/AstroSpecKitValidationResult.md)
 
-Defined in: mcp-secure-context-sdk-typescript/src/index.ts:76
+Defined in: index.d.ts:12
 
 ## Parameters
 
 ### kind
 
-`AstroSpecContractKind`
+[`AstroSpecKitKind`](../type-aliases/AstroSpecKitKind.md)
 
 ### payload
 

@@ -8,7 +8,7 @@
 
 > **SecureContextMcpError** = `object`
 
-Defined in: index.ts:147
+Defined in: index.d.ts:114
 
 ## Properties
 
@@ -16,7 +16,7 @@ Defined in: index.ts:147
 
 > **code**: [`SecureContextMcpErrorCode`](SecureContextMcpErrorCode.md)
 
-Defined in: index.ts:148
+Defined in: index.d.ts:115
 
 ***
 
@@ -24,7 +24,7 @@ Defined in: index.ts:148
 
 > `optional` **details**: `unknown`
 
-Defined in: index.ts:150
+Defined in: index.d.ts:117
 
 ***
 
@@ -32,4 +32,4 @@ Defined in: index.ts:150
 
 > **message**: `string`
 
-Defined in: index.ts:149
+Defined in: index.d.ts:116

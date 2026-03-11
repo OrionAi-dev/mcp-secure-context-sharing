@@ -8,7 +8,7 @@
 
 > **readSchema**\<`T`\>(`name`): `T`
 
-Defined in: index.d.ts:5
+Defined in: packages/mcp-secure-context-core/dist/index.d.ts:116
 
 Read and parse a schema JSON file from disk.
 
@@ -22,7 +22,7 @@ Read and parse a schema JSON file from disk.
 
 ### name
 
-[`AstroSpecSchemaName`](../type-aliases/AstroSpecSchemaName.md)
+[`OpenSpecSchemaName`](../type-aliases/OpenSpecSchemaName.md)
 
 ## Returns
 

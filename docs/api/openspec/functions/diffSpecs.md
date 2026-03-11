@@ -8,7 +8,7 @@
 
 > **diffSpecs**(`a`, `b`): [`SpecDiff`](../type-aliases/SpecDiff.md)
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:271
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:284
 
 ## Parameters
 

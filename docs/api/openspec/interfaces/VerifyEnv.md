@@ -6,7 +6,7 @@
 
 # Interface: VerifyEnv
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:289
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:302
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:289
 
 > `optional` **cwd**: `string`
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:290
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:303
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:290
 
 > `optional` **now**: () => `Date`
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:291
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:304
 
 #### Returns
 

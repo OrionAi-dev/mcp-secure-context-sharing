@@ -6,7 +6,7 @@
 
 # Interface: VerificationReport
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:281
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:294
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:281
 
 > **at**: `string`
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:286
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:299
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:286
 
 > `optional` **contextId**: `string`
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:282
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:295
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:282
 
 > `optional` **meta**: [`JsonObject`](JsonObject.md)
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:287
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:300
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:287
 
 > **overall**: `boolean`
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:284
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:297
 
 ***
 
@@ -46,7 +46,7 @@ Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:284
 
 > **results**: [`VerifierResult`](VerifierResult.md)[]
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:285
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:298
 
 ***
 
@@ -54,4 +54,4 @@ Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:285
 
 > `optional` **turnId**: `string`
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:283
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:296

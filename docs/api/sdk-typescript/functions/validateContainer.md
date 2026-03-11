@@ -8,7 +8,7 @@
 
 > **validateContainer**(`payload`): \{ `ok`: `true`; `value`: `ContextContainer`; \} \| \{ `errors`: `ValidationError`[]; `ok`: `false`; \}
 
-Defined in: mcp-secure-context-sdk-typescript/src/index.ts:137
+Defined in: index.d.ts:24
 
 ## Parameters
 

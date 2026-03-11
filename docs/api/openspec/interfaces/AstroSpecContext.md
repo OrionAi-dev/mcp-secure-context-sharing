@@ -6,7 +6,7 @@
 
 # Interface: AstroSpecContext\<F\>
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:127
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:129
 
 ## Extends
 
@@ -24,7 +24,7 @@ Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:127
 
 > **acceptanceCriteria**: [`AcceptanceCriteria`](../type-aliases/AcceptanceCriteria.md)
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:120
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:122
 
 #### Inherited from
 
@@ -36,7 +36,7 @@ Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:120
 
 > **fields**: `F`
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:119
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:121
 
 #### Inherited from
 
@@ -48,7 +48,7 @@ Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:119
 
 > **id**: `string`
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:117
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:119
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:117
 
 > **intent**: `string`
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:118
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:120
 
 #### Inherited from
 
@@ -72,7 +72,7 @@ Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:118
 
 > **kind**: `"context"`
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:128
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:130
 
 #### Overrides
 
@@ -84,7 +84,7 @@ Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:128
 
 > **lifespan**: `object`
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:133
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:135
 
 #### maxUses?
 
@@ -104,7 +104,7 @@ Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:133
 
 > **lockedAt**: [`ISODateTime`](../type-aliases/ISODateTime.md)
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:122
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:124
 
 #### Inherited from
 
@@ -116,7 +116,7 @@ Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:122
 
 > `optional` **meta**: `Record`\<`string`, [`JsonValue`](../type-aliases/JsonValue.md)\>
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:125
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:127
 
 #### Inherited from
 
@@ -128,7 +128,7 @@ Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:125
 
 > `optional` **provenance**: [`Provenance`](../type-aliases/Provenance.md)
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:121
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:123
 
 #### Inherited from
 
@@ -140,7 +140,7 @@ Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:121
 
 > **scope**: `object`
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:129
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:131
 
 #### id?
 
@@ -156,7 +156,7 @@ Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:129
 
 > `optional` **signature**: `string`
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:124
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:126
 
 #### Inherited from
 
@@ -168,7 +168,7 @@ Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:124
 
 > `optional` **version**: `string`
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:123
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:125
 
 #### Inherited from
 

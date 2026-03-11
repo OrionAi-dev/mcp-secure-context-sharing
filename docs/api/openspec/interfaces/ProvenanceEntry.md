@@ -6,7 +6,7 @@
 
 # Interface: ProvenanceEntry
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:100
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:102
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:100
 
 > `optional` **activityId**: `string`
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:108
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:110
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:108
 
 > `optional` **actor**: `string`
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:104
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:106
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:104
 
 > `optional` **agentId**: `string`
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:109
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:111
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:109
 
 > **at**: [`ISODateTime`](../type-aliases/ISODateTime.md)
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:102
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:104
 
 ***
 
@@ -46,7 +46,7 @@ Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:102
 
 > `optional` **data**: `Record`\<`string`, [`JsonValue`](../type-aliases/JsonValue.md)\>
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:106
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:108
 
 ***
 
@@ -54,7 +54,7 @@ Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:106
 
 > `optional` **derivedFrom**: `string`[]
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:111
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:113
 
 ***
 
@@ -62,7 +62,7 @@ Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:111
 
 > `optional` **entityId**: `string`
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:107
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:109
 
 ***
 
@@ -70,7 +70,7 @@ Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:107
 
 > `optional` **ext**: `Record`\<`string`, [`JsonValue`](../type-aliases/JsonValue.md)\>
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:112
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:114
 
 ***
 
@@ -78,7 +78,7 @@ Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:112
 
 > `optional` **field**: `string`
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:103
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:105
 
 ***
 
@@ -86,7 +86,7 @@ Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:103
 
 > `optional` **note**: `string`
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:105
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:107
 
 ***
 
@@ -94,7 +94,7 @@ Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:105
 
 > `optional` **role**: `string`
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:110
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:112
 
 ***
 
@@ -102,4 +102,4 @@ Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:110
 
 > **source**: [`FieldSource`](../type-aliases/FieldSource.md)
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:101
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:103

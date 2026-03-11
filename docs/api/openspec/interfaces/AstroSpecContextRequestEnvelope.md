@@ -6,7 +6,7 @@
 
 # Interface: AstroSpecContextRequestEnvelope\<TContext\>
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:152
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:154
 
 ## Type Parameters
 
@@ -20,7 +20,7 @@ Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:152
 
 > **context**: `TContext`
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:153
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:155
 
 ***
 
@@ -28,7 +28,7 @@ Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:153
 
 > `optional` **meta**: `Record`\<`string`, [`JsonValue`](../type-aliases/JsonValue.md)\>
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:155
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:157
 
 ***
 
@@ -36,4 +36,4 @@ Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:155
 
 > `optional` **requestId**: `string`
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:154
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:156

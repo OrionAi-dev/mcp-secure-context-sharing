@@ -8,4 +8,4 @@
 
 > **JsonPrimitive** = `string` \| `number` \| `boolean` \| `null`
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:1
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:3

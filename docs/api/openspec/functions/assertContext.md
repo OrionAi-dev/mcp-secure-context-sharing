@@ -8,7 +8,7 @@
 
 > **assertContext**(`context`): [`AstroSpecContext`](../interfaces/AstroSpecContext.md)
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:218
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:229
 
 ## Parameters
 

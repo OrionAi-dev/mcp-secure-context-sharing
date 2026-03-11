@@ -8,7 +8,7 @@
 
 > **validateContext**(`context`): \{ `ok`: `true`; `value`: [`AstroSpecContext`](../interfaces/AstroSpecContext.md); \} \| \{ `errors`: [`ValidationError`](../type-aliases/ValidationError.md)[]; `ok`: `false`; \}
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:204
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:208
 
 ## Parameters
 

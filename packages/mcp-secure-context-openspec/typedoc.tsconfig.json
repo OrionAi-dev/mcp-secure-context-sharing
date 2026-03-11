@@ -1,5 +1,12 @@
 {
   "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "paths": {
+      "@mcp-secure-context/core": [
+        "../mcp-secure-context-core/dist/index.d.ts"
+      ]
+    }
+  },
   "include": [
     "dist/index.d.ts",
     "dist/**/*.d.ts"

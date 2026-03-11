@@ -6,12 +6,12 @@
 
 # Function: listSchemas()
 
-> **listSchemas**(): readonly [`AstroSpecSchemaName`](../type-aliases/AstroSpecSchemaName.md)[]
+> **listSchemas**(): readonly [`OpenSpecSchemaName`](../type-aliases/OpenSpecSchemaName.md)[]
 
-Defined in: index.d.ts:7
+Defined in: packages/mcp-secure-context-core/dist/index.d.ts:118
 
 List all schema names exported by this package.
 
 ## Returns
 
-readonly [`AstroSpecSchemaName`](../type-aliases/AstroSpecSchemaName.md)[]
+readonly [`OpenSpecSchemaName`](../type-aliases/OpenSpecSchemaName.md)[]

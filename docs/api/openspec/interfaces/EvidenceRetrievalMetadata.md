@@ -6,7 +6,7 @@
 
 # Interface: EvidenceRetrievalMetadata
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:76
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:78
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:76
 
 > `optional` **rank**: `number`
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:80
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:82
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:80
 
 > `optional` **score**: `number`
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:79
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:81
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:79
 
 > `optional` **stage**: `string`
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:78
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:80
 
 ***
 
@@ -38,4 +38,4 @@ Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:78
 
 > `optional` **technique**: `string`
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:77
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:79

@@ -8,7 +8,7 @@
 
 > **validateRetrieval**(`kind`, `payload`): [`AstroSpecKitValidationResult`](../type-aliases/AstroSpecKitValidationResult.md)
 
-Defined in: mcp-secure-context-sdk-typescript/src/index.ts:102
+Defined in: index.d.ts:13
 
 ## Parameters
 

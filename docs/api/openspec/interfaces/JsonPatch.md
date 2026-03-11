@@ -6,7 +6,7 @@
 
 # Interface: JsonPatch
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:163
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:165
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:163
 
 > **op**: [`JsonPatchOp`](../type-aliases/JsonPatchOp.md)
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:164
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:166
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:164
 
 > **path**: `string`
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:165
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:167
 
 ***
 
@@ -30,4 +30,4 @@ Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:165
 
 > `optional` **value**: [`JsonValue`](../type-aliases/JsonValue.md)
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:166
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:168

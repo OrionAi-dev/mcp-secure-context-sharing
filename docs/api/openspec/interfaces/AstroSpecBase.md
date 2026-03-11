@@ -6,7 +6,7 @@
 
 # Interface: AstroSpecBase\<F\>
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:115
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:117
 
 ## Extended by
 
@@ -25,7 +25,7 @@ Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:115
 
 > **acceptanceCriteria**: [`AcceptanceCriteria`](../type-aliases/AcceptanceCriteria.md)
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:120
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:122
 
 ***
 
@@ -33,7 +33,7 @@ Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:120
 
 > **fields**: `F`
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:119
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:121
 
 ***
 
@@ -41,7 +41,7 @@ Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:119
 
 > **id**: `string`
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:117
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:119
 
 ***
 
@@ -49,7 +49,7 @@ Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:117
 
 > **intent**: `string`
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:118
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:120
 
 ***
 
@@ -57,7 +57,7 @@ Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:118
 
 > **kind**: `"context"` \| `"turn"`
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:116
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:118
 
 ***
 
@@ -65,7 +65,7 @@ Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:116
 
 > **lockedAt**: [`ISODateTime`](../type-aliases/ISODateTime.md)
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:122
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:124
 
 ***
 
@@ -73,7 +73,7 @@ Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:122
 
 > `optional` **meta**: `Record`\<`string`, [`JsonValue`](../type-aliases/JsonValue.md)\>
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:125
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:127
 
 ***
 
@@ -81,7 +81,7 @@ Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:125
 
 > `optional` **provenance**: [`Provenance`](../type-aliases/Provenance.md)
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:121
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:123
 
 ***
 
@@ -89,7 +89,7 @@ Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:121
 
 > `optional` **signature**: `string`
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:124
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:126
 
 ***
 
@@ -97,4 +97,4 @@ Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:124
 
 > `optional` **version**: `string`
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:123
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:125

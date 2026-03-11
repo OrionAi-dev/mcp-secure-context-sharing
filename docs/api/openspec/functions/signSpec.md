@@ -8,7 +8,7 @@
 
 > **signSpec**(`spec`): `string`
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:232
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:244
 
 ## Parameters
 

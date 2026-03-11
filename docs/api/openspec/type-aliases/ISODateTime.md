@@ -8,7 +8,7 @@
 
 > **ISODateTime** = `string` & `object`
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:8
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:10
 
 ## Type Declaration
 

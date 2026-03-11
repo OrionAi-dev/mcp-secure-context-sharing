@@ -8,7 +8,7 @@
 
 > **lockSpec**\<`T`\>(`spec`, `opts?`): `T`
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:233
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:245
 
 ## Type Parameters
 

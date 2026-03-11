@@ -6,7 +6,7 @@
 
 # Interface: RetrievalPlan
 
-Defined in: [src/index.ts:78](https://github.com/OrionAi-dev/AstroSpec/blob/63fea25cdc4d27a3819ece733486fa450f319b71/packages/astrospec-retrieval-profile/src/index.ts#L78)
+Defined in: [src/index.ts:78](https://github.com/OrionAi-dev/AstroSpec/blob/ed21618cbae8839346b83b671baf8f9ccef60e77/packages/astrospec-retrieval-profile/src/index.ts#L78)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [src/index.ts:78](https://github.com/OrionAi-dev/AstroSpec/blob/63fe
 
 > `optional` **notes**: `string`
 
-Defined in: [src/index.ts:80](https://github.com/OrionAi-dev/AstroSpec/blob/63fea25cdc4d27a3819ece733486fa450f319b71/packages/astrospec-retrieval-profile/src/index.ts#L80)
+Defined in: [src/index.ts:80](https://github.com/OrionAi-dev/AstroSpec/blob/ed21618cbae8839346b83b671baf8f9ccef60e77/packages/astrospec-retrieval-profile/src/index.ts#L80)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [src/index.ts:80](https://github.com/OrionAi-dev/AstroSpec/blob/63fe
 
 > **steps**: [`RetrievalPlanStep`](RetrievalPlanStep.md)[]
 
-Defined in: [src/index.ts:81](https://github.com/OrionAi-dev/AstroSpec/blob/63fea25cdc4d27a3819ece733486fa450f319b71/packages/astrospec-retrieval-profile/src/index.ts#L81)
+Defined in: [src/index.ts:81](https://github.com/OrionAi-dev/AstroSpec/blob/ed21618cbae8839346b83b671baf8f9ccef60e77/packages/astrospec-retrieval-profile/src/index.ts#L81)
 
 ***
 
@@ -30,4 +30,4 @@ Defined in: [src/index.ts:81](https://github.com/OrionAi-dev/AstroSpec/blob/63fe
 
 > `optional` **strategy**: `"parallel"` \| `"sequential"` \| `"adaptive"`
 
-Defined in: [src/index.ts:79](https://github.com/OrionAi-dev/AstroSpec/blob/63fea25cdc4d27a3819ece733486fa450f319b71/packages/astrospec-retrieval-profile/src/index.ts#L79)
+Defined in: [src/index.ts:79](https://github.com/OrionAi-dev/AstroSpec/blob/ed21618cbae8839346b83b671baf8f9ccef60e77/packages/astrospec-retrieval-profile/src/index.ts#L79)

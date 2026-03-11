@@ -3,3 +3,7 @@
 ***
 
 # @mcp-secure-context/cli
+
+## Functions
+
+- [main](functions/main.md)

@@ -6,9 +6,9 @@
 
 # Type Alias: AstroSpecKitValidationResult
 
-> **AstroSpecKitValidationResult** = `ValidationResult` \| `RetrievalValidationResult` & `object`
+> **AstroSpecKitValidationResult** = `ValidationResult` \| `ValidationResult$1` & `object`
 
-Defined in: mcp-secure-context-sdk-typescript/src/index.ts:37
+Defined in: index.d.ts:9
 
 ## Type Declaration
 

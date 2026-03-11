@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 
-import { callTool, validate, validateRetrieval } from '@astrospec/kit';
+import { callSecureContext, createContextContainer, validate, validateContainer, validateRetrieval } from '@astrospec/kit';
 
 test('validate returns deterministic hint for invalid plan-turn', () => {
   const out = validate('plan-turn', {});
@@ -17,28 +17,46 @@ test('validateRetrieval returns deterministic hint for invalid retrieval-request
   assert.ok((out.nextHint ?? '').includes('retrieval request'));
 });
 
-test('callTool forwards to MCP contract validate tool', async () => {
-  const out = await callTool('astrospec.contract.validate', {
-    kind: 'run-log-entry',
+test('createContextContainer builds a valid task-state container', () => {
+  const container = createContextContainer({
+    containerType: 'task_state',
+    id: 'task-1',
     payload: {
-      id: 'log_1',
-      runId: 'run_1',
-      phase: 'run.start',
+      taskId: 'task-1',
+      goal: 'handoff context',
+      status: 'in_progress',
+    },
+    policy: {
+      audience: ['agent'],
+      allowedActions: ['read'],
+    },
+    provenance: {
       createdAt: new Date().toISOString(),
-      status: 'ok',
+      createdBy: 'agent://planner',
     },
   });
 
-  assert.equal(out.ok, true);
+  const result = validateContainer(container);
+  assert.equal(result.ok, true);
 });
 
-test('callTool forwards retrieval query tool', async () => {
-  const out = await callTool('astrospec.retrieval.query', {
-    request: {
-      query: 'Find the retention policy',
-      techniques: ['pageindex'],
+test('callSecureContext validates portable containers', async () => {
+  const container = createContextContainer({
+    containerType: 'user_context',
+    id: 'user-1',
+    payload: {
+      userId: 'user-1',
+    },
+    policy: {
+      audience: ['agent'],
+      allowedActions: ['read'],
+    },
+    provenance: {
+      createdAt: new Date().toISOString(),
+      createdBy: 'agent://planner',
     },
   });
 
+  const out = await callSecureContext('mcp_secure_context.container.validate', { container });
   assert.equal(out.ok, true);
 });

@@ -6,7 +6,7 @@
 
 # Interface: VerifierResult
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:273
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:286
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:273
 
 > **criterionId**: `string`
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:274
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:287
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:274
 
 > `optional` **details**: `string`
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:277
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:290
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:277
 
 > `optional` **durationMs**: `number`
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:278
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:291
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:278
 
 > `optional` **evidenceUsed**: [`EvidenceRef`](EvidenceRef.md)[]
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:279
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:292
 
 ***
 
@@ -46,7 +46,7 @@ Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:279
 
 > **pass**: `boolean`
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:276
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:289
 
 ***
 
@@ -54,4 +54,4 @@ Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:276
 
 > **verifier**: `string`
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:275
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:288

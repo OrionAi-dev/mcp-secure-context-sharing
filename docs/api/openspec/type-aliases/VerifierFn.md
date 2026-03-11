@@ -8,7 +8,7 @@
 
 > **VerifierFn** = (`input`) => `Promise`\<`Omit`\<[`VerifierResult`](../interfaces/VerifierResult.md), `"criterionId"` \| `"verifier"`\>\>
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:293
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:306
 
 ## Parameters
 

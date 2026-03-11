@@ -8,7 +8,7 @@
 
 > **canonicalizeSpec**\<`T`\>(`spec`): `T`
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:229
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:241
 
 Canonicalize a AstroSpec spec for deterministic hashing:
 - sort object keys recursively

@@ -2,13 +2,13 @@
 
 ***
 
-[@mcp-secure-context/mcp-adapter](../README.md) / AstroSpecMcpResource
+[@mcp-secure-context/mcp-adapter](../README.md) / SecureContextMcpResource
 
-# Type Alias: AstroSpecMcpResource
+# Type Alias: SecureContextMcpResource
 
-> **AstroSpecMcpResource** = `object`
+> **SecureContextMcpResource** = `object`
 
-Defined in: index.ts:97
+Defined in: index.d.ts:126
 
 ## Properties
 
@@ -16,7 +16,7 @@ Defined in: index.ts:97
 
 > `optional` **annotations**: `object`
 
-Defined in: index.ts:101
+Defined in: index.d.ts:130
 
 #### audience?
 
@@ -36,7 +36,7 @@ Defined in: index.ts:101
 
 > **mimeType**: `"application/json"`
 
-Defined in: index.ts:99
+Defined in: index.d.ts:128
 
 ***
 
@@ -44,7 +44,7 @@ Defined in: index.ts:99
 
 > **text**: `string`
 
-Defined in: index.ts:100
+Defined in: index.d.ts:129
 
 ***
 
@@ -52,4 +52,4 @@ Defined in: index.ts:100
 
 > **uri**: `string`
 
-Defined in: index.ts:98
+Defined in: index.d.ts:127

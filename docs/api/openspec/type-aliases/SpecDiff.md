@@ -8,7 +8,7 @@
 
 > **SpecDiff** = `object`
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:249
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:262
 
 ## Properties
 
@@ -16,7 +16,7 @@ Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:249
 
 > **acceptanceCriteria**: `object`
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:259
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:272
 
 #### added
 
@@ -36,7 +36,7 @@ Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:259
 
 > **fields**: `object`
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:250
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:263
 
 #### added
 
@@ -56,7 +56,7 @@ Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:250
 
 > **metaChanged**: `boolean`
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:268
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:281
 
 ***
 
@@ -64,4 +64,4 @@ Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:268
 
 > **provenanceChanged**: `boolean`
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:269
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:282

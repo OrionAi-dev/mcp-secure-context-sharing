@@ -6,7 +6,6 @@ for d in \
   packages/astrospec-schema \
   packages/astrospec-runtime \
   packages/astrospec-cli \
-  packages/astrospec-mcp-profile \
   packages/astrospec-kit \
   packages/astrospec-retrieval-profile \
   packages/integrations/mindql-core \
@@ -33,7 +32,6 @@ check_dual() {
 for pkg in \
   packages/astrospec-schema \
   packages/astrospec-runtime \
-  packages/astrospec-mcp-profile \
   packages/astrospec-kit \
   packages/astrospec-retrieval-profile \
   packages/integrations/mindql-core \
@@ -52,7 +50,6 @@ const path = require('path');
 const pkgs = [
   'packages/astrospec-schema',
   'packages/astrospec-runtime',
-  'packages/astrospec-mcp-profile',
   'packages/astrospec-kit',
   'packages/astrospec-retrieval-profile',
   'packages/integrations/mindql-core',

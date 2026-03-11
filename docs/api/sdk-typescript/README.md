@@ -6,13 +6,13 @@
 
 ## Type Aliases
 
+- [AstroSpecAgentContractKind](type-aliases/AstroSpecAgentContractKind.md)
 - [AstroSpecKitKind](type-aliases/AstroSpecKitKind.md)
 - [AstroSpecKitValidationResult](type-aliases/AstroSpecKitValidationResult.md)
 
 ## Functions
 
 - [callSecureContext](functions/callSecureContext.md)
-- [callTool](functions/callTool.md)
 - [createContextContainer](functions/createContextContainer.md)
 - [validate](functions/validate.md)
 - [validateContainer](functions/validateContainer.md)

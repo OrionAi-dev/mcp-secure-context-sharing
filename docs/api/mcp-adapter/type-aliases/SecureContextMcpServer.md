@@ -8,7 +8,7 @@
 
 > **SecureContextMcpServer** = `object`
 
-Defined in: index.ts:167
+Defined in: index.d.ts:144
 
 ## Methods
 
@@ -16,7 +16,7 @@ Defined in: index.ts:167
 
 > **callTool**(`input`): `Promise`\<[`SecureContextMcpResult`](SecureContextMcpResult.md)\<`unknown`\>\>
 
-Defined in: index.ts:169
+Defined in: index.d.ts:146
 
 #### Parameters
 
@@ -34,7 +34,7 @@ Defined in: index.ts:169
 
 > **listTools**(): [`SecureContextMcpToolSpec`](SecureContextMcpToolSpec.md)[]
 
-Defined in: index.ts:168
+Defined in: index.d.ts:145
 
 #### Returns
 
@@ -44,9 +44,9 @@ Defined in: index.ts:168
 
 ### readResource()
 
-> **readResource**(`uri`): [`SecureContextMcpResult`](SecureContextMcpResult.md)\<[`AstroSpecMcpResource`](AstroSpecMcpResource.md)\>
+> **readResource**(`uri`): [`SecureContextMcpResult`](SecureContextMcpResult.md)\<[`SecureContextMcpResource`](SecureContextMcpResource.md)\>
 
-Defined in: index.ts:171
+Defined in: index.d.ts:148
 
 #### Parameters
 
@@ -56,7 +56,7 @@ Defined in: index.ts:171
 
 #### Returns
 
-[`SecureContextMcpResult`](SecureContextMcpResult.md)\<[`AstroSpecMcpResource`](AstroSpecMcpResource.md)\>
+[`SecureContextMcpResult`](SecureContextMcpResult.md)\<[`SecureContextMcpResource`](SecureContextMcpResource.md)\>
 
 ***
 
@@ -64,7 +64,7 @@ Defined in: index.ts:171
 
 > **setContainer**(`container`): `void`
 
-Defined in: index.ts:170
+Defined in: index.d.ts:147
 
 #### Parameters
 

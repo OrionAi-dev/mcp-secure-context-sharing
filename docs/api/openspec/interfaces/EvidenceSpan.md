@@ -6,7 +6,7 @@
 
 # Interface: EvidenceSpan
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:69
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:71
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:69
 
 > `optional` **end**: `number`
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:73
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:75
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:73
 
 > `optional` **locator**: `string`
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:74
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:76
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:74
 
 > `optional` **page**: `number`
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:70
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:72
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:70
 
 > `optional` **section**: `string`
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:71
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:73
 
 ***
 
@@ -46,4 +46,4 @@ Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:71
 
 > `optional` **start**: `number`
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:72
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:74

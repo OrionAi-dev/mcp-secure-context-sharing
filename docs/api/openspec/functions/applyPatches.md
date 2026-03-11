@@ -8,7 +8,7 @@
 
 > **applyPatches**(`fields`, `patches`): `Record`\<`string`, [`SpecField`](../type-aliases/SpecField.md)\>
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:247
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:260
 
 Apply RFC6902-like patches to a fields object.
 

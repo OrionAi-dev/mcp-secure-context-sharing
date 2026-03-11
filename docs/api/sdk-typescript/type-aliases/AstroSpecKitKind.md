@@ -6,6 +6,6 @@
 
 # Type Alias: AstroSpecKitKind
 
-> **AstroSpecKitKind** = `AstroSpecContractKind`
+> **AstroSpecKitKind** = [`AstroSpecAgentContractKind`](AstroSpecAgentContractKind.md) \| `AstroSpecRetrievalContractKind`
 
-Defined in: mcp-secure-context-sdk-typescript/src/index.ts:35
+Defined in: index.d.ts:8

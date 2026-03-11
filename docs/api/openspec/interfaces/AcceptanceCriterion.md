@@ -6,7 +6,7 @@
 
 # Interface: AcceptanceCriterion
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:92
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:94
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:92
 
 > **description**: `string`
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:94
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:96
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:94
 
 > `optional` **evidence**: readonly [`EvidenceRef`](EvidenceRef.md)[]
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:97
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:99
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:97
 
 > **id**: `string`
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:93
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:95
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:93
 
 > `optional` **params**: [`JsonObject`](JsonObject.md)
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:96
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:98
 
 ***
 
@@ -46,4 +46,4 @@ Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:96
 
 > **verifier**: `string`
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:95
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:97

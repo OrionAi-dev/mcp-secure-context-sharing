@@ -8,4 +8,4 @@
 
 > **MemoryKind** = `"semantic"` \| `"episodic"` \| `"procedural"`
 
-Defined in: [src/index.ts:65](https://github.com/OrionAi-dev/AstroSpec/blob/63fea25cdc4d27a3819ece733486fa450f319b71/packages/astrospec-retrieval-profile/src/index.ts#L65)
+Defined in: [src/index.ts:65](https://github.com/OrionAi-dev/AstroSpec/blob/ed21618cbae8839346b83b671baf8f9ccef60e77/packages/astrospec-retrieval-profile/src/index.ts#L65)

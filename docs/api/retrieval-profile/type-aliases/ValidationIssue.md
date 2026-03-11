@@ -8,7 +8,7 @@
 
 > **ValidationIssue** = `object`
 
-Defined in: [src/index.ts:220](https://github.com/OrionAi-dev/AstroSpec/blob/63fea25cdc4d27a3819ece733486fa450f319b71/packages/astrospec-retrieval-profile/src/index.ts#L220)
+Defined in: [src/index.ts:220](https://github.com/OrionAi-dev/AstroSpec/blob/ed21618cbae8839346b83b671baf8f9ccef60e77/packages/astrospec-retrieval-profile/src/index.ts#L220)
 
 ## Properties
 
@@ -16,7 +16,7 @@ Defined in: [src/index.ts:220](https://github.com/OrionAi-dev/AstroSpec/blob/63f
 
 > **code**: [`ValidationIssueCode`](ValidationIssueCode.md)
 
-Defined in: [src/index.ts:221](https://github.com/OrionAi-dev/AstroSpec/blob/63fea25cdc4d27a3819ece733486fa450f319b71/packages/astrospec-retrieval-profile/src/index.ts#L221)
+Defined in: [src/index.ts:221](https://github.com/OrionAi-dev/AstroSpec/blob/ed21618cbae8839346b83b671baf8f9ccef60e77/packages/astrospec-retrieval-profile/src/index.ts#L221)
 
 ***
 
@@ -24,7 +24,7 @@ Defined in: [src/index.ts:221](https://github.com/OrionAi-dev/AstroSpec/blob/63f
 
 > **keyword**: `string`
 
-Defined in: [src/index.ts:224](https://github.com/OrionAi-dev/AstroSpec/blob/63fea25cdc4d27a3819ece733486fa450f319b71/packages/astrospec-retrieval-profile/src/index.ts#L224)
+Defined in: [src/index.ts:224](https://github.com/OrionAi-dev/AstroSpec/blob/ed21618cbae8839346b83b671baf8f9ccef60e77/packages/astrospec-retrieval-profile/src/index.ts#L224)
 
 ***
 
@@ -32,7 +32,7 @@ Defined in: [src/index.ts:224](https://github.com/OrionAi-dev/AstroSpec/blob/63f
 
 > **message**: `string`
 
-Defined in: [src/index.ts:223](https://github.com/OrionAi-dev/AstroSpec/blob/63fea25cdc4d27a3819ece733486fa450f319b71/packages/astrospec-retrieval-profile/src/index.ts#L223)
+Defined in: [src/index.ts:223](https://github.com/OrionAi-dev/AstroSpec/blob/ed21618cbae8839346b83b671baf8f9ccef60e77/packages/astrospec-retrieval-profile/src/index.ts#L223)
 
 ***
 
@@ -40,7 +40,7 @@ Defined in: [src/index.ts:223](https://github.com/OrionAi-dev/AstroSpec/blob/63f
 
 > **path**: `string`
 
-Defined in: [src/index.ts:222](https://github.com/OrionAi-dev/AstroSpec/blob/63fea25cdc4d27a3819ece733486fa450f319b71/packages/astrospec-retrieval-profile/src/index.ts#L222)
+Defined in: [src/index.ts:222](https://github.com/OrionAi-dev/AstroSpec/blob/ed21618cbae8839346b83b671baf8f9ccef60e77/packages/astrospec-retrieval-profile/src/index.ts#L222)
 
 ***
 
@@ -48,4 +48,4 @@ Defined in: [src/index.ts:222](https://github.com/OrionAi-dev/AstroSpec/blob/63f
 
 > **schemaPath**: `string`
 
-Defined in: [src/index.ts:225](https://github.com/OrionAi-dev/AstroSpec/blob/63fea25cdc4d27a3819ece733486fa450f319b71/packages/astrospec-retrieval-profile/src/index.ts#L225)
+Defined in: [src/index.ts:225](https://github.com/OrionAi-dev/AstroSpec/blob/ed21618cbae8839346b83b671baf8f9ccef60e77/packages/astrospec-retrieval-profile/src/index.ts#L225)

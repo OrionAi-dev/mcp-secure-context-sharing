@@ -1,53 +1,65 @@
 import assert from 'node:assert/strict';
 
-import { callAstroSpecMcpTool } from '../../../packages/astrospec-mcp-profile/src/index.ts';
-import { validate } from '../../../packages/astrospec-kit/src/index.ts';
+import { callSecureContextTool } from '@mcp-secure-context/mcp-adapter';
+import { createContextContainer, validateContainer } from '@mcp-secure-context/sdk-typescript';
 
 function print(label: string, value: unknown) {
   process.stdout.write(`${label}: ${JSON.stringify(value)}\n`);
 }
 
 async function main() {
-  const validPayload = {
-    id: 'log_1',
-    runId: 'run_1',
-    phase: 'run.start',
-    createdAt: new Date().toISOString(),
-    status: 'ok',
-  };
-
-  const directValid = validate('run-log-entry', validPayload);
-  const mcpValid = await callAstroSpecMcpTool({
-    name: 'astrospec.contract.validate',
-    arguments: {
-      kind: 'run-log-entry',
-      payload: validPayload,
+  const validContainer = createContextContainer({
+    containerType: 'task_state',
+    id: 'task-1',
+    payload: {
+      taskId: 'task-1',
+      goal: 'handoff context',
+      status: 'in_progress',
+    },
+    policy: {
+      audience: ['agent'],
+      allowedActions: ['read'],
+      purpose: 'handoff',
+    },
+    provenance: {
+      createdAt: new Date().toISOString(),
+      createdBy: 'agent://planner',
     },
   });
 
-  assert.equal(directValid.ok, true, 'direct valid payload should pass');
-  assert.equal(mcpValid.ok, true, 'mcp valid payload should pass');
-
-  const invalidPayload = {
-    id: 'log_2',
-    runId: 'run_2',
-    phase: 'run.start',
-    createdAt: 'not-a-date',
-  };
-
-  const directInvalid = validate('run-log-entry', invalidPayload);
-  const mcpInvalid = await callAstroSpecMcpTool({
-    name: 'astrospec.contract.validate',
+  const directValid = validateContainer(validContainer);
+  const mcpValid = await callSecureContextTool({
+    name: 'mcp_secure_context.container.validate',
     arguments: {
-      kind: 'run-log-entry',
-      payload: invalidPayload,
+      container: validContainer,
     },
   });
 
-  assert.equal(directInvalid.ok, false, 'direct invalid payload should fail');
-  assert.equal(mcpInvalid.ok, false, 'mcp invalid payload should fail');
+  assert.equal(directValid.ok, true, 'direct valid container should pass');
+  assert.equal(mcpValid.ok, true, 'mcp valid container should pass');
+
+  const invalidContainer = {
+    schema: 'mcp-secure-context.container.v0.1',
+    containerType: 'task_state',
+    id: '',
+    version: '0.1.0',
+    payload: {},
+    policy: {},
+    provenance: {},
+  };
+
+  const directInvalid = validateContainer(invalidContainer);
+  const mcpInvalid = await callSecureContextTool({
+    name: 'mcp_secure_context.container.validate',
+    arguments: {
+      container: invalidContainer,
+    },
+  });
+
+  assert.equal(directInvalid.ok, false, 'direct invalid container should fail');
+  assert.equal(mcpInvalid.ok, false, 'mcp invalid container should fail');
   if (!mcpInvalid.ok) {
-    assert.equal(mcpInvalid.error.code, 'AS_MCP_CONTRACT_INVALID');
+    assert.equal(mcpInvalid.error.code, 'MSC_CONTAINER_INVALID');
   }
 
   print('valid.direct', directValid);
@@ -62,4 +74,3 @@ main().catch((err) => {
   process.stderr.write(`external-e2e-result: fail ${String(err)}\n`);
   process.exit(1);
 });
-

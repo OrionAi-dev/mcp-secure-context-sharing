@@ -8,7 +8,7 @@
 
 > **createSecureContextMcpServer**(`initial?`): [`SecureContextMcpServer`](../type-aliases/SecureContextMcpServer.md)
 
-Defined in: index.ts:791
+Defined in: index.d.ts:152
 
 ## Parameters
 

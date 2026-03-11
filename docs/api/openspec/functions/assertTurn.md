@@ -8,7 +8,7 @@
 
 > **assertTurn**(`turn`): [`AstroSpecTurn`](../interfaces/AstroSpecTurn.md)
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:219
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:230
 
 ## Parameters
 

@@ -8,7 +8,7 @@
 
 > **Context**\<`F`\> = [`AstroSpecContext`](../interfaces/AstroSpecContext.md)\<`F`\>
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:143
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:145
 
 ## Type Parameters
 

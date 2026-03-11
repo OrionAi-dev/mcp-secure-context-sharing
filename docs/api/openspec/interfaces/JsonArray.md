@@ -6,7 +6,7 @@
 
 # Interface: JsonArray
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:6
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:8
 
 ## Extends
 

@@ -8,4 +8,4 @@
 
 > **JsonPatchOp** = `"add"` \| `"replace"` \| `"remove"`
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:162
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:164

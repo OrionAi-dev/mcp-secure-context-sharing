@@ -8,7 +8,7 @@
 
 > **canonicalizeValue**(`v`): `unknown`
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:221
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:233
 
 ## Parameters
 

@@ -8,7 +8,7 @@
 
 > `const` **SCHEMA\_IDS**: `object`
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:188
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:190
 
 ## Type Declaration
 
@@ -16,9 +16,17 @@ Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:188
 
 > `readonly` **acceptanceCriteria**: `"https://orionai-dev.github.io/AstroSpec/schemas/astrospec/acceptance-criteria-0.1.json"`
 
+### containerDefs
+
+> `readonly` **containerDefs**: `"https://orionai-dev.github.io/AstroSpec/schemas/mcp-secure-context/container-defs-0.1.json"`
+
 ### context
 
 > `readonly` **context**: `"https://orionai-dev.github.io/AstroSpec/schemas/astrospec/context-0.1.json"`
+
+### contextContainer
+
+> `readonly` **contextContainer**: `"https://orionai-dev.github.io/AstroSpec/schemas/mcp-secure-context/context-container-0.1.json"`
 
 ### defs
 

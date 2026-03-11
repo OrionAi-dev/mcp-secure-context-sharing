@@ -6,9 +6,9 @@
 
 # Function: createContextContainer()
 
-> **createContextContainer**\<`TType`\>(`input`): `ContextContainer`\<`ContextPayloadMap`\[`TType`\]\>
+> **createContextContainer**\<`TType`\>(`input`): `ContextContainer`\<`ContextPayloadMap`\>
 
-Defined in: mcp-secure-context-sdk-typescript/src/index.ts:114
+Defined in: index.d.ts:14
 
 ## Type Parameters
 
@@ -26,7 +26,7 @@ Defined in: mcp-secure-context-sdk-typescript/src/index.ts:114
 
 #### ext?
 
-`Record`\<`string`, `JsonValue`\>
+`any`
 
 #### id
 
@@ -34,7 +34,7 @@ Defined in: mcp-secure-context-sdk-typescript/src/index.ts:114
 
 #### payload
 
-`ContextPayloadMap`\[`TType`\]
+`ContextPayloadMap`
 
 #### policy
 
@@ -46,7 +46,7 @@ Defined in: mcp-secure-context-sdk-typescript/src/index.ts:114
 
 #### verification?
 
-`VerificationEnvelope`
+`any`
 
 #### version?
 
@@ -54,4 +54,4 @@ Defined in: mcp-secure-context-sdk-typescript/src/index.ts:114
 
 ## Returns
 
-`ContextContainer`\<`ContextPayloadMap`\[`TType`\]\>
+`ContextContainer`\<`ContextPayloadMap`\>

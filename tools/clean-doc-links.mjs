@@ -36,7 +36,7 @@ function rewrite(fileAbs, content) {
 
   if (path.basename(fileAbs) === 'index.md') {
     txt = txt.replace(
-      /\bapi\/(schema|runtime|cli|mcp-profile|kit|retrieval-profile|integrations\/mindql-core|integrations\/mindgraphql-core)\b(?!\/README\.md)/g,
+      /\bapi\/(core|openspec|cli|mcp-adapter|sdk-typescript|retrieval-profile|integrations\/mindql-core|integrations\/mindgraphql-core)\b(?!\/README\.md)/g,
       'api/$1/README.md',
     );
   }

@@ -8,7 +8,7 @@
 
 > **verifyOutput**(`input`): `Promise`\<[`VerificationReport`](../interfaces/VerificationReport.md)\>
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:301
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:314
 
 ## Parameters
 

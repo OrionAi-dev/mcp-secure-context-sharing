@@ -8,7 +8,7 @@
 
 > **stableStringify**(`v`): `string`
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:230
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:242
 
 ## Parameters
 

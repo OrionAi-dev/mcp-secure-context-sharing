@@ -8,4 +8,4 @@
 
 > `const` **SECURE\_CONTEXT\_MCP\_TOOL\_NAMES**: readonly \[`"mcp_secure_context.container.validate"`, `"mcp_secure_context.container.verify"`, `"mcp_secure_context.container.share"`\]
 
-Defined in: index.ts:130
+Defined in: index.d.ts:110

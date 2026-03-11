@@ -6,7 +6,7 @@
 
 # Interface: DerivedSpec
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:168
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:170
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:168
 
 > **baseId**: `string`
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:169
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:171
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:169
 
 > **patches**: readonly [`JsonPatch`](JsonPatch.md)[]
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:170
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:172
 
 ***
 
@@ -30,4 +30,4 @@ Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:170
 
 > **provenance**: readonly [`ProvenanceEntry`](ProvenanceEntry.md)[]
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:171
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:173

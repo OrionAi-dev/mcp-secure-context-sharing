@@ -11,7 +11,6 @@ const publicPackages = [
   { name: '@mcp-secure-context/cli', dir: 'packages/mcp-secure-context-cli' },
   { name: '@astrospec/schema', dir: 'packages/astrospec-schema' },
   { name: '@astrospec/runtime', dir: 'packages/astrospec-runtime' },
-  { name: '@astrospec/mcp-profile', dir: 'packages/astrospec-mcp-profile' },
   { name: '@astrospec/retrieval-profile', dir: 'packages/astrospec-retrieval-profile' },
   { name: '@astrospec/kit', dir: 'packages/astrospec-kit' },
   { name: '@astrospec/cli', dir: 'packages/astrospec-cli' },

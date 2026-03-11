@@ -7,4 +7,3 @@ This package includes:
 - container resource serialization
 - secure-context MCP tool names
 - reference MCP server helpers
-- compatibility exports for the older AstroSpec MCP profile surface

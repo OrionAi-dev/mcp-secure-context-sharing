@@ -20,7 +20,7 @@ if (changed.length === 0) {
 
 const contractTouched = changed.some((p) =>
   p.startsWith('packages/astrospec-agent-contracts/schemas/')
-  || p === 'packages/astrospec-mcp-profile/src/index.ts'
+  || p === 'packages/mcp-secure-context-mcp-adapter/src/index.ts'
 );
 
 if (!contractTouched) {

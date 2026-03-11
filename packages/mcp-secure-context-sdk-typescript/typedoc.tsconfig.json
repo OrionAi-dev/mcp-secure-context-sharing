@@ -1,4 +1,29 @@
 {
-  "extends": "./tsconfig.json",
-  "include": ["src/**/*.ts"]
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "paths": {
+      "@mcp-secure-context/core": [
+        "../mcp-secure-context-core/dist/index.d.ts"
+      ],
+      "@mcp-secure-context/openspec": [
+        "../mcp-secure-context-openspec/dist/index.d.ts"
+      ],
+      "@mcp-secure-context/mcp-adapter": [
+        "../mcp-secure-context-mcp-adapter/dist/index.d.ts"
+      ],
+      "@astrospec/agent-contracts": [
+        "../astrospec-agent-contracts/dist/index.d.ts"
+      ],
+      "@astrospec/retrieval-profile": [
+        "../astrospec-retrieval-profile/dist/index.d.ts"
+      ]
+    }
+  },
+  "include": [
+    "dist/index.d.ts",
+    "dist/**/*.d.ts"
+  ],
+  "exclude": [
+    "../../node_modules"
+  ]
 }

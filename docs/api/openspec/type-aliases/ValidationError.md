@@ -8,7 +8,7 @@
 
 > **ValidationError** = `object`
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:181
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:183
 
 ## Properties
 
@@ -16,7 +16,7 @@ Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:181
 
 > `optional` **keyword**: `string`
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:184
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:186
 
 ***
 
@@ -24,7 +24,7 @@ Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:184
 
 > **message**: `string`
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:183
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:185
 
 ***
 
@@ -32,7 +32,7 @@ Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:183
 
 > `optional` **params**: `unknown`
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:186
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:188
 
 ***
 
@@ -40,7 +40,7 @@ Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:186
 
 > **path**: `string`
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:182
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:184
 
 ***
 
@@ -48,4 +48,4 @@ Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:182
 
 > `optional` **schemaPath**: `string`
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:185
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:187

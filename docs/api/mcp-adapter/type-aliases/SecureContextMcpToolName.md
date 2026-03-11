@@ -8,4 +8,4 @@
 
 > **SecureContextMcpToolName** = *typeof* [`SECURE_CONTEXT_MCP_TOOL_NAMES`](../variables/SECURE_CONTEXT_MCP_TOOL_NAMES.md)\[`number`\]
 
-Defined in: index.ts:136
+Defined in: index.d.ts:111

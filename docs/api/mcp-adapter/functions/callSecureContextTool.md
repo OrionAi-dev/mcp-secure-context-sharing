@@ -8,7 +8,7 @@
 
 > **callSecureContextTool**(`input`): `Promise`\<[`SecureContextMcpResult`](../type-aliases/SecureContextMcpResult.md)\<`unknown`\>\>
 
-Defined in: index.ts:232
+Defined in: index.d.ts:151
 
 ## Parameters
 

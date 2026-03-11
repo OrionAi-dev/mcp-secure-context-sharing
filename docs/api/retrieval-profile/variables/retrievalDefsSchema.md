@@ -8,7 +8,7 @@
 
 > **retrievalDefsSchema**: `object`
 
-Defined in: [schemas/retrieval-defs-0.1.json:1](https://github.com/OrionAi-dev/AstroSpec/blob/63fea25cdc4d27a3819ece733486fa450f319b71/packages/astrospec-retrieval-profile/schemas/retrieval-defs-0.1.json#L1)
+Defined in: [schemas/retrieval-defs-0.1.json:1](https://github.com/OrionAi-dev/AstroSpec/blob/ed21618cbae8839346b83b671baf8f9ccef60e77/packages/astrospec-retrieval-profile/schemas/retrieval-defs-0.1.json#L1)
 
 ## Type Declaration
 

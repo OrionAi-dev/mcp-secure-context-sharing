@@ -6,7 +6,7 @@
 
 # Interface: AstroSpecRequestEnvelope\<TContext, TTurn, TInput\>
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:145
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:147
 
 ## Type Parameters
 
@@ -28,7 +28,7 @@ Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:145
 
 > **context**: `TContext`
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:146
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:148
 
 ***
 
@@ -36,7 +36,7 @@ Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:146
 
 > `optional` **input**: `TInput`
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:148
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:150
 
 ***
 
@@ -44,7 +44,7 @@ Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:148
 
 > `optional` **meta**: `Record`\<`string`, [`JsonValue`](../type-aliases/JsonValue.md)\>
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:150
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:152
 
 ***
 
@@ -52,7 +52,7 @@ Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:150
 
 > `optional` **requestId**: `string`
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:149
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:151
 
 ***
 
@@ -60,4 +60,4 @@ Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:149
 
 > **turn**: `TTurn`
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:147
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:149

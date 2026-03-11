@@ -8,7 +8,7 @@
 
 > **mergeContextIntoTurn**(`ctx`, `turn`): [`AstroSpecTurn`](../interfaces/AstroSpecTurn.md)
 
-Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:237
+Defined in: packages/mcp-secure-context-openspec/dist/index.d.ts:250
 
 ## Parameters
 

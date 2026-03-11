@@ -59,7 +59,6 @@ Adapters, resource helpers, server patterns, and reference implementations for M
 
 - `@astrospec/schema`
 - `@astrospec/runtime`
-- `@astrospec/mcp-profile`
 - `@astrospec/kit`
 - `@astrospec/cli`
 

@@ -8,7 +8,7 @@
 
 > **getSchemaPath**(`name`): `string`
 
-Defined in: index.d.ts:3
+Defined in: packages/mcp-secure-context-core/dist/index.d.ts:114
 
 Get the on-disk path to a bundled schema JSON file.
 
@@ -16,7 +16,7 @@ Get the on-disk path to a bundled schema JSON file.
 
 ### name
 
-[`AstroSpecSchemaName`](../type-aliases/AstroSpecSchemaName.md)
+[`OpenSpecSchemaName`](../type-aliases/OpenSpecSchemaName.md)
 
 ## Returns
 
